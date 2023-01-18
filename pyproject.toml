@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "shumi"
+version = "0.1.0"
+description = ""
+authors = ["syuntoku14 <syuntoku14@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.1"
+jax = "^0.4.1"
+seaborn = "^0.12.2"
+matplotlib = "^3.6.3"
+notebook = "^6.5.2"
+jaxlib = "^0.4.1"
+tqdm = "^4.64.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
