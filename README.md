@@ -21,6 +21,7 @@
 * (2023/1/26) 確率過程の説明（TODO）: [notebooks/probability_process.ipynb](notebooks/probability_process.ipynb)
 * (2023/1/28) ルベーグ積分の説明: [notebooks/lebesgue_integral.ipynb](notebooks/lebesgue_integral.ipynb)
 * (2023/1/28) 上極限、下極限の説明: [notebooks/liminf_limsup.ipynb](notebooks/liminf_limsup.ipynb)
+* (2023/1/29) 極値分布の説明: [notebooks/extreme_value_distribution.ipynb](notebooks/extreme_value_distribution.ipynb)
 
 
 **インストール**
