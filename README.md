@@ -23,6 +23,7 @@
 * (2023/1/28) 上極限、下極限の説明: [notebooks/liminf_limsup.ipynb](notebooks/liminf_limsup.ipynb)
 * (2023/1/29) 極値分布の説明: [notebooks/extreme_value_distribution.ipynb](notebooks/extreme_value_distribution.ipynb)
 * (2023/1/29) 特性関数の説明: [notebooks/characteristic_function.ipynb](notebooks/characteristic_function.ipynb)
+* (2023/1/29) 確率積分の説明: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
 
 
 **インストール**
