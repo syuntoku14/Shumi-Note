@@ -12,9 +12,9 @@
 
 **Notebookの内容**
 
-内容のチョイスは僕の趣味です。
-内容は勉強中にまとめているので必ずしも正しいとは限りません。誤りは見つけ次第直します。
-内容が怪しいやつはTODOがついてます。
+* 内容のチョイスは僕の趣味です。
+( 内容は勉強中にまとめているので必ずしも正しいとは限りません。誤りは見つけ次第直します。
+* 内容が怪しいやつはTODOがついてます。
 
 * (2023/1/18) Linear MDPについての説明と実験: [notebooks/linearMDP.ipynb](notebooks/linearMDP.ipynb)
 * (2023/1/21) 測度論的確率論の導入（TODO）: [notebooks/measure_theoretic_probability.ipynb](notebooks/measure_theoretic_probability.ipynb)
@@ -23,7 +23,8 @@
 * (2023/1/28) 上極限、下極限の説明: [notebooks/liminf_limsup.ipynb](notebooks/liminf_limsup.ipynb)
 * (2023/1/29) 極値分布の説明: [notebooks/extreme_value_distribution.ipynb](notebooks/extreme_value_distribution.ipynb)
 * (2023/1/29) 特性関数の説明: [notebooks/characteristic_function.ipynb](notebooks/characteristic_function.ipynb)
-* (2023/1/29) 確率積分の説明: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
+* (2023/1/29) 確率積分の説明（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
+* (2023/1/29) バンディットアルゴリズムの基本: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
 
 
 **インストール**
