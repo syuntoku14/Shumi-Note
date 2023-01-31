@@ -29,6 +29,7 @@
 8. (2023/1/29) 確率積分の説明（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
 9. (2023/1/29) バンディットアルゴリズムの基本: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
 9. (2023/1/30) テイラーの定理: [notebooks/taylor_theorem.ipynb](notebooks/taylor_theorem.ipynb)
+10. (2023/1/31) 伊藤積分の説明（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
 
 ---
 
