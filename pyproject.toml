@@ -14,6 +14,7 @@ matplotlib = "^3.6.3"
 notebook = "^6.5.2"
 jaxlib = "^0.4.1"
 tqdm = "^4.64.1"
+celluloid = "^0.2.0"
 
 
 [build-system]

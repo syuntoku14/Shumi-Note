@@ -31,6 +31,7 @@
 9. (2023/1/30) テイラーの定理: [notebooks/taylor_theorem.ipynb](notebooks/taylor_theorem.ipynb)
 10. (2023/1/31) 伊藤積分の説明 & 確率微分方程式の数値シミュレーション（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
 11. (2023/2/1) Girsanovの定理: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
+12. (2023/2/4) ガウス過程回帰: [notebooks/gp_regression.ipynb](notebooks/gp_regression.ipynb)
 
 ---
 
