@@ -17,7 +17,7 @@
 
 * 内容のチョイスは僕の趣味です。
 ( 内容は勉強中にまとめているので必ずしも正しいとは限りません。誤りは見つけ次第直します。
-* 内容が怪しいやつはTODOがついてます。
+* 内容が怪しいやつ（Notationの不備など）はTODOがついてます。
 
 1. (2023/1/18) Linear MDPについての説明と実験: [notebooks/linearMDP.ipynb](notebooks/linearMDP.ipynb)
 2. (2023/1/21) 測度論的確率論の導入（TODO）: [notebooks/measure_theoretic_probability.ipynb](notebooks/measure_theoretic_probability.ipynb)
@@ -28,11 +28,12 @@
 7. (2023/1/29) 特性関数の説明: [notebooks/characteristic_function.ipynb](notebooks/characteristic_function.ipynb)
 8. (2023/1/29) 確率積分の説明（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
 9. (2023/1/29) バンディットアルゴリズムの基本: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
-9. (2023/1/30) テイラーの定理: [notebooks/taylor_theorem.ipynb](notebooks/taylor_theorem.ipynb)
-10. (2023/1/31) 伊藤積分の説明 & 確率微分方程式の数値シミュレーション（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
-11. (2023/2/1) Girsanovの定理: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
-12. (2023/2/4) ガウス過程回帰: [notebooks/gp_regression.ipynb](notebooks/gp_regression.ipynb)
-13. (2023/2/5) 敵対的バンディット: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
+10. (2023/1/30) テイラーの定理: [notebooks/taylor_theorem.ipynb](notebooks/taylor_theorem.ipynb)
+11. (2023/1/31) 伊藤積分の説明 & 確率微分方程式の数値シミュレーション（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
+12. (2023/2/1) Girsanovの定理: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
+13. (2023/2/4) ガウス過程回帰: [notebooks/gp_regression.ipynb](notebooks/gp_regression.ipynb)
+14. (2023/2/5) 敵対的バンディット（TODO）: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
+15. (2023/2/5) マルチステップ強化学習 (On-policy編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
 
 ---
 
