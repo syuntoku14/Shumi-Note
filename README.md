@@ -32,6 +32,7 @@
 10. (2023/1/31) 伊藤積分の説明 & 確率微分方程式の数値シミュレーション（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
 11. (2023/2/1) Girsanovの定理: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
 12. (2023/2/4) ガウス過程回帰: [notebooks/gp_regression.ipynb](notebooks/gp_regression.ipynb)
+13. (2023/2/5) 敵対的バンディット: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
 
 ---
 
