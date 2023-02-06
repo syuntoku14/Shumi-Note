@@ -34,6 +34,7 @@
 13. (2023/2/4) ガウス過程回帰: [notebooks/gp_regression.ipynb](notebooks/gp_regression.ipynb)
 14. (2023/2/5) 敵対的バンディット（TODO）: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
 15. (2023/2/5) マルチステップ強化学習 (On-policy編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
+16. (2023/2/6) マルチステップ強化学習 (Off-policy編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
 
 ---
 
@@ -45,4 +46,12 @@ poetryを使ってください。
 ```bash
 git clone git@github.com:syuntoku14/Shumi-Note.git && cd Shumi-Note
 poetry install
+```
+
+
+Anacondaの場合：
+
+```bash
+conda create --name shumi-note python==3.9  # conda環境の作成（最初の一回だけ）
+conda activate shumi-note  # 環境の切り替え
 ```
