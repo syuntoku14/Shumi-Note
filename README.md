@@ -36,6 +36,7 @@
 15. (2023/2/5) マルチステップ強化学習 (On-policy編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
 16. (2023/2/6) マルチステップ強化学習 (Off-policy編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
 17. (2023/2/6) マルチステップ強化学習 (マルチステップ制御編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
+18. (2023/2/7) MDPについて (Garnet MDP): [notebooks/Markov_Decision_Process.ipynb](notebooks/Markov_Decision_Process.ipynb)
 
 ---
 
