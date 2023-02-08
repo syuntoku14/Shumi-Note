@@ -52,11 +52,3 @@ poetryを使ってください。
 git clone git@github.com:syuntoku14/Shumi-Note.git && cd Shumi-Note
 poetry install
 ```
-
-
-Anacondaの場合：
-
-```bash
-conda create --name shumi-note python==3.9  # conda環境の作成（最初の一回だけ）
-conda activate shumi-note  # 環境の切り替え
-```
