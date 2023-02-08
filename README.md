@@ -18,6 +18,7 @@
 * 内容のチョイスは僕の趣味です。
 ( 内容は勉強中にまとめているので必ずしも正しいとは限りません。誤りは見つけ次第直します。
 * 内容が怪しいやつ（Notationの不備など）はTODOがついてます。
+* 実装ではしばしば高速化のためにjaxを使用してます。だいたいnumpyと一緒ですが、高速に実験できるので便利です。 (これからRLの研究をする人はjaxも身につけることをおすすめします。)
 
 1. (2023/1/18) Linear MDPについての説明と実験: [notebooks/linearMDP.ipynb](notebooks/linearMDP.ipynb)
 2. (2023/1/21) 測度論的確率論の導入（TODO）: [notebooks/measure_theoretic_probability.ipynb](notebooks/measure_theoretic_probability.ipynb)
@@ -38,6 +39,7 @@
 17. (2023/2/6) マルチステップ強化学習 (マルチステップ制御編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
 18. (2023/2/7) MDPについて (Garnet MDP): [notebooks/Markov_Decision_Process.ipynb](notebooks/Markov_Decision_Process.ipynb)
 19. (2023/2/7) 文脈付きバンディット (TODO): [notebooks/contextual_bandit.ipynb](notebooks/contextual_bandit.ipynb)
+20. (2023/2/8) 今までに書いた文章の修正など: 全体
 
 ---
 
