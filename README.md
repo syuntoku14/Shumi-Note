@@ -5,6 +5,17 @@
 
 ---
 
+**インストール**
+
+poetryを使ってください。
+
+```bash
+git clone git@github.com:syuntoku14/Shumi-Note.git && cd Shumi-Note
+poetry install
+```
+
+---
+
 **制作方針**
 
 * 全てのnotebookは独立させています。管理もしやすいので嬉しいですね。
@@ -40,15 +51,6 @@
 18. (2023/2/7) MDPについて (Garnet MDP): [notebooks/Markov_Decision_Process.ipynb](notebooks/Markov_Decision_Process.ipynb)
 19. (2023/2/7) 文脈付きバンディット (TODO): [notebooks/contextual_bandit.ipynb](notebooks/contextual_bandit.ipynb)
 20. (2023/2/8) 今までに書いた文章の修正など: 全体
+21. (2023/2/9) 線形バンディット: [notebooks/contextual_bandit.ipynb](notebooks/contextual_bandit.ipynb)
 
 ---
-
-
-**インストール**
-
-poetryを使ってください。
-
-```bash
-git clone git@github.com:syuntoku14/Shumi-Note.git && cd Shumi-Note
-poetry install
-```
