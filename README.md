@@ -55,5 +55,5 @@ poetry install
 23. (2023/2/12) Generalized RL (適合Q学習などの一般化): [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
 24. (2023/2/13) Generalized RL (確率的な作用素で一般化): [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
 25. (2023/2/14~17) マルチステップRLのスライド: [notebooks/Multi_step_RL.pdf](notebooks/Multi_step_RL.pdf)
-
+26. (2023/2/17) 方策勾配法 (途中): [notebooks/policy_gradient.ipynb](notebooks/policy_gradient.ipynb)
 ---
