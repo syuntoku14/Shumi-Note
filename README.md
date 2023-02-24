@@ -30,6 +30,7 @@ poetry install
 ( 内容は勉強中にまとめているので必ずしも正しいとは限りません。誤りは見つけ次第直します。
 * 内容が怪しいやつ（Notationの不備など）はTODOがついてます。
 * 実装ではしばしば高速化のためにjaxを使用してます。だいたいnumpyと一緒ですが、高速に実験できるので便利です。 (これからRLの研究をする人はjaxも身につけることをおすすめします。)
+* NDA的にここに出せないやつは****になってます。（出せるようになったらここにも現れるかも）
 
 1. (2023/1/18) Linear MDPについての説明と実験: [notebooks/linearMDP.ipynb](notebooks/linearMDP.ipynb)
 2. (2023/1/21) 測度論的確率論の導入（TODO）: [notebooks/measure_theoretic_probability.ipynb](notebooks/measure_theoretic_probability.ipynb)
@@ -61,4 +62,7 @@ poetry install
 29. (2023/2/22) Reward Free RL: [notebooks/reward_free_RL.ipynb](notebooks/reward_free_RL.ipynb)
 30. (2023/2/23) 教育用強化学習修行Notebook (行列形式の動的計画法編): [notebooks/exercise_RL.ipynb](notebooks/exercise_RL.ipynb)
 31. (2023/2/23) Reward Free RL (RF-EXPRESS): [notebooks/reward_free_RL.ipynb](notebooks/reward_free_RL.ipynb)
+32. (2023/2/24) **** : ****.ipynb
+33. (2023/2/24) Self-Normalized Bound for Vector Valued Martingales (途中): [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
+
 ---
