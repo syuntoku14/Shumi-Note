@@ -64,6 +64,6 @@ poetry install
 31. (2023/2/23) Reward Free RL (RF-EXPRESS): [notebooks/reward_free_RL.ipynb](notebooks/reward_free_RL.ipynb)
 32. (2023/2/24) **** : ****.ipynb
 33. (2023/2/24) Self-Normalized Bound for Vector Valued Martingales (途中): [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
-34. (2023/2/24) YadokoriとDaniのバンディットアルゴリズムの比較: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
+34. (2023/2/25) YadokoriとDaniのバンディットアルゴリズムの比較: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
 
 ---
