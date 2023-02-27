@@ -62,6 +62,7 @@ poetry install
 33. (2023/2/24) Self-Normalized Bound for Vector Valued Martingales (途中): [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
 34. (2023/2/25) YadokoriとDaniのバンディットアルゴリズムの比較: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
 35. (2023/2/26) 探索の理論 (UCB編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
+36. (2023/2/27) 探索の理論 (UCB-VI編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
 
 ---
