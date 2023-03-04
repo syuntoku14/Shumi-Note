@@ -123,3 +123,4 @@ poetry install
 * [ ] (2023/2/27-28) 探索の理論 (UCB-VI編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
     * UCBのボーナスが大きすぎるとボーナスが優先されてしまうが、こういう理論はあるのかな？
     * 途中のHolderの不等式をなんで使うのかがわからん
+    * やっぱ$f$を$H^S$でUnion Bound取るのよくわかんないな... Hoeffdingでやるだけじゃ駄目なのか？
