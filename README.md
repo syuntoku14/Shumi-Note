@@ -61,6 +61,7 @@ poetry install
 37. (2023/2/28-3/3) **** : ****
 38. (2023/3/4) 探索の理論 (UCB-VIのBernstein版): [notebooks/UCB_VI_regret_proof.ipynb](notebooks/UCB_VI_regret_proof.ipynb) 
 39. (2023/3/4) Q学習の理論 (UCB-H編): [notebooks/UCB_H_regret_proof.ipynb](notebooks/UCB_H_regret_proof.ipynb) 
+40. (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proof.ipynb](notebooks/transition_estimation_proof.ipynb) 
 <!-- 39. (2023/3/4) Task-agnostic探索の理論: [notebooks/task_agnostic_exploration.ipynb](notebooks/task_agnostic_exploration.ipynb)  -->
 <!-- 37. (2023/2/28) ロバストMDP: [notebooks/UCB_regret_proof.ipynb](notebooks/robust_MDP.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
@@ -80,47 +81,42 @@ poetry install
 * (2023/1/29) 確率積分（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
 * (2023/1/31) 伊藤積分 & 確率微分方程式の実験: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
 * (2023/2/1) Girsanovの定理: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
-* (2023/2/4) ガウス過程回帰: [notebooks/gp_regression.ipynb](notebooks/gp_regression.ipynb)
 
-### バンディット
+### 逐次意思決定問題
 
-* (2023/1/29) バンディットアルゴリズムの基本: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
-* (2023/2/5) 敵対的バンディット: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
-* (2023/2/8) 文脈付きバンディット: [notebooks/contextual_bandit.ipynb](notebooks/contextual_bandit.ipynb)
-* (2023/2/9) 線形バンディット: [notebooks/contextual_bandit.ipynb](notebooks/contextual_bandit.ipynb)
-* (2023/2/24) Self-Normalized Bound for Vector Valued Martingales: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
-* (2023/2/25) YadokoriとDaniのバンディットアルゴリズムの比較: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
-* (2023/2/26) 探索の理論 (UCB編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
+* 様々な問題設定：
+    * (2023/1/29) バンディットアルゴリズムの基本: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
+    * (2023/2/8) 文脈付きバンディット: [notebooks/contextual_bandit.ipynb](notebooks/contextual_bandit.ipynb)
+    * (2023/1/18) Linear MDP: [notebooks/linearMDP.ipynb](notebooks/linearMDP.ipynb)
+    * (2023/2/22) Reward Free RL: [notebooks/reward_free_RL.ipynb](notebooks/reward_free_RL.ipynb)
+    * (2023/2/7) MDPについて (Garnet MDP): [notebooks/Markov_Decision_Process.ipynb](notebooks/Markov_Decision_Process.ipynb)
+* マルチステップ強化学習：
+    * (2023/2/5) マルチステップ強化学習: [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
+    * (2023/2/14~17) マルチステップRLのスライド: [notebooks/Multi_step_RL.pdf](notebooks/Multi_step_RL.pdf)
+    * (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/policy_gradient.ipynb](notebooks/policy_gradient.ipynb)
+* 理論：
+    * (2023/2/24) Self-Normalized Bound for Vector Valued Martingales: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
+    * (2023/2/26) 探索の理論 (UCB編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
+    * (2023/2/27-28) UCB-VIの理論 (モデルベース): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
+    * (2023/3/4) UCB-Hoeffdingの理論 (モデルフリー): [notebooks/UCB_H_regret_proof.ipynb](notebooks/UCB_H_regret_proof.ipynb) 
+* 未分類：
+    * (2023/2/10) 適合価値反復法: [notebooks/fitted_Q_iteration.ipynb](notebooks/fitted_Q_iteration.ipynb)
+    * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
 
-### 強化学習
-
-* (2023/1/18) Linear MDP: [notebooks/linearMDP.ipynb](notebooks/linearMDP.ipynb)
-* (2023/2/5) マルチステップ強化学習 (On-policy推定編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
-* (2023/2/6) マルチステップ強化学習 (Off-policy推定編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
-* (2023/2/6) マルチステップ強化学習 (マルチステップ制御編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
-* (2023/2/7) MDPについて (Garnet MDP): [notebooks/Markov_Decision_Process.ipynb](notebooks/Markov_Decision_Process.ipynb)
-* (2023/2/10) 適合価値反復法: [notebooks/fitted_Q_iteration.ipynb](notebooks/fitted_Q_iteration.ipynb)
-* (2023/2/12) Generalized RL (適合Q学習などの一般化): [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
-* (2023/2/13) Generalized RL (確率的な作用素で一般化): [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
-* (2023/2/14~17) マルチステップRLのスライド: [notebooks/Multi_step_RL.pdf](notebooks/Multi_step_RL.pdf)
-* (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/policy_gradient.ipynb](notebooks/policy_gradient.ipynb)
-* (2023/2/22) Reward Free RL: [notebooks/reward_free_RL.ipynb](notebooks/reward_free_RL.ipynb)
+### 教育用
 * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/exercise_RL.ipynb](notebooks/exercise_RL.ipynb)
-* (2023/2/23) Reward Free RL (RF-EXPRESS): [notebooks/reward_free_RL.ipynb](notebooks/reward_free_RL.ipynb)
-* (2023/2/27-28) UCB-VIの理論 (モデルベース): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
-* (2023/3/4) UCB-Hoeffdingの理論 (モデルフリー): [notebooks/UCB_H_regret_proof.ipynb](notebooks/UCB_H_regret_proof.ipynb) 
 
-### その他機械学習
-* (2023/2/20~21) Transformer: [notebooks/transformer.ipynb](notebooks/transformer.ipynb)
-
-### その他数学
-
+### 未分類
 * (2023/1/30) テイラーの定理: [notebooks/taylor_theorem.ipynb](notebooks/taylor_theorem.ipynb)
+* (2023/2/4) ガウス過程回帰: [notebooks/gp_regression.ipynb](notebooks/gp_regression.ipynb)
+* (2023/2/20~21) Transformer: [notebooks/transformer.ipynb](notebooks/transformer.ipynb)
 
 ---
 
 ## わからなかったところ
 * [ ] (2023/2/27-28) 探索の理論 (UCB-VI編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
-    * UCBのボーナスが大きすぎるとボーナスが優先されてしまうが、こういう理論はあるのかな？
-    * 途中のHolderの不等式をなんで使うのかがわからん
-    * やっぱ$f$を$H^S$でUnion Bound取るのよくわかんないな... Hoeffdingでやるだけじゃ駄目なのか？
+    * [ ] UCBのボーナスが大きすぎるとボーナスが優先されてしまうが、こういう理論はあるのかな？
+    * [ ] 途中のHolderの不等式をなんで使うのかがわからん
+    * [x] やっぱ$f$を$H^S$でUnion Bound取るのよくわかんないな... Hoeffdingでやるだけじゃ駄目なのか？
+        * これは$\widehat{P}_h^k$と$\widehat{V}_{h+1}^{\pi^k}$が独立ではないのが原因。$\widehat{P}_h^k$と$P_h^\star$をバウンドすると、余分な$\sqrt{S}$が出てくるよ。
+        * [Near-optimal Regret Bounds for Reinforcement Learning](https://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)の式（４４）あたりが参考になるかも。ただ、Hoeffding+Sについての和を考えても出る気がする。
