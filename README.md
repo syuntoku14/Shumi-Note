@@ -61,7 +61,7 @@ poetry install
 37. (2023/2/28-3/3) **** : ****
 38. (2023/3/4) 探索の理論 (UCB-VIのBernstein版): [notebooks/UCB_VI_regret_proof.ipynb](notebooks/UCB_VI_regret_proof.ipynb) 
 39. (2023/3/4) Q学習の理論 (UCB-H編): [notebooks/UCB_H_regret_proof.ipynb](notebooks/UCB_H_regret_proof.ipynb) 
-40. (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proof.ipynb](notebooks/transition_estimation_proof.ipynb) 
+40. (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proofs.ipynb](notebooks/transition_estimation_proofs.ipynb) 
 <!-- 39. (2023/3/4) Task-agnostic探索の理論: [notebooks/task_agnostic_exploration.ipynb](notebooks/task_agnostic_exploration.ipynb)  -->
 <!-- 37. (2023/2/28) ロバストMDP: [notebooks/UCB_regret_proof.ipynb](notebooks/robust_MDP.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
@@ -99,7 +99,7 @@ poetry install
     * (2023/2/26) 探索の理論 (UCB編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
     * (2023/2/27-28) UCB-VIの理論 (モデルベース): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
     * (2023/3/4) UCB-Hoeffdingの理論 (モデルフリー): [notebooks/UCB_H_regret_proof.ipynb](notebooks/UCB_H_regret_proof.ipynb) 
-    * (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proof.ipynb](notebooks/transition_estimation_proof.ipynb) 
+    * (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proofs.ipynb](notebooks/transition_estimation_proofs.ipynb) 
 
 * 未分類：
     * (2023/2/10) 適合価値反復法: [notebooks/fitted_Q_iteration.ipynb](notebooks/fitted_Q_iteration.ipynb)
