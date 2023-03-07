@@ -64,7 +64,7 @@ poetry install
 39. (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proofs.ipynb](notebooks/transition_estimation_proofs.ipynb) 
 40. (2023/3/6) **** : ****.ipynb
 41. (2023/3/7) Task-agnostic探索の理論: [notebooks/task_agnostic_exploration.ipynb](notebooks/task_agnostic_exploration.ipynb) 
-<!-- 37. (2023/2/28) ロバストMDP: [notebooks/UCB_regret_proof.ipynb](notebooks/robust_MDP.ipynb)  -->
+42. (2023/3/7) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
 
 ---
