@@ -64,7 +64,7 @@ poetry install
 39. (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proofs.ipynb](notebooks/transition_estimation_proofs.ipynb) 
 40. (2023/3/6) **** : ****.ipynb
 41. (2023/3/7) Task-agnostic探索の理論: [notebooks/task_agnostic_exploration.ipynb](notebooks/task_agnostic_exploration.ipynb) 
-42. (2023/3/7) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
+42. (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
 
 ---
@@ -91,7 +91,7 @@ poetry install
     * (2023/1/18) Linear MDP: [notebooks/linearMDP.ipynb](notebooks/linearMDP.ipynb)
     * (2023/2/22) Reward Free RL: [notebooks/reward_free_RL.ipynb](notebooks/reward_free_RL.ipynb)
     * (2023/2/7) MDPについて (Garnet MDP): [notebooks/Markov_Decision_Process.ipynb](notebooks/Markov_Decision_Process.ipynb)
-    * (2023/3/7) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
+    * (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
 * マルチステップ強化学習：
     * (2023/2/5) マルチステップ強化学習: [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
     * (2023/2/14~17) マルチステップRLのスライド: [notebooks/Multi_step_RL.pdf](notebooks/Multi_step_RL.pdf)
@@ -125,3 +125,5 @@ poetry install
     * [x] やっぱ$f$を$H^S$でUnion Bound取るのよくわかんないな... Hoeffdingでやるだけじゃ駄目なのか？
         * これは$\widehat{P}_h^k$と$\widehat{V}_{h+1}^{\pi^k}$が独立ではないのが原因。$\widehat{P}_h^k$と$P_h^\star$をバウンドすると、余分な$\sqrt{S}$が出てくるよ。
         * [Near-optimal Regret Bounds for Reinforcement Learning](https://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)の式（４４）あたりが参考になるかも。ただ、Hoeffding+Sについての和を考えても出る気がする。
+* [ ] (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
+    * [ ] ロバストRLがちゃんと機能しているかの評価方法はどうするべき？

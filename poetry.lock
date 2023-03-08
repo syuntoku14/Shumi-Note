@@ -807,6 +807,26 @@ numpy = ">=1.20"
 scipy = ">=1.5"
 
 [[package]]
+name = "jaxopt"
+version = "0.6"
+description = "Hardware accelerated, batchable and differentiable optimizers in JAX."
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "jaxopt-0.6-py3-none-any.whl", hash = "sha256:69af71c39969e9e5fa54bd50cbab3e18f6c32659d92e1bf56912a24c8ad0fca6"},
+    {file = "jaxopt-0.6.tar.gz", hash = "sha256:19df9cb745ee39fa27f9ba4f01bbec5b0e3a8a1f60320aff553131a5f152c9fa"},
+]
+
+[package.dependencies]
+absl-py = ">=0.7.0"
+jax = ">=0.2.18"
+jaxlib = ">=0.1.69"
+matplotlib = ">=2.0.1"
+numpy = ">=1.18.4"
+scipy = ">=1.0.0"
+
+[[package]]
 name = "jedi"
 version = "0.18.2"
 description = "An autocompletion tool for Python that can be used for text editors."
@@ -2520,4 +2540,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "59dfea07b1db965befcec4a3c642fc4c6424150be049c549ce2912f452ea34ed"
+content-hash = "d53640b5dc2fd576224ba548b6eed0dd2d5cbd643b71c69fd3cce4f34c883c2c"
