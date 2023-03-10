@@ -65,6 +65,7 @@ poetry install
 40. (2023/3/6) **** : ****.ipynb
 41. (2023/3/7) Task-agnostic探索の理論: [notebooks/task_agnostic_exploration.ipynb](notebooks/task_agnostic_exploration.ipynb) 
 42. (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
+43. (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
 
 ---
@@ -103,6 +104,7 @@ poetry install
     * (2023/3/4) UCB-Hoeffdingの理論 (モデルフリー): [notebooks/UCB_H_regret_proof.ipynb](notebooks/UCB_H_regret_proof.ipynb) 
     * (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proofs.ipynb](notebooks/transition_estimation_proofs.ipynb) 
     * (2023/3/7) Task-agnostic探索の理論: [notebooks/task_agnostic_exploration.ipynb](notebooks/task_agnostic_exploration.ipynb) 
+    * (2023/3/8) ロバストMDP（モデルベース & Generative Model）: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
 
 * 未分類：
     * (2023/2/10) 適合価値反復法: [notebooks/fitted_Q_iteration.ipynb](notebooks/fitted_Q_iteration.ipynb)
@@ -127,3 +129,8 @@ poetry install
         * [Near-optimal Regret Bounds for Reinforcement Learning](https://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)の式（４４）あたりが参考になるかも。ただ、Hoeffding+Sについての和を考えても出る気がする。
 * [ ] (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
     * [ ] ロバストRLがちゃんと機能しているかの評価方法はどうするべき？
+
+
+## TODO
+* [ ] モデルベースの証明やモデルフリーの証明をまとめたい
+* [ ] 初学者が最初に読むべき本をまとめたい
