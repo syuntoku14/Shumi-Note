@@ -66,6 +66,7 @@ poetry install
 41. (2023/3/7) Task-agnostic探索の理論: [notebooks/task_agnostic_exploration.ipynb](notebooks/task_agnostic_exploration.ipynb) 
 42. (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
 43. (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
+44. (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
 
 ---
@@ -105,10 +106,10 @@ poetry install
     * (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proofs.ipynb](notebooks/transition_estimation_proofs.ipynb) 
     * (2023/3/7) Task-agnostic探索の理論: [notebooks/task_agnostic_exploration.ipynb](notebooks/task_agnostic_exploration.ipynb) 
     * (2023/3/8) ロバストMDP（モデルベース & Generative Model）: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
-
 * 未分類：
     * (2023/2/10) 適合価値反復法: [notebooks/fitted_Q_iteration.ipynb](notebooks/fitted_Q_iteration.ipynb)
     * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
+    * (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
 
 ### 教育用
 * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/exercise_RL.ipynb](notebooks/exercise_RL.ipynb)
@@ -129,8 +130,14 @@ poetry install
         * [Near-optimal Regret Bounds for Reinforcement Learning](https://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)の式（４４）あたりが参考になるかも。ただ、Hoeffding+Sについての和を考えても出る気がする。
 * [ ] (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
     * [ ] ロバストRLがちゃんと機能しているかの評価方法はどうするべき？
+* [ ] (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
+    * [ ] Q関数を使った線形計画問題に直したほうがいいかも
+    * [ ] [Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/abs/2001.01866)これ読んでまとめたほうがいいかも？
 
 
 ## TODO
 * [ ] モデルベースの証明やモデルフリーの証明をまとめたい
 * [ ] 初学者が最初に読むべき本をまとめたい
+* [ ] Convex optimizationの話
+* [ ] 行列で$(I - \gamma P)$を表す話
+* [ ] 強化学習の便利コードまとめる
