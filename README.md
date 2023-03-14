@@ -68,6 +68,8 @@ poetry install
 43. (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
 44. (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
 45. (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
+46. (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/robust_MDP_and_regularization.ipynb](notebooks/robust_MDP_and_regularization.ipynb) 
+47. (2023/3/14) 模倣学習: [notebooks/imitation_learning.ipynb](notebooks/imitation_learning.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
 
 ---
@@ -88,29 +90,32 @@ poetry install
 
 ### 逐次意思決定問題
 
-* 様々な問題設定：
+* バンディット：
     * (2023/1/29) バンディットアルゴリズムの基本: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
+    * (2023/2/24) Self-Normalized Bound for Vector Valued Martingales: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
     * (2023/2/8) 文脈付きバンディット: [notebooks/contextual_bandit.ipynb](notebooks/contextual_bandit.ipynb)
+    * (2023/2/26) 探索の理論 (UCB編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
+* Linear MDP：
     * (2023/1/18) Linear MDP: [notebooks/linearMDP.ipynb](notebooks/linearMDP.ipynb)
+* Reward Free RL：
     * (2023/2/22) Reward Free RL: [notebooks/reward_free_RL.ipynb](notebooks/reward_free_RL.ipynb)
-    * (2023/2/7) MDPについて (Garnet MDP): [notebooks/Markov_Decision_Process.ipynb](notebooks/Markov_Decision_Process.ipynb)
+* ロバストMDP：
     * (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
+    * (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
+    * (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/robust_MDP_and_regularization.ipynb](notebooks/robust_MDP_and_regularization.ipynb) 
 * マルチステップ強化学習：
     * (2023/2/5) マルチステップ強化学習: [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
     * (2023/2/14~17) マルチステップRLのスライド: [notebooks/Multi_step_RL.pdf](notebooks/Multi_step_RL.pdf)
     * (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/policy_gradient.ipynb](notebooks/policy_gradient.ipynb)
-* 理論：
-    * (2023/2/24) Self-Normalized Bound for Vector Valued Martingales: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
-    * (2023/2/26) 探索の理論 (UCB編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
+* 一般のRL：
+    * (2023/2/7) MDPについて (Garnet MDP): [notebooks/Markov_Decision_Process.ipynb](notebooks/Markov_Decision_Process.ipynb)
     * (2023/2/27-28) UCB-VIの理論 (モデルベース): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
     * (2023/3/4) UCB-Hoeffdingの理論 (モデルフリー): [notebooks/UCB_H_regret_proof.ipynb](notebooks/UCB_H_regret_proof.ipynb) 
     * (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proofs.ipynb](notebooks/transition_estimation_proofs.ipynb) 
     * (2023/3/7) Task-agnostic探索の理論: [notebooks/task_agnostic_exploration.ipynb](notebooks/task_agnostic_exploration.ipynb) 
-    * (2023/3/8) ロバストMDP（モデルベース & Generative Model）: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
-* 未分類：
     * (2023/2/10) 適合価値反復法: [notebooks/fitted_Q_iteration.ipynb](notebooks/fitted_Q_iteration.ipynb)
-    * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
     * (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
+    * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
 
 ### 教育用
 * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/exercise_RL.ipynb](notebooks/exercise_RL.ipynb)
@@ -133,8 +138,11 @@ poetry install
 * [ ] (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
     * [ ] ロバストRLがちゃんと機能しているかの評価方法はどうするべき？
 * [ ] (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
-    * [ ] Q関数を使った線形計画問題に直したほうがいいかも
     * [ ] [Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/abs/2001.01866)これ読んでまとめたほうがいいかも？
+* [ ] (2023/3/14) 模倣学習: [notebooks/imitation_learning.ipynb](notebooks/imitation_learning.ipynb) 
+    * [ ] $\mathbb{E}_{s \sim d^{\pi^{\star}}}\left\|\widehat{\pi}(\cdot \mid s)-\pi^{\star}(\cdot \mid s)\right\|_{T V}^2 \leq \frac{2 \log (|\Pi| / \delta)}{M}$の証明ができなかった。[Empirical Processes in M-Estimation](https://www.amazon.co.jp/-/en/Sara-van-Geer/dp/0521123259)に証明あるかも。
+
+
 
 
 ## TODO
@@ -144,3 +152,6 @@ poetry install
 * [ ] 強化学習の便利コードまとめる
     * [x] 行列で$(I - \gamma P)$を表す話
     * [ ] 探索用のコード
+* [ ] (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
+    * [Towards Minimax Optimality of Model-based Robust Reinforcement Learning](https://arxiv.org/abs/2302.05372)ではほぼ同じ条件でもっとタイトなバウンドを導出してる。
+    
