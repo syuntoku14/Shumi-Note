@@ -107,6 +107,8 @@ poetry install
     * (2023/2/5) マルチステップ強化学習: [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
     * (2023/2/14~17) マルチステップRLのスライド: [notebooks/Multi_step_RL.pdf](notebooks/Multi_step_RL.pdf)
     * (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/policy_gradient.ipynb](notebooks/policy_gradient.ipynb)
+* 模倣学習：
+    * (2023/3/14) 模倣学習: [notebooks/imitation_learning.ipynb](notebooks/imitation_learning.ipynb) 
 * 一般のRL：
     * (2023/2/7) MDPについて (Garnet MDP): [notebooks/Markov_Decision_Process.ipynb](notebooks/Markov_Decision_Process.ipynb)
     * (2023/2/27-28) UCB-VIの理論 (モデルベース): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
