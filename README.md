@@ -46,7 +46,7 @@ poetry install
 21. (2023/2/10) 適合価値反復法: [notebooks/fitted_Q_iteration.ipynb](notebooks/fitted_Q_iteration.ipynb)
 22. (2023/2/12) Generalized RL (適合Q学習などの一般化): [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
 23. (2023/2/13) Generalized RL (確率的な作用素で一般化): [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
-24. (2023/2/14~17) マルチステップRLのスライド: [notebooks/Multi_step_RL.pdf](notebooks/Multi_step_RL.pdf)
+24. (2023/2/14~17) マルチステップRLのスライド: [slides/Multi_step_RL.pdf](slides/Multi_step_RL.pdf)
 25. (2023/2/17) 方策勾配法 (途中): [notebooks/policy_gradient.ipynb](notebooks/policy_gradient.ipynb)
 26. (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/policy_gradient.ipynb](notebooks/policy_gradient.ipynb)
 27. (2023/2/20~21) Transformer: [notebooks/transformer.ipynb](notebooks/transformer.ipynb)
@@ -68,8 +68,9 @@ poetry install
 43. (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
 44. (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
 45. (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
-46. (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/robust_MDP_and_regularization.ipynb](notebooks/robust_MDP_and_regularization.ipynb) 
-47. (2023/3/14) 模倣学習: [notebooks/imitation_learning.ipynb](notebooks/imitation_learning.ipynb) 
+46. (2023/3/13) マルチステップRLのスライド（簡単版）: [slides/Multi_step_RL_easy.pdf](slides/Multi_step_RL_easy.pdf)
+47. (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/robust_MDP_and_regularization.ipynb](notebooks/robust_MDP_and_regularization.ipynb) 
+48. (2023/3/14) 模倣学習: [notebooks/imitation_learning.ipynb](notebooks/imitation_learning.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
 
 ---
@@ -105,7 +106,7 @@ poetry install
     * (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/robust_MDP_and_regularization.ipynb](notebooks/robust_MDP_and_regularization.ipynb) 
 * マルチステップ強化学習：
     * (2023/2/5) マルチステップ強化学習: [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
-    * (2023/2/14~17) マルチステップRLのスライド: [notebooks/Multi_step_RL.pdf](notebooks/Multi_step_RL.pdf)
+    * (2023/2/14~17) マルチステップRLのスライド: [slides/Multi_step_RL.pdf](slides/Multi_step_RL.pdf)
     * (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/policy_gradient.ipynb](notebooks/policy_gradient.ipynb)
 * 模倣学習：
     * (2023/3/14) 模倣学習: [notebooks/imitation_learning.ipynb](notebooks/imitation_learning.ipynb) 
@@ -145,6 +146,7 @@ poetry install
     * [ ] $\mathbb{E}_{s \sim d^{\pi^{\star}}}\left\|\widehat{\pi}(\cdot \mid s)-\pi^{\star}(\cdot \mid s)\right\|_{T V}^2 \leq \frac{2 \log (|\Pi| / \delta)}{M}$の証明ができなかった。[Empirical Processes in M-Estimation](https://www.amazon.co.jp/-/en/Sara-van-Geer/dp/0521123259)に証明あるかも。
     * [ ] エントロピー最大化逆強化学習ではエントロピーを入れることに必然性があったきがする。探しておこう。
     - [ ] AggreVateのリグレットの証明
+    - [ ] AggreVateはもっと良い実装方法ないかな？計算コストが高すぎるかも。
 
 
 ## TODO
