@@ -72,7 +72,8 @@ poetry install
 47. (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/robust_MDP_and_regularization.ipynb](notebooks/robust_MDP_and_regularization.ipynb) 
 48. (2023/3/14) 模倣学習: [notebooks/imitation_learning.ipynb](notebooks/imitation_learning.ipynb) 
 49. (2023/3/17) 最尤推定：[notebooks/maximum_likelihood.ipynb](notebooks/maximum_likelihood.ipynb)
-50. (2023/3/20) 凸最適化：[notebooks/convex_optimization.ipynb](notebooks/convex_optimization.ipynb)
+50. (2023/3/20) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
+51. (2023/3/21) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
 
@@ -95,7 +96,7 @@ poetry install
 
 ### 凸最適化
 
-* (2023/3/20) 凸最適化の基本：[notebooks/convex_optimization.ipynb](notebooks/convex_optimization.ipynb)
+* (2023/3/20~21) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
 
 
 ### 逐次意思決定問題
