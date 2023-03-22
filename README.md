@@ -74,7 +74,7 @@ poetry install
 49. (2023/3/17) 最尤推定：[notebooks/maximum_likelihood.ipynb](notebooks/maximum_likelihood.ipynb)
 50. (2023/3/20) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
 51. (2023/3/21) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
-52. (2023/3/21) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
+52. (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
 <!-- 52. (2023/3/22) 凸関数：[notebooks/convex_functions.ipynb](notebooks/convex_functions.ipynb) -->
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
@@ -132,6 +132,7 @@ poetry install
     * (2023/2/10) 適合価値反復法: [notebooks/fitted_Q_iteration.ipynb](notebooks/fitted_Q_iteration.ipynb)
     * (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
     * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
+    * (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
 
 ### 教育用
 * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/exercise_RL.ipynb](notebooks/exercise_RL.ipynb)
@@ -156,7 +157,7 @@ poetry install
 * [ ] (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
     * [ ] [Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/abs/2001.01866)これ読んでまとめたほうがいいかも？
 * [ ] (2023/3/14) 模倣学習: [notebooks/imitation_learning.ipynb](notebooks/imitation_learning.ipynb) 
-    * [ ] $\mathbb{E}_{s \sim d^{\pi^{\star}}}\left\|\widehat{\pi}(\cdot \mid s)-\pi^{\star}(\cdot \mid s)\right\|_{T V}^2 \leq \frac{2 \log (|\Pi| / \delta)}{M}$の証明ができなかった。[Empirical Processes in M-Estimation](https://www.amazon.co.jp/-/en/Sara-van-Geer/dp/0521123259)に証明あるかも。
+    * [ ] $\mathbb{E}_{s \sim d^{\pi^{\star}}}\left\|\widehat{\pi}(\cdot \mid s)-\pi^{\star}(\cdot \mid s)\right\|_{T V}^2 \leq \frac{2 \log (|\Pi| / \delta)}{M}$ の証明ができなかった。[Empirical Processes in M-Estimation](https://www.amazon.co.jp/-/en/Sara-van-Geer/dp/0521123259)に証明あるかも。
     * [ ] エントロピー最大化逆強化学習ではエントロピーを入れることに必然性があったきがする。探しておこう。
     - [ ] AggreVateのリグレットの証明
     - [ ] AggreVateはもっと良い実装方法ないかな？計算コストが高すぎるかも。
