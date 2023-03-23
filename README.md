@@ -75,6 +75,8 @@ poetry install
 50. (2023/3/20) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
 51. (2023/3/21) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
 52. (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
+53. (2023/3/20~2023/3/23) : 読書：[ソフトウェア見積り　人月の暗黙知を解き明かす](books/README.md)
+ 
 <!-- 52. (2023/3/22) 凸関数：[notebooks/convex_functions.ipynb](notebooks/convex_functions.ipynb) -->
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
