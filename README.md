@@ -76,6 +76,7 @@ poetry install
 51. (2023/3/21) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
 52. (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
 53. (2023/3/20~2023/3/23) : 読書：[ソフトウェア見積り　人月の暗黙知を解き明かす](books/README.md)
+54. (2023/3/24) **** : ****.ipynb
  
 <!-- 52. (2023/3/22) 凸関数：[notebooks/convex_functions.ipynb](notebooks/convex_functions.ipynb) -->
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
@@ -163,6 +164,8 @@ poetry install
     * [ ] エントロピー最大化逆強化学習ではエントロピーを入れることに必然性があったきがする。探しておこう。
     - [ ] AggreVateのリグレットの証明
     - [ ] AggreVateはもっと良い実装方法ないかな？計算コストが高すぎるかも。
+* [ ] (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
+    * [ ] 意外と行列の性質の理解が曖昧。（$\|\phi(s, a)\|_2 \leq 1$なので$\sigma_{\min }\left(\mathbb{E}_{(s, a) \sim \widetilde{\mu}_h}\left[\phi(s, a) \phi(s, a)^{\top}\right]\right)$が成り立つためです）。これとか微妙。
 
 
 ## TODO
