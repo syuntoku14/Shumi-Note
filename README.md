@@ -79,8 +79,7 @@ poetry install
 54. (2023/3/24) **** : ****.ipynb
 55. (2023/3/25) 強化学習のサンプル効率の下界（Linear Realizable編）：[notebooks/rl_lower_bounds.ipynb](notebooks/rl_lower_bounds.ipynb)
 56. (2023/3/27) TODO: 強化学習とエントロピー正則化（途中）：[notebooks/entropy_regularized_RL.ipynb](notebooks/entropy_regularized_RL.ipynb)
- 
-<!-- 52. (2023/3/22) 凸関数：[notebooks/convex_functions.ipynb](notebooks/convex_functions.ipynb) -->
+57. (2023/3/28) 凸関数（共役関数とか）：[notebooks/convex_functions.ipynb](notebooks/convex_functions.ipynb)
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
 
@@ -104,7 +103,7 @@ poetry install
 ### 凸最適化
 
 * (2023/3/20~21) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
-<!-- * (2023/3/21) 凸関数：[notebooks/convex_functions.ipynb](notebooks/convex_functions.ipynb) -->
+* (2023/3/28) 凸関数：[notebooks/convex_functions.ipynb](notebooks/convex_functions.ipynb)
 
 
 ### 逐次意思決定問題
@@ -147,6 +146,7 @@ poetry install
 * (2023/1/30) テイラーの定理: [notebooks/taylor_theorem.ipynb](notebooks/taylor_theorem.ipynb)
 * (2023/2/4) ガウス過程回帰: [notebooks/gp_regression.ipynb](notebooks/gp_regression.ipynb)
 * (2023/2/20~21) Transformer: [notebooks/transformer.ipynb](notebooks/transformer.ipynb)
+* (2023/3/17) 最尤推定：[notebooks/maximum_likelihood.ipynb](notebooks/maximum_likelihood.ipynb)
 
 ---
 
@@ -173,12 +173,10 @@ poetry install
 ## TODO
 * [ ] モデルベースの証明やモデルフリーの証明をまとめたい
 * [ ] 初学者が最初に読むべき本をまとめたい
-* [ ] Convex optimizationの話
-    * [ ] Convex setsの動機を書こう
 * [ ] 確率収束の話
 * [ ] 強化学習のサンプル効率の下界
     * [ ] VC次元を使ったオッカムの剃刀
-    * [ ] Linear Realizability
+    * [x] Linear Realizability
 * [ ] 強化学習の便利コードまとめる
     * [x] 行列で$(I - \gamma P)$を表す話
     * [ ] 探索用のコード
