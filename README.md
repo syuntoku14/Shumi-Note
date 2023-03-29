@@ -23,66 +23,66 @@ poetry install
 
 * NDA的にここに出せないやつは****になってます。（出せるようになったらここにも現れるかも）
 
-1. (2023/1/18) Linear MDP: [notebooks/linearMDP.ipynb](notebooks/linearMDP.ipynb)
-2. (2023/1/21) 測度論的確率論（TODO）: [notebooks/measure_theoretic_probability.ipynb](notebooks/measure_theoretic_probability.ipynb)
-3. (2023/1/26) 確率過程（TODO）: [notebooks/probability_process.ipynb](notebooks/probability_process.ipynb)
-4. (2023/1/28) ルベーグ積分: [notebooks/lebesgue_integral.ipynb](notebooks/lebesgue_integral.ipynb)
-5. (2023/1/28) 上極限、下極限: [notebooks/liminf_limsup.ipynb](notebooks/liminf_limsup.ipynb)
-6. (2023/1/29) 極値分布: [notebooks/extreme_value_distribution.ipynb](notebooks/extreme_value_distribution.ipynb)
-7. (2023/1/29) 特性関数: [notebooks/characteristic_function.ipynb](notebooks/characteristic_function.ipynb)
-8. (2023/1/29) 確率積分（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
-9. (2023/1/29) バンディットアルゴリズムの基本: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
+1. (2023/1/18) Linear MDP: [notebooks/RL_linear_MDP.ipynb](notebooks/RL_linear_MDP.ipynb)
+2. (2023/1/21) 測度論的確率論（TODO）: [notebooks/PROB_measure_theoretic_probability.ipynb](notebooks/PROB_measure_theoretic_probability.ipynb)
+3. (2023/1/26) 確率過程（TODO）: [notebooks/PROB_probability_process.ipynb](notebooks/PROB_probability_process.ipynb)
+4. (2023/1/28) ルベーグ積分: [notebooks/PROB_lebesgue_integral.ipynb](notebooks/PROB_lebesgue_integral.ipynb)
+5. (2023/1/28) 上極限、下極限: [notebooks/PROB_liminf_limsup.ipynb](notebooks/PROB_liminf_limsup.ipynb)
+6. (2023/1/29) 極値分布: [notebooks/PROB_extreme_value_distribution.ipynb](notebooks/PROB_extreme_value_distribution.ipynb)
+7. (2023/1/29) 特性関数: [notebooks/PROB_characteristic_function.ipynb](notebooks/PROB_characteristic_function.ipynb)
+8. (2023/1/29) 確率積分（TODO）: [notebooks/PROB_stochastic_integration.ipynb](notebooks/PROB_stochastic_integration.ipynb)
+9. (2023/1/29) バンディットアルゴリズムの基本: [notebooks/RL_bandit_algorithms.ipynb](notebooks/RL_bandit_algorithms.ipynb)
 10. (2023/1/30) テイラーの定理: [notebooks/taylor_theorem.ipynb](notebooks/taylor_theorem.ipynb)
-11. (2023/1/31) 伊藤積分 & 確率微分方程式の実験（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
-12. (2023/2/1) Girsanovの定理: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
-13. (2023/2/4) ガウス過程回帰: [notebooks/gp_regression.ipynb](notebooks/gp_regression.ipynb)
-14. (2023/2/5) 敵対的バンディット（TODO）: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
-15. (2023/2/5) マルチステップ強化学習 (On-policy推定編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
-16. (2023/2/6) マルチステップ強化学習 (Off-policy推定編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
-17. (2023/2/6) マルチステップ強化学習 (マルチステップ制御編): [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
-18. (2023/2/7) MDPについて (Garnet MDP): [notebooks/Markov_Decision_Process.ipynb](notebooks/Markov_Decision_Process.ipynb)
-19. (2023/2/8) 文脈付きバンディット (TODO): [notebooks/contextual_bandit.ipynb](notebooks/contextual_bandit.ipynb)
-20. (2023/2/9) 線形バンディット: [notebooks/contextual_bandit.ipynb](notebooks/contextual_bandit.ipynb)
-21. (2023/2/10) 適合価値反復法: [notebooks/fitted_Q_iteration.ipynb](notebooks/fitted_Q_iteration.ipynb)
-22. (2023/2/12) Generalized RL (適合Q学習などの一般化): [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
-23. (2023/2/13) Generalized RL (確率的な作用素で一般化): [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
-24. (2023/2/14~17) マルチステップRLのスライド: [slides/Multi_step_RL.pdf](slides/Multi_step_RL.pdf)
-25. (2023/2/17) 方策勾配法 (途中): [notebooks/policy_gradient.ipynb](notebooks/policy_gradient.ipynb)
-26. (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/policy_gradient.ipynb](notebooks/policy_gradient.ipynb)
+11. (2023/1/31) 伊藤積分 & 確率微分方程式の実験（TODO）: [notebooks/PROB_stochastic_integration.ipynb](notebooks/PROB_stochastic_integration.ipynb)
+12. (2023/2/1) Girsanovの定理: [notebooks/PROB_stochastic_integration.ipynb](notebooks/PROB_stochastic_integration.ipynb)
+13. (2023/2/4) ガウス過程回帰: [notebooks/PROB_gp_regression.ipynb](notebooks/PROB_gp_regression.ipynb)
+14. (2023/2/5) 敵対的バンディット（TODO）: [notebooks/RL_bandit_algorithms.ipynb](notebooks/RL_bandit_algorithms.ipynb)
+15. (2023/2/5) マルチステップ強化学習 (On-policy推定編): [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
+16. (2023/2/6) マルチステップ強化学習 (Off-policy推定編): [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
+17. (2023/2/6) マルチステップ強化学習 (マルチステップ制御編): [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
+18. (2023/2/7) MDPについて (Garnet MDP): [notebooks/RL_Markov_Decision_Process.ipynb](notebooks/RL_Markov_Decision_Process.ipynb)
+19. (2023/2/8) 文脈付きバンディット (TODO): [notebooks/RL_contextual_bandit.ipynb](notebooks/RL_contextual_bandit.ipynb)
+20. (2023/2/9) 線形バンディット: [notebooks/RL_contextual_bandit.ipynb](notebooks/RL_contextual_bandit.ipynb)
+21. (2023/2/10) 適合価値反復法: [notebooks/RL_fitted_Q_iteration.ipynb](notebooks/RL_fitted_Q_iteration.ipynb)
+22. (2023/2/12) Generalized RL (適合Q学習などの一般化): [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
+23. (2023/2/13) Generalized RL (確率的な作用素で一般化): [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
+24. (2023/2/14~17) マルチステップRLのスライド: [slides/RL_multi_step.pdf](slides/RL_multi_step.pdf)
+25. (2023/2/17) 方策勾配法 (途中): [notebooks/RL_policy_gradient.ipynb](notebooks/RL_policy_gradient.ipynb)
+26. (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/RL_policy_gradient.ipynb](notebooks/RL_policy_gradient.ipynb)
 27. (2023/2/20~21) Transformer: [notebooks/transformer.ipynb](notebooks/transformer.ipynb)
-28. (2023/2/22) Reward Free RL: [notebooks/reward_free_RL.ipynb](notebooks/reward_free_RL.ipynb)
-29. (2023/2/23) 教育用強化学習修行Notebook (行列形式の動的計画法編): [notebooks/exercise_RL.ipynb](notebooks/exercise_RL.ipynb)
-30. (2023/2/23) Reward Free RL (RF-EXPRESS): [notebooks/reward_free_RL.ipynb](notebooks/reward_free_RL.ipynb)
+28. (2023/2/22) Reward Free RL: [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
+29. (2023/2/23) 教育用強化学習修行Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
+30. (2023/2/23) Reward Free RL (RF-EXPRESS): [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
 31. (2023/2/24) **** : ****.ipynb
-32. (2023/2/24) Self-Normalized Bound for Vector Valued Martingales (途中): [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
-33. (2023/2/25) YadokoriとDaniのバンディットアルゴリズムの比較: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
-34. (2023/2/26) 探索の理論 (UCB編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
-35. (2023/2/27-28) 探索の理論 (UCB-VI編): [notebooks/UCB_VI_regret_proof.ipynb](notebooks/UCB_VI_regret_proof.ipynb) 
+32. (2023/2/24) Self-Normalized Bound for Vector Valued Martingales (途中): [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb) 
+33. (2023/2/25) YadokoriとDaniのバンディットアルゴリズムの比較: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb) 
+34. (2023/2/26) 探索の理論 (UCB編): [notebooks/RL_UCB_regret_proof.ipynb](notebooks/RL_UCB_regret_proof.ipynb) 
+35. (2023/2/27-28) 探索の理論 (UCB-VI編): [notebooks/RL_UCB_VI_regret_proof.ipynb](notebooks/RL_UCB_VI_regret_proof.ipynb) 
 36. (2023/2/28-3/3) **** : ****
-37. (2023/3/4) 探索の理論 (UCB-VIのBernstein版): [notebooks/UCB_VI_regret_proof.ipynb](notebooks/UCB_VI_regret_proof.ipynb) 
-38. (2023/3/4) Q学習の理論 (UCB-H編): [notebooks/UCB_H_regret_proof.ipynb](notebooks/UCB_H_regret_proof.ipynb) 
-39. (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proofs.ipynb](notebooks/transition_estimation_proofs.ipynb) 
+37. (2023/3/4) 探索の理論 (UCB-VIのBernstein版): [notebooks/RL_UCB_VI_regret_proof.ipynb](notebooks/RL_UCB_VI_regret_proof.ipynb) 
+38. (2023/3/4) Q学習の理論 (UCB-H編): [notebooks/RL_UCB_H_regret_proof.ipynb](notebooks/RL_UCB_H_regret_proof.ipynb) 
+39. (2023/3/5) 遷移確率の推定について: [notebooks/RL_transition_estimation_proofs.ipynb](notebooks/RL_transition_estimation_proofs.ipynb) 
 40. (2023/3/6) **** : ****.ipynb
-41. (2023/3/7) Task-agnostic探索の理論: [notebooks/task_agnostic_exploration.ipynb](notebooks/task_agnostic_exploration.ipynb) 
-42. (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
-43. (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
+41. (2023/3/7) Task-agnostic探索の理論: [notebooks/RL_task_agnostic_exploration.ipynb](notebooks/RL_task_agnostic_exploration.ipynb) 
+42. (2023/3/8) ロバストMDP: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
+43. (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
 44. (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
 45. (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
-46. (2023/3/13) マルチステップRLのスライド（簡単版）: [slides/Multi_step_RL_easy.pdf](slides/Multi_step_RL_easy.pdf)
-47. (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/robust_MDP_and_regularization.ipynb](notebooks/robust_MDP_and_regularization.ipynb) 
-48. (2023/3/14) 模倣学習: [notebooks/imitation_learning.ipynb](notebooks/imitation_learning.ipynb) 
-49. (2023/3/17) 最尤推定：[notebooks/maximum_likelihood.ipynb](notebooks/maximum_likelihood.ipynb)
-50. (2023/3/20) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
-51. (2023/3/21) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
-52. (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/rl_lower_bounds.ipynb](notebooks/rl_lower_bounds.ipynb)
+46. (2023/3/13) マルチステップRLのスライド（簡単版）: [slides/RL_multi_step_easy.pdf](slides/RL_multi_step_easy.pdf)
+47. (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/RL_robust_MDP_and_regularization.ipynb](notebooks/RL_robust_MDP_and_regularization.ipynb) 
+48. (2023/3/14) 模倣学習: [notebooks/RL_imitation_learning.ipynb](notebooks/RL_imitation_learning.ipynb) 
+49. (2023/3/17) 最尤推定：[notebooks/PROB_maximum_likelihood.ipynb](notebooks/PROB_maximum_likelihood.ipynb)
+50. (2023/3/20) 凸集合：[notebooks/CVX_convex_sets.ipynb](notebooks/CVX_convex_sets.ipynb)
+51. (2023/3/21) 凸集合：[notebooks/CVX_convex_sets.ipynb](notebooks/CVX_convex_sets.ipynb)
+52. (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
 53. (2023/3/20~2023/3/23) : 読書：[ソフトウェア見積り　人月の暗黙知を解き明かす](books/README.md)
 54. (2023/3/24) **** : ****.ipynb
-55. (2023/3/25) 強化学習のサンプル効率の下界（Linear Realizable編）：[notebooks/rl_lower_bounds.ipynb](notebooks/rl_lower_bounds.ipynb)
-56. (2023/3/27) TODO: 強化学習とエントロピー正則化（途中）：[notebooks/entropy_regularized_RL.ipynb](notebooks/entropy_regularized_RL.ipynb)
-57. (2023/3/28) 凸関数（共役関数とか）：[notebooks/convex_functions.ipynb](notebooks/convex_functions.ipynb)
-58. (2023/3/29) Approximate Dynamic Programming：[notebooks/approximate_dynamic_programming.ipynb](notebooks/approximate_dynamic_programming.ipynb)
+55. (2023/3/25) 強化学習のサンプル効率の下界（Linear Realizable編）：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
+56. (2023/3/27) TODO: 強化学習とエントロピー正則化（途中）：[notebooks/RL_entropy_regularization.ipynb](notebooks/RL_entropy_regularization.ipynb)
+57. (2023/3/28) 凸関数（共役関数とか）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
+58. (2023/3/29) Approximate Dynamic Programming：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
-<!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
+<!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb)  -->
 
 ---
 
@@ -90,80 +90,78 @@ poetry install
 
 ### 確率論入門
 
-* (2023/1/21) 測度論的確率論の導入: [notebooks/measure_theoretic_probability.ipynb](notebooks/measure_theoretic_probability.ipynb)
-* (2023/1/26) 確率過程: [notebooks/probability_process.ipynb](notebooks/probability_process.ipynb)
-* (2023/1/28) ルベーグ積分: [notebooks/lebesgue_integral.ipynb](notebooks/lebesgue_integral.ipynb)
-* (2023/1/28) 上極限、下極限: [notebooks/liminf_limsup.ipynb](notebooks/liminf_limsup.ipynb)
-* (2023/1/29) 極値分布: [notebooks/extreme_value_distribution.ipynb](notebooks/extreme_value_distribution.ipynb)
-* (2023/1/29) 特性関数: [notebooks/characteristic_function.ipynb](notebooks/characteristic_function.ipynb)
-* (2023/1/29) 確率積分（TODO）: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
-* (2023/1/31) 伊藤積分 & 確率微分方程式の実験: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
-* (2023/2/1) Girsanovの定理: [notebooks/stochastic_integration.ipynb](notebooks/stochastic_integration.ipynb)
-* (2023/3/17) 最尤推定：[notebooks/maximum_likelihood.ipynb](notebooks/maximum_likelihood.ipynb)
+* (2023/1/21) 測度論的確率論の導入: [notebooks/PROB_measure_theoretic_probability.ipynb](notebooks/PROB_measure_theoretic_probability.ipynb)
+* (2023/1/26) 確率過程: [notebooks/PROB_probability_process.ipynb](notebooks/PROB_probability_process.ipynb)
+* (2023/1/28) ルベーグ積分: [notebooks/PROB_lebesgue_integral.ipynb](notebooks/PROB_lebesgue_integral.ipynb)
+* (2023/1/28) 上極限、下極限: [notebooks/PROB_liminf_limsup.ipynb](notebooks/PROB_liminf_limsup.ipynb)
+* (2023/1/29) 極値分布: [notebooks/PROB_extreme_value_distribution.ipynb](notebooks/PROB_extreme_value_distribution.ipynb)
+* (2023/1/29) 特性関数: [notebooks/PROB_characteristic_function.ipynb](notebooks/PROB_characteristic_function.ipynb)
+* (2023/1/29) 確率積分（TODO）: [notebooks/PROB_stochastic_integration.ipynb](notebooks/PROB_stochastic_integration.ipynb)
+* (2023/1/31) 伊藤積分 & 確率微分方程式の実験: [notebooks/PROB_stochastic_integration.ipynb](notebooks/PROB_stochastic_integration.ipynb)
+* (2023/2/1) Girsanovの定理: [notebooks/PROB_stochastic_integration.ipynb](notebooks/PROB_stochastic_integration.ipynb)
+* (2023/2/4) ガウス過程回帰: [notebooks/PROB_gp_regression.ipynb](notebooks/PROB_gp_regression.ipynb)
+* (2023/3/17) 最尤推定：[notebooks/PROB_maximum_likelihood.ipynb](notebooks/PROB_maximum_likelihood.ipynb)
 
 ### 凸最適化
 
-* (2023/3/20~21) 凸集合：[notebooks/convex_sets.ipynb](notebooks/convex_sets.ipynb)
-* (2023/3/28) 凸関数：[notebooks/convex_functions.ipynb](notebooks/convex_functions.ipynb)
+* (2023/3/20~21) 凸集合：[notebooks/CVX_convex_sets.ipynb](notebooks/CVX_convex_sets.ipynb)
+* (2023/3/28) 凸関数：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 
 
 ### 逐次意思決定問題
 
 * バンディット：
-    * (2023/1/29) バンディットアルゴリズムの基本: [notebooks/bandit_algorithms.ipynb](notebooks/bandit_algorithms.ipynb)
-    * (2023/2/24) Self-Normalized Bound for Vector Valued Martingales: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb) 
-    * (2023/2/8) 文脈付きバンディット: [notebooks/contextual_bandit.ipynb](notebooks/contextual_bandit.ipynb)
-    * (2023/2/26) 探索の理論 (UCB編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
+    * (2023/1/29) バンディットアルゴリズムの基本: [notebooks/RL_bandit_algorithms.ipynb](notebooks/RL_bandit_algorithms.ipynb)
+    * (2023/2/24) Self-Normalized Bound for Vector Valued Martingales: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb) 
+    * (2023/2/8) 文脈付きバンディット: [notebooks/RL_contextual_bandit.ipynb](notebooks/RL_contextual_bandit.ipynb)
+    * (2023/2/26) 探索の理論 (UCB編): [notebooks/RL_UCB_regret_proof.ipynb](notebooks/RL_UCB_regret_proof.ipynb) 
 * Linear MDP：
-    * (2023/1/18) Linear MDP: [notebooks/linearMDP.ipynb](notebooks/linearMDP.ipynb)
+    * (2023/1/18) Linear MDP: [notebooks/RL_linearMDP.ipynb](notebooks/RL_linearMDP.ipynb)
 * Reward Free RL：
-    * (2023/2/22) Reward Free RL: [notebooks/reward_free_RL.ipynb](notebooks/reward_free_RL.ipynb)
+    * (2023/2/22) Reward Free RL: [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
 * ロバストMDP：
-    * (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
-    * (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
-    * (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/robust_MDP_and_regularization.ipynb](notebooks/robust_MDP_and_regularization.ipynb) 
+    * (2023/3/8) ロバストMDP: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
+    * (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
+    * (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/RL_robust_MDP_and_regularization.ipynb](notebooks/RL_robust_MDP_and_regularization.ipynb) 
 * マルチステップ強化学習：
-    * (2023/2/5) マルチステップ強化学習: [notebooks/multi_step_RL.ipynb](notebooks/multi_step_RL.ipynb)
-    * (2023/2/14~17) マルチステップRLのスライド: [slides/Multi_step_RL.pdf](slides/Multi_step_RL.pdf)
-    * (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/policy_gradient.ipynb](notebooks/policy_gradient.ipynb)
+    * (2023/2/5) マルチステップ強化学習: [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
+    * (2023/2/14~17) マルチステップRLのスライド: [slides/RL_multi_step.pdf](slides/RL_multi_step.pdf)
+    * (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/RL_policy_gradient.ipynb](notebooks/RL_policy_gradient.ipynb)
 * 模倣学習：
-    * (2023/3/14) 模倣学習: [notebooks/imitation_learning.ipynb](notebooks/imitation_learning.ipynb) 
+    * (2023/3/14) 模倣学習: [notebooks/RL_imitation_learning.ipynb](notebooks/RL_imitation_learning.ipynb) 
 * 一般のRL：
-    * (2023/2/7) MDPについて (Garnet MDP): [notebooks/Markov_Decision_Process.ipynb](notebooks/Markov_Decision_Process.ipynb)
-    * (2023/2/27-28) UCB-VIの理論 (モデルベース): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
-    * (2023/3/4) UCB-Hoeffdingの理論 (モデルフリー): [notebooks/UCB_H_regret_proof.ipynb](notebooks/UCB_H_regret_proof.ipynb) 
-    * (2023/3/5) 遷移確率の推定について: [notebooks/transition_estimation_proofs.ipynb](notebooks/transition_estimation_proofs.ipynb) 
-    * (2023/3/7) Task-agnostic探索の理論: [notebooks/task_agnostic_exploration.ipynb](notebooks/task_agnostic_exploration.ipynb) 
-    * (2023/2/10) 適合価値反復法: [notebooks/fitted_Q_iteration.ipynb](notebooks/fitted_Q_iteration.ipynb)
+    * (2023/2/7) MDPについて (Garnet MDP): [notebooks/RL_Markov_Decision_Process.ipynb](notebooks/RL_Markov_Decision_Process.ipynb)
+    * (2023/2/27-28) UCB-VIの理論 (モデルベース): [notebooks/RL_UCB_VI_regret_proof.ipynb](notebooks/RL_UCB_VI_regret_proof.ipynb) 
+    * (2023/3/4) UCB-Hoeffdingの理論 (モデルフリー): [notebooks/RL_UCB_H_regret_proof.ipynb](notebooks/RL_UCB_H_regret_proof.ipynb) 
+    * (2023/3/5) 遷移確率の推定について: [notebooks/RL_transition_estimation_proofs.ipynb](notebooks/RL_transition_estimation_proofs.ipynb) 
+    * (2023/3/7) Task-agnostic探索の理論: [notebooks/RL_task_agnostic_exploration.ipynb](notebooks/RL_task_agnostic_exploration.ipynb) 
+    * (2023/2/10) 適合価値反復法: [notebooks/RL_fitted_Q_iteration.ipynb](notebooks/RL_fitted_Q_iteration.ipynb)
     * (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
-    * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
+    * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
     * (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
-    * (2023/3/29) Approximate Dynamic Programming：[notebooks/approximate_dynamic_programming.ipynb](notebooks/approximate_dynamic_programming.ipynb)
-
-### 教育用
-* (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/exercise_RL.ipynb](notebooks/exercise_RL.ipynb)
-* (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
+    * (2023/3/29) Approximate Dynamic Programming：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
+* 教育用：
+    * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
+    * (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
 
 ### 未分類
 * (2023/1/30) テイラーの定理: [notebooks/taylor_theorem.ipynb](notebooks/taylor_theorem.ipynb)
-* (2023/2/4) ガウス過程回帰: [notebooks/gp_regression.ipynb](notebooks/gp_regression.ipynb)
 * (2023/2/20~21) Transformer: [notebooks/transformer.ipynb](notebooks/transformer.ipynb)
-* (2023/3/17) 最尤推定：[notebooks/maximum_likelihood.ipynb](notebooks/maximum_likelihood.ipynb)
 
 ---
 
 ## わからなかったところ
-* [ ] (2023/2/27-28) 探索の理論 (UCB-VI編): [notebooks/UCB_regret_proof.ipynb](notebooks/UCB_regret_proof.ipynb) 
+* [ ] (2023/2/27-28) 探索の理論 (UCB-VI編): [notebooks/RL_UCB_regret_proof.ipynb](notebooks/RL_UCB_regret_proof.ipynb) 
     * [ ] UCBのボーナスが大きすぎるとボーナスが優先されてしまうが、こういう理論はあるのかな？
     * [x] 途中のHolderの不等式をなんで使うのかがわからん
     * [x] やっぱ$f$を$H^S$でUnion Bound取るのよくわかんないな... Hoeffdingでやるだけじゃ駄目なのか？
         * これは$\widehat{P}_h^k$と$\widehat{V}_{h+1}^{\pi^k}$が独立ではないのが原因。$\widehat{P}_h^k$と$P_h^\star$をバウンドすると、余分な$\sqrt{S}$が出てくるよ。
         * [Near-optimal Regret Bounds for Reinforcement Learning](https://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)の式（４４）あたりが参考になるかも。ただ、Hoeffding+Sについての和を考えても出る気がする。
-* [ ] (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
+* [ ] (2023/3/8) ロバストMDP: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
     * [ ] ロバストRLがちゃんと機能しているかの評価方法はどうするべき？
 * [ ] (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
     * [ ] [Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/abs/2001.01866)これ読んでまとめたほうがいいかも？
-* [ ] (2023/3/14) 模倣学習: [notebooks/imitation_learning.ipynb](notebooks/imitation_learning.ipynb) 
+* [ ] (2023/3/14) 模倣学習: [notebooks/RL_imitation_learning.ipynb](notebooks/RL_imitation_learning.ipynb) 
     * [ ] $\mathbb{E}_{s \sim d^{\pi^{\star}}}\left\|\widehat{\pi}(\cdot \mid s)-\pi^{\star}(\cdot \mid s)\right\|_{T V}^2 \leq \frac{2 \log (|\Pi| / \delta)}{M}$ の証明ができなかった。[Empirical Processes in M-Estimation](https://www.amazon.co.jp/-/en/Sara-van-Geer/dp/0521123259)に証明あるかも。
     * [ ] エントロピー最大化逆強化学習ではエントロピーを入れることに必然性があったきがする。探しておこう。
     - [ ] AggreVateのリグレットの証明
@@ -183,11 +181,11 @@ poetry install
     * [x] 行列で$(I - \gamma P)$を表す話
     * [ ] 探索用のコード
 * [ ] 強化学習の便利定理まとめる
-    * [notebooks/approximate_dynamic_programming.ipynb](notebooks/approximate_dynamic_programming.ipynb)にでてきた価値差分方程式
+    * [notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)にでてきた価値差分方程式
     * $P$の逆行列の話
-* [ ] (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
+* [ ] (2023/3/8) ロバストMDP: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
     * [Towards Minimax Optimality of Model-based Robust Reinforcement Learning](https://arxiv.org/abs/2302.05372)ではほぼ同じ条件でもっとタイトなバウンドを導出してる。
-* (2023/3/27) 強化学習とエントロピー正則化：[notebooks/entropy_regularized_RL.ipynb](notebooks/entropy_regularized_RL.ipynb)
+* (2023/3/27) 強化学習とエントロピー正則化：[notebooks/RL_entropy_regularization.ipynb](notebooks/RL_entropy_regularization.ipynb)
     * Value Iterationや貪欲方策が誤差に弱い証明が欲しい。Tsallis Entropyの話のほうがいいかな？
     * この話は先にApproximate Dynamic Programmingの証明を書いてからの方が書きやすいかも
     
