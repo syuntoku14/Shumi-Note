@@ -80,6 +80,7 @@ poetry install
 55. (2023/3/25) 強化学習のサンプル効率の下界（Linear Realizable編）：[notebooks/rl_lower_bounds.ipynb](notebooks/rl_lower_bounds.ipynb)
 56. (2023/3/27) TODO: 強化学習とエントロピー正則化（途中）：[notebooks/entropy_regularized_RL.ipynb](notebooks/entropy_regularized_RL.ipynb)
 57. (2023/3/28) 凸関数（共役関数とか）：[notebooks/convex_functions.ipynb](notebooks/convex_functions.ipynb)
+58. (2023/3/29) Approximate Dynamic Programming：[notebooks/approximate_dynamic_programming.ipynb](notebooks/approximate_dynamic_programming.ipynb)
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/improved_linear_bandit.ipynb](notebooks/improved_linear_bandit.ipynb)  -->
 
@@ -137,6 +138,7 @@ poetry install
     * (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
     * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/generalized_RL.ipynb)
     * (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
+    * (2023/3/29) Approximate Dynamic Programming：[notebooks/approximate_dynamic_programming.ipynb](notebooks/approximate_dynamic_programming.ipynb)
 
 ### 教育用
 * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/exercise_RL.ipynb](notebooks/exercise_RL.ipynb)
@@ -180,6 +182,12 @@ poetry install
 * [ ] 強化学習の便利コードまとめる
     * [x] 行列で$(I - \gamma P)$を表す話
     * [ ] 探索用のコード
+* [ ] 強化学習の便利定理まとめる
+    * [notebooks/approximate_dynamic_programming.ipynb](notebooks/approximate_dynamic_programming.ipynb)にでてきた価値差分方程式
+    * $P$の逆行列の話
 * [ ] (2023/3/8) ロバストMDP: [notebooks/robust_MDP.ipynb](notebooks/robust_MDP.ipynb) 
     * [Towards Minimax Optimality of Model-based Robust Reinforcement Learning](https://arxiv.org/abs/2302.05372)ではほぼ同じ条件でもっとタイトなバウンドを導出してる。
+* (2023/3/27) 強化学習とエントロピー正則化：[notebooks/entropy_regularized_RL.ipynb](notebooks/entropy_regularized_RL.ipynb)
+    * Value Iterationや貪欲方策が誤差に弱い証明が欲しい。Tsallis Entropyの話のほうがいいかな？
+    * この話は先にApproximate Dynamic Programmingの証明を書いてからの方が書きやすいかも
     
