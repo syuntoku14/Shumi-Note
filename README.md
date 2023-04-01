@@ -82,7 +82,7 @@ poetry install
 57. (2023/3/28) 凸関数（共役関数とか）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 58. (2023/3/29) Approximate Dynamic Programming：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
 59. (2023/3/30) TODO: Approximate Dynamic Programming（正則化あり）：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
-60. (2023/4/01) 実験計画法：[notebooks/optimal_design.ipynb](notebooks/optimal_design.ipynb)
+60. (2023/4/01) 最小楕円問題：[notebooks/CVX_minimum_volume_ellipsoids.ipynb](notebooks/CVX_minimum_volume_ellipsoids.ipynb)
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb)  -->
 
