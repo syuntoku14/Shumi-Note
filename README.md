@@ -69,8 +69,8 @@ poetry install
 44. (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
 45. (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
 46. (2023/3/13) マルチステップRLのスライド（簡単版）: [slides/RL_multi_step_easy.pdf](slides/RL_multi_step_easy.pdf)
-47. (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/RL_robust_MDP_and_regularization.ipynb](notebooks/RL_robust_MDP_and_regularization.ipynb) 
-48. (2023/3/14) 模倣学習: [notebooks/RL_imitation_learning.ipynb](notebooks/RL_imitation_learning.ipynb) 
+47. (2023/3/13) TODO: ロバストMDPの理論（正則化との関係）: [notebooks/RL_robust_MDP_and_regularization.ipynb](notebooks/RL_robust_MDP_and_regularization.ipynb) 
+48. (2023/3/14) TODO: 模倣学習: [notebooks/RL_imitation_learning.ipynb](notebooks/RL_imitation_learning.ipynb) 
 49. (2023/3/17) 最尤推定：[notebooks/PROB_maximum_likelihood.ipynb](notebooks/PROB_maximum_likelihood.ipynb)
 50. (2023/3/20) 凸集合：[notebooks/CVX_convex_sets.ipynb](notebooks/CVX_convex_sets.ipynb)
 51. (2023/3/21) 凸集合：[notebooks/CVX_convex_sets.ipynb](notebooks/CVX_convex_sets.ipynb)
@@ -81,7 +81,8 @@ poetry install
 56. (2023/3/27) TODO: 強化学習とエントロピー正則化（途中）：[notebooks/RL_entropy_regularization.ipynb](notebooks/RL_entropy_regularization.ipynb)
 57. (2023/3/28) 凸関数（共役関数とか）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 58. (2023/3/29) Approximate Dynamic Programming：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
-59. (2023/3/30) Approximate Dynamic Programming（正則化あり）：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
+59. (2023/3/30) TODO: Approximate Dynamic Programming（正則化あり）：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
+60. (2023/4/01) 実験計画法：[notebooks/optimal_design.ipynb](notebooks/optimal_design.ipynb)
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb)  -->
 
@@ -148,6 +149,7 @@ poetry install
 ### 未分類
 * (2023/1/30) テイラーの定理: [notebooks/taylor_theorem.ipynb](notebooks/taylor_theorem.ipynb)
 * (2023/2/20~21) Transformer: [notebooks/transformer.ipynb](notebooks/transformer.ipynb)
+* (2023/4/1) 実験計画法：[notebooks/optimal_design.ipynb](notebooks/optimal_design.ipynb)
 
 ---
 
