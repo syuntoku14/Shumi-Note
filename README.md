@@ -86,6 +86,9 @@ poetry install
 61. (2023/4/02) 他変量関数の微分：[notebooks/MATH_multivariate_derivative.ipynb](notebooks/MATH_multivariate_derivative.ipynb)
 62. (2023/4/03) 最小楕円問題のアルゴリズム：[notebooks/CVX_MVEE_algorithm.ipynb](notebooks/CVX_MVEE_algorithm.ipynb)
 63. (2023/4/04) 最小楕円問題とCore-set：[notebooks/CVX_MVEE_algorithm.ipynb](notebooks/CVX_MVEE_algorithm.ipynb)
+64. (2023/4/05) **** : ****.ipynb
+65. (2023/4/06) **** : ****.ipynb
+66. (2023/4/07) 行列と行列式（途中）: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb)  -->
 
@@ -184,6 +187,7 @@ poetry install
 * [ ] モデルベースの証明やモデルフリーの証明をまとめたい
 * [ ] 初学者が最初に読むべき本をまとめたい
 * [ ] 確率収束の話
+* [ ] Integral Probability Metricについて読もう：[On the empirical estimation of integral probability metrics](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-6/issue-none/On-the-empirical-estimation-of-integral-probability-metrics/10.1214/12-EJS722.full)
 * [ ] 強化学習のサンプル効率の下界
     * [ ] VC次元を使ったオッカムの剃刀
     * [x] Linear Realizability
