@@ -91,6 +91,7 @@ poetry install
 66. (2023/4/07) 行列と行列式（途中）: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 67. (2023/4/07) エントロピー最大化と探索（途中）: [RL_max_ent_exploration.ipynb](notebooks/RL_max_ent_exploration.ipynb)
 68. (2023/4/08) 強化学習の便利な関数（有限ホライゾン）: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
+69. (2023/4/09) 強化学習の便利な関数（探索用）: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb)  -->
 
@@ -195,7 +196,7 @@ poetry install
     * [x] Linear Realizability
 * [ ] 強化学習の便利コードまとめる
     * [x] 行列で$(I - \gamma P)$を表す話
-    * [ ] 探索用のコード
+    * [x] 探索用のコード
 * [ ] 強化学習の便利定理まとめる
     * [notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)にでてきた価値差分方程式
     * $P$の逆行列の話
