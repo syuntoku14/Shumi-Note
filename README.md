@@ -94,6 +94,7 @@ poetry install
 69. (2023/4/09) 強化学習の便利な関数（探索用）: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
 70. (2023/4/09) エントロピー最大化と探索（EntGameアルゴリズム）: [RL_max_ent_exploration.ipynb](notebooks/RL_max_ent_exploration.ipynb)
 71. (2023/4/10) 凸関数（Bregman Divergenceとか）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
+72. (2023/4/11) 凸関数（Projectionについて）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb)  -->
 
