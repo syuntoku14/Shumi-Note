@@ -95,12 +95,18 @@ poetry install
 70. (2023/4/09) エントロピー最大化と探索（EntGameアルゴリズム）: [RL_max_ent_exploration.ipynb](notebooks/RL_max_ent_exploration.ipynb)
 71. (2023/4/10) 凸関数（Bregman Divergenceとか）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 72. (2023/4/11) 凸関数（Projectionについて）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
+73. (2023/4/12) バンディットの便利な関数: [notebooks/RL_bandit_utils.ipynb](notebooks/RL_bandit_utils.ipynb) 
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb)  -->
 
 ---
 
 ## 分野別のNotebook一覧
+
+### 線形代数
+
+* (2023/4/07) 行列と行列式（途中）: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
+
 
 ### 確率論入門
 
@@ -135,6 +141,7 @@ poetry install
     * (2023/1/18) Linear MDP: [notebooks/RL_linearMDP.ipynb](notebooks/RL_linearMDP.ipynb)
 * Reward Free RL：
     * (2023/2/22) Reward Free RL: [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
+    * (2023/4/09) エントロピー最大化と探索（EntGameアルゴリズム）: [RL_max_ent_exploration.ipynb](notebooks/RL_max_ent_exploration.ipynb)
 * ロバストMDP：
     * (2023/3/8) ロバストMDP: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
     * (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
@@ -159,6 +166,8 @@ poetry install
 * 教育用：
     * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
     * (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
+    * (2023/4/12) バンディットの便利な関数: [notebooks/RL_bandit_utils.ipynb](notebooks/RL_bandit_utils.ipynb) 
+
 
 ### ニューラルネットワーク
 * (2023/2/20~21) Transformer: [notebooks/NN_transformer.ipynb](notebooks/NN_transformer.ipynb)
@@ -197,9 +206,9 @@ poetry install
 * [ ] 強化学習のサンプル効率の下界
     * [ ] VC次元を使ったオッカムの剃刀
     * [x] Linear Realizability
-* [ ] 強化学習の便利コードまとめる
-    * [x] 行列で$(I - \gamma P)$を表す話
-    * [x] 探索用のコード
+* [ ] バンディットの理論証明書く
+* [ ] バンディットの便利関数まとめる
+    * [ ] 敵対的系のアルゴリズム
 * [ ] 強化学習の便利定理まとめる
     * [notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)にでてきた価値差分方程式
     * $P$の逆行列の話
