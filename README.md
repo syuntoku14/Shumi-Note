@@ -31,18 +31,18 @@ poetry install
 6. (2023/1/29) 極値分布: [notebooks/PROB_extreme_value_distribution.ipynb](notebooks/PROB_extreme_value_distribution.ipynb)
 7. (2023/1/29) 特性関数: [notebooks/PROB_characteristic_function.ipynb](notebooks/PROB_characteristic_function.ipynb)
 8. (2023/1/29) 確率積分（TODO）: [notebooks/PROB_stochastic_integration.ipynb](notebooks/PROB_stochastic_integration.ipynb)
-9. (2023/1/29) バンディットアルゴリズムの基本: [notebooks/RL_bandit_algorithms.ipynb](notebooks/RL_bandit_algorithms.ipynb)
+9. (2023/1/29) バンディットアルゴリズムの基本: [notebooks/BANDIT_basics.ipynb](notebooks/BANDIT_basics.ipynb)
 10. (2023/1/30) テイラーの定理: [notebooks/MATH_taylor_theorem.ipynb](notebooks/MATH_taylor_theorem.ipynb)
 11. (2023/1/31) 伊藤積分 & 確率微分方程式の実験（TODO）: [notebooks/PROB_stochastic_integration.ipynb](notebooks/PROB_stochastic_integration.ipynb)
 12. (2023/2/1) Girsanovの定理: [notebooks/PROB_stochastic_integration.ipynb](notebooks/PROB_stochastic_integration.ipynb)
 13. (2023/2/4) ガウス過程回帰: [notebooks/PROB_gp_regression.ipynb](notebooks/PROB_gp_regression.ipynb)
-14. (2023/2/5) 敵対的バンディット（TODO）: [notebooks/RL_bandit_algorithms.ipynb](notebooks/RL_bandit_algorithms.ipynb)
+14. (2023/2/5) 敵対的バンディット（TODO）: [notebooks/BANDIT_basics.ipynb](notebooks/BANDIT_basics.ipynb)
 15. (2023/2/5) マルチステップ強化学習 (On-policy推定編): [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
 16. (2023/2/6) マルチステップ強化学習 (Off-policy推定編): [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
 17. (2023/2/6) マルチステップ強化学習 (マルチステップ制御編): [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
 18. (2023/2/7) MDPについて (Garnet MDP): [notebooks/RL_Markov_Decision_Process.ipynb](notebooks/RL_Markov_Decision_Process.ipynb)
-19. (2023/2/8) 文脈付きバンディット (TODO): [notebooks/RL_contextual_bandit.ipynb](notebooks/RL_contextual_bandit.ipynb)
-20. (2023/2/9) 線形バンディット: [notebooks/RL_contextual_bandit.ipynb](notebooks/RL_contextual_bandit.ipynb)
+19. (2023/2/8) 文脈付きバンディット (TODO): [notebooks/BANDIT_contextual.ipynb](notebooks/BANDIT_contextual.ipynb)
+20. (2023/2/9) 線形バンディット: [notebooks/BANDIT_contextual.ipynb](notebooks/BANDIT_contextual.ipynb)
 21. (2023/2/10) 適合価値反復法: [notebooks/RL_fitted_Q_iteration.ipynb](notebooks/RL_fitted_Q_iteration.ipynb)
 22. (2023/2/12) Generalized RL (適合Q学習などの一般化): [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
 23. (2023/2/13) Generalized RL (確率的な作用素で一般化): [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
@@ -54,9 +54,9 @@ poetry install
 29. (2023/2/23) 教育用強化学習修行Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
 30. (2023/2/23) Reward Free RL (RF-EXPRESS): [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
 31. (2023/2/24) **** : ****.ipynb
-32. (2023/2/24) Self-Normalized Bound for Vector Valued Martingales (途中): [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb) 
-33. (2023/2/25) YadokoriとDaniのバンディットアルゴリズムの比較: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb) 
-34. (2023/2/26) 探索の理論 (UCB編): [notebooks/RL_UCB_regret_proof.ipynb](notebooks/RL_UCB_regret_proof.ipynb) 
+32. (2023/2/24) Self-Normalized Bound for Vector Valued Martingales (途中): [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb) 
+33. (2023/2/25) YadokoriとDaniのバンディットアルゴリズムの比較: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb) 
+34. (2023/2/26) 探索の理論 (UCB編): [notebooks/BANDIT_UCB_regret_proof.ipynb](notebooks/BANDIT_UCB_regret_proof.ipynb) 
 35. (2023/2/27-28) 探索の理論 (UCB-VI編): [notebooks/RL_UCB_VI_regret_proof.ipynb](notebooks/RL_UCB_VI_regret_proof.ipynb) 
 36. (2023/2/28-3/3) **** : ****
 37. (2023/3/4) 探索の理論 (UCB-VIのBernstein版): [notebooks/RL_UCB_VI_regret_proof.ipynb](notebooks/RL_UCB_VI_regret_proof.ipynb) 
@@ -95,9 +95,10 @@ poetry install
 70. (2023/4/09) エントロピー最大化と探索（EntGameアルゴリズム）: [RL_max_ent_exploration.ipynb](notebooks/RL_max_ent_exploration.ipynb)
 71. (2023/4/10) 凸関数（Bregman Divergenceとか）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 72. (2023/4/11) 凸関数（Projectionについて）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
-73. (2023/4/12) バンディットの便利な関数: [notebooks/RL_bandit_utils.ipynb](notebooks/RL_bandit_utils.ipynb) 
+73. (2023/4/12) バンディットの便利な関数: [notebooks/BANDIT_utils.ipynb](notebooks/BANDIT_utils.ipynb) 
+74. (2023/4/13) 敵対的バンディット: [notebooks/BANDIT_adversarial.ipynb](notebooks/BANDIT_adversarial.ipynb) 
 <!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
-<!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb)  -->
+<!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
 
@@ -133,10 +134,11 @@ poetry install
 ### 逐次意思決定問題
 
 * バンディット：
-    * (2023/1/29) バンディットアルゴリズムの基本: [notebooks/RL_bandit_algorithms.ipynb](notebooks/RL_bandit_algorithms.ipynb)
-    * (2023/2/24) Self-Normalized Bound for Vector Valued Martingales: [notebooks/RL_improved_linear_bandit.ipynb](notebooks/RL_improved_linear_bandit.ipynb) 
-    * (2023/2/8) 文脈付きバンディット: [notebooks/RL_contextual_bandit.ipynb](notebooks/RL_contextual_bandit.ipynb)
-    * (2023/2/26) 探索の理論 (UCB編): [notebooks/RL_UCB_regret_proof.ipynb](notebooks/RL_UCB_regret_proof.ipynb) 
+    * (2023/1/29) バンディットアルゴリズムの基本: [notebooks/BANDIT_basics.ipynb](notebooks/BANDIT_basics.ipynb)
+    * (2023/2/24) Self-Normalized Bound for Vector Valued Martingales: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb) 
+    * (2023/2/8) 文脈付きバンディット: [notebooks/BANDIT_contextual.ipynb](notebooks/BANDIT_contextual.ipynb)
+    * (2023/2/26) 探索の理論 (UCB編): [notebooks/BANDIT_UCB_regret_proof.ipynb](notebooks/BANDIT_UCB_regret_proof.ipynb) 
+    * (2023/4/13) 敵対的バンディット: [notebooks/BANDIT_adversarial.ipynb](notebooks/BANDIT_adversarial.ipynb) 
 * Linear MDP：
     * (2023/1/18) Linear MDP: [notebooks/RL_linearMDP.ipynb](notebooks/RL_linearMDP.ipynb)
 * Reward Free RL：
@@ -166,7 +168,7 @@ poetry install
 * 教育用：
     * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
     * (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
-    * (2023/4/12) バンディットの便利な関数: [notebooks/RL_bandit_utils.ipynb](notebooks/RL_bandit_utils.ipynb) 
+    * (2023/4/12) バンディットの便利な関数: [notebooks/BANDIT_utils.ipynb](notebooks/BANDIT_utils.ipynb) 
 
 
 ### ニューラルネットワーク
@@ -179,7 +181,7 @@ poetry install
 ---
 
 ## わからなかったところ
-* [ ] (2023/2/27-28) 探索の理論 (UCB-VI編): [notebooks/RL_UCB_regret_proof.ipynb](notebooks/RL_UCB_regret_proof.ipynb) 
+* [ ] (2023/2/27-28) 探索の理論 (UCB-VI編): [notebooks/BANDIT_UCB_regret_proof.ipynb](notebooks/BANDIT_UCB_regret_proof.ipynb) 
     * [ ] UCBのボーナスが大きすぎるとボーナスが優先されてしまうが、こういう理論はあるのかな？
     * [x] 途中のHolderの不等式をなんで使うのかがわからん
     * [x] やっぱ$f$を$H^S$でUnion Bound取るのよくわかんないな... Hoeffdingでやるだけじゃ駄目なのか？
@@ -199,6 +201,7 @@ poetry install
 
 
 ## TODO
+* [ ] 過去のノートブックをきれいに直す
 * [ ] モデルベースの証明やモデルフリーの証明をまとめたい
 * [ ] 初学者が最初に読むべき本をまとめたい
 * [ ] 確率収束の話
