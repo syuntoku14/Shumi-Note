@@ -98,7 +98,8 @@ poetry install
 73. (2023/4/12) バンディットの便利な関数: [notebooks/BANDIT_utils.ipynb](notebooks/BANDIT_utils.ipynb) 
 74. (2023/4/13) 敵対的バンディット: [notebooks/BANDIT_adversarial.ipynb](notebooks/BANDIT_adversarial.ipynb) 
 75. (2023/4/14) RL Theory Book翻訳: [特徴付きMDP](https://tadashik.github.io/rltheory-jp/lecture-notes/online-rl/lec24/)
-<!-- 50. (2023/3/20) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
+76. (2023/4/16) Fenchelの双対定理：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
+<!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
