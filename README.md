@@ -100,6 +100,7 @@ poetry install
 75. (2023/4/14) RL Theory Book翻訳: [特徴付きMDP](https://tadashik.github.io/rltheory-jp/lecture-notes/online-rl/lec24/)
 76. (2023/4/16) Fenchelの双対定理：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 77. (2023/4/17) RLと線型計画問題（方策評価）：[notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb)
+78. (2023/4/19) 置換と基本行列: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -230,3 +231,5 @@ poetry install
     * [ ] 全微分について書く
 * [ ] 最小楕円問題とCore-set：[notebooks/CVX_MVEE_algorithm.ipynb](notebooks/CVX_MVEE_algorithm.ipynb)
     * 線形代数の話を踏まえて最小楕円問題の解釈を書く
+* [ ] $\varepsilon$-greedyのバンディットの導出
+    * https://sites.cs.ucsb.edu/~yuxiangw/classes/RLCourse-2021Spring/Lectures/scribe_MAB.pdf
