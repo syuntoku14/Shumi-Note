@@ -102,6 +102,7 @@ poetry install
 77. (2023/4/17) RLと線型計画問題（方策評価）：[notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb)
 78. (2023/4/19) 置換と基本行列: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 79. (2023/4/20) クロネッカー積: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
+80. (2023/4/21) 行列式: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
