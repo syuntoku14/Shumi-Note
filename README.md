@@ -103,6 +103,7 @@ poetry install
 78. (2023/4/19) 置換と基本行列: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 79. (2023/4/20) クロネッカー積: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 80. (2023/4/21) 行列式: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
+81. (2023/4/22) Linear MDPでのサンプル効率の下界: [RL_linearMDP_lower_bound.ipynb](notebooks/RL_linearMDP_lower_bound.ipynb)
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -145,8 +146,10 @@ poetry install
     * (2023/2/8) 文脈付きバンディット: [notebooks/BANDIT_contextual.ipynb](notebooks/BANDIT_contextual.ipynb)
     * (2023/2/26) 探索の理論 (UCB編): [notebooks/BANDIT_UCB_regret_proof.ipynb](notebooks/BANDIT_UCB_regret_proof.ipynb) 
     * (2023/4/13) 敵対的バンディット: [notebooks/BANDIT_adversarial.ipynb](notebooks/BANDIT_adversarial.ipynb) 
+    * (2023/4/12) バンディットの便利な関数: [notebooks/BANDIT_utils.ipynb](notebooks/BANDIT_utils.ipynb) 
 * Linear MDP：
     * (2023/1/18) Linear MDP: [notebooks/RL_linearMDP.ipynb](notebooks/RL_linearMDP.ipynb)
+    * (2023/4/22) Linear MDPでのサンプル効率の下界: [RL_linearMDP_lower_bound.ipynb](notebooks/RL_linearMDP_lower_bound.ipynb)
 * Reward Free RL：
     * (2023/2/22) Reward Free RL: [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
     * (2023/4/09) エントロピー最大化と探索（EntGameアルゴリズム）: [RL_max_ent_exploration.ipynb](notebooks/RL_max_ent_exploration.ipynb)
