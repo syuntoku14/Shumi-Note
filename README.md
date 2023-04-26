@@ -104,6 +104,7 @@ poetry install
 79. (2023/4/20) クロネッカー積: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 80. (2023/4/21) 行列式: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 81. (2023/4/22) Linear MDPでのサンプル効率の下界: [RL_linearMDP_lower_bound.ipynb](notebooks/RL_linearMDP_lower_bound.ipynb)
+82. (2023/4/26) 余因子行列: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
