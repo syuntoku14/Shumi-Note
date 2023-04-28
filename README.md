@@ -100,12 +100,13 @@ poetry install
 75. (2023/4/14) RL Theory Book翻訳: [特徴付きMDP](https://tadashik.github.io/rltheory-jp/lecture-notes/online-rl/lec24/)
 76. (2023/4/16) Fenchelの双対定理：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 77. (2023/4/17) RLと線型計画問題（方策評価）：[notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb)
-78. (2023/4/19) 置換と基本行列: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
-79. (2023/4/20) クロネッカー積: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
-80. (2023/4/21) 行列式: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
-81. (2023/4/22) Linear MDPでのサンプル効率の下界: [RL_linearMDP_lower_bound.ipynb](notebooks/RL_linearMDP_lower_bound.ipynb)
-82. (2023/4/26) 余因子行列: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
-83. (2023/4/27) ロバストQ学習: [RL_robust_Q_learning](notebooks/RL_robust_Q_learning.ipynb)
+78. (2023/4/19) 置換と基本行列: [notebooks/LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
+79. (2023/4/20) クロネッカー積: [notebooks/LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
+80. (2023/4/21) 行列式: [notebooks/LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
+81. (2023/4/22) Linear MDPでのサンプル効率の下界: [notebooks/RL_linearMDP_lower_bound.ipynb](notebooks/RL_linearMDP_lower_bound.ipynb)
+82. (2023/4/26) 余因子行列: [notebooks/LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
+83. (2023/4/27) ロバストQ学習: [notebooks/RL_robust_Q_learning.ipynb](notebooks/RL_robust_Q_learning.ipynb)
+84. (2023/4/28) ゲルシュゴリンの定理: [notebooks/LA_Gershgorin_circle_theorem.ipynb](notebooks/LA_Gershgorin_circle_theorem.ipynb)
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -115,7 +116,8 @@ poetry install
 
 ### 線形代数
 
-* (2023/4/07) 行列と行列式（途中）: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
+* (2023/4/07) 行列と行列式: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
+* (2023/4/28) ゲルシュゴリンの定理: [notebooks/LA_Gershgorin_circle_theorem.ipynb](notebooks/LA_Gershgorin_circle_theorem.ipynb)
 
 
 ### 確率論入門
