@@ -108,6 +108,8 @@ poetry install
 83. (2023/4/27) ロバストQ学習: [notebooks/RL_robust_Q_learning.ipynb](notebooks/RL_robust_Q_learning.ipynb)
 84. (2023/4/28) ゲルシュゴリンの定理: [notebooks/LA_Gershgorin_circle_theorem.ipynb](notebooks/LA_Gershgorin_circle_theorem.ipynb)
 85. (2023/4/30) 最小楕円問題と最小二乗法　：[notebooks/CVX_minimum_volume_ellipsoids.ipynb](notebooks/CVX_minimum_volume_ellipsoids.ipynb)
+86. (2023/5/01 ~ 2023/5/07) ****.ipynb
+87. (2023/5/08) 敵対的線形バンディット: [notebooks/BANDIT_adversarial_linear.ipynb](notebooks/BANDIT_adversarial_linear.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -152,6 +154,7 @@ poetry install
     * (2023/2/26) 探索の理論 (UCB編): [notebooks/BANDIT_UCB_regret_proof.ipynb](notebooks/BANDIT_UCB_regret_proof.ipynb) 
     * (2023/4/13) 敵対的バンディット: [notebooks/BANDIT_adversarial.ipynb](notebooks/BANDIT_adversarial.ipynb) 
     * (2023/4/12) バンディットの便利な関数: [notebooks/BANDIT_utils.ipynb](notebooks/BANDIT_utils.ipynb) 
+    * (2023/5/08) 敵対的線形バンディット: [notebooks/BANDIT_adversarial_linear.ipynb](notebooks/BANDIT_adversarial_linear.ipynb) 
 * Linear MDP：
     * (2023/1/18) Linear MDP: [notebooks/RL_linearMDP.ipynb](notebooks/RL_linearMDP.ipynb)
     * (2023/4/22) Linear MDPでのサンプル効率の下界: [RL_linearMDP_lower_bound.ipynb](notebooks/RL_linearMDP_lower_bound.ipynb)
