@@ -110,6 +110,8 @@ poetry install
 85. (2023/4/30) 最小楕円問題と最小二乗法　：[notebooks/CVX_minimum_volume_ellipsoids.ipynb](notebooks/CVX_minimum_volume_ellipsoids.ipynb)
 86. (2023/5/01 ~ 2023/5/07) ****.ipynb
 87. (2023/5/08) 敵対的線形バンディット: [notebooks/BANDIT_adversarial_linear.ipynb](notebooks/BANDIT_adversarial_linear.ipynb) 
+88. (2023/5/09) CPIのスライドの追加: [slides/RL_CPI.pdf](slides/RL_CPI.pdf) 
+89. (2023/5/09) CVIのスライドの追加: [slides/RL_CVI.pdf](slides/RL_CVI.pdf) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -183,6 +185,8 @@ poetry install
     * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
     * (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
     * (2023/3/29) Approximate Dynamic Programming：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
+    * (2023/5/09) CPIのスライド: [slides/RL_CPI.pdf](slides/RL_CPI.pdf) 
+    * (2023/5/09) CVIのスライド: [slides/RL_CVI.pdf](slides/RL_CVI.pdf) 
 * 教育用：
     * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
     * (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
