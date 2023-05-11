@@ -115,6 +115,7 @@ poetry install
 90. (2023/5/09) コンパクト集合: [notebooks/MATH_compact_set.ipynb](notebooks/MATH_compact_set.ipynb) 
 91. (2023/5/09) Kiefer-Wolfowitzの定理: [notebooks/BANDIT_Kiefer_Wolfowitz.ipynb](notebooks/BANDIT_Kiefer_Wolfowitz.ipynb) 
 92. (2023/5/10) 模倣学習の証明の修正: [notebooks/RL_imitation_learning.ipynb](notebooks/RL_imitation_learning.ipynb) 
+93. (2023/5/11) 制約付きMDP: [notebooks/RL_CMDP.ipynb](notebooks/RL_CMDP.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -191,6 +192,7 @@ poetry install
     * (2023/3/29) Approximate Dynamic Programming：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
     * (2023/5/09) CPIのスライド: [slides/RL_CPI.pdf](slides/RL_CPI.pdf) 
     * (2023/5/09) CVIのスライド: [slides/RL_CVI.pdf](slides/RL_CVI.pdf) 
+    * (2023/5/11) 制約付きMDP: [notebooks/RL_CMDP.ipynb](notebooks/RL_CMDP.ipynb) 
 * 教育用：
     * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
     * (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
