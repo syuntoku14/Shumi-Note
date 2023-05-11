@@ -116,6 +116,7 @@ poetry install
 91. (2023/5/09) Kiefer-Wolfowitzの定理: [notebooks/BANDIT_Kiefer_Wolfowitz.ipynb](notebooks/BANDIT_Kiefer_Wolfowitz.ipynb) 
 92. (2023/5/10) 模倣学習の証明の修正: [notebooks/RL_imitation_learning.ipynb](notebooks/RL_imitation_learning.ipynb) 
 93. (2023/5/11) 制約付きMDP: [notebooks/RL_CMDP.ipynb](notebooks/RL_CMDP.ipynb) 
+94. (2023/5/11) 最小楕円問題のアルゴリズムとKYの初期化：[notebooks/CVX_MVEE_algorithm.ipynb](notebooks/CVX_MVEE_algorithm.ipynb)
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
