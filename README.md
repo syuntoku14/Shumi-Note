@@ -114,6 +114,7 @@ poetry install
 89. (2023/5/09) CVIのスライドの追加: [slides/RL_CVI.pdf](slides/RL_CVI.pdf) 
 90. (2023/5/09) コンパクト集合: [notebooks/MATH_compact_set.ipynb](notebooks/MATH_compact_set.ipynb) 
 91. (2023/5/09) Kiefer-Wolfowitzの定理: [notebooks/BANDIT_Kiefer_Wolfowitz.ipynb](notebooks/BANDIT_Kiefer_Wolfowitz.ipynb) 
+92. (2023/5/10) 模倣学習の証明の修正: [notebooks/RL_imitation_learning.ipynb](notebooks/RL_imitation_learning.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
