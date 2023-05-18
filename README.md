@@ -119,6 +119,7 @@ poetry install
 94. (2023/5/11) 最小楕円問題のアルゴリズムとKYの初期化：[notebooks/CVX_MVEE_algorithm.ipynb](notebooks/CVX_MVEE_algorithm.ipynb)
 95. (2023/5/14) エピソディック有限ホライゾンRL（途中）: [notebooks/RL_episodic_finite_horizon.ipynb](notebooks/RL_episodic_finite_horizon.ipynb) 
 96. (2023/5/17) 統計的学習理論（途中）: [notebooks/MATH_statistical_learning_theory.ipynb](notebooks/MATH_statistical_learning_theory.ipynb) 
+97. (2023/5/18) VC次元: [notebooks/MATH_complexity_of_hypothesis.ipynb](notebooks/MATH_complexity_of_hypothesis.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -211,6 +212,7 @@ poetry install
 * (2023/1/30) テイラーの定理: [notebooks/MATH_taylor_theorem.ipynb](notebooks/MATH_taylor_theorem.ipynb)
 * (2023/5/09) コンパクト集合: [notebooks/MATH_compact_set.ipynb](notebooks/MATH_compact_set.ipynb) 
 * (2023/5/17) 統計的学習理論: [notebooks/MATH_statistical_learning_theory.ipynb](notebooks/MATH_statistical_learning_theory.ipynb) 
+* (2023/5/18) VC次元: [notebooks/MATH_complexity_of_hypothesis.ipynb](notebooks/MATH_complexity_of_hypothesis.ipynb) 
 
 ---
 
