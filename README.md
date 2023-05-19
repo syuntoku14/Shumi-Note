@@ -122,6 +122,7 @@ poetry install
 97. (2023/5/18) VC次元: [notebooks/MATH_complexity_of_hypothesis.ipynb](notebooks/MATH_complexity_of_hypothesis.ipynb) 
 98. (2023/5/18) Binet-Cauchyの公式とか: [notebooks/LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb) 
 99. (2023/5/19) VC次元の続き: [notebooks/MATH_complexity_of_hypothesis.ipynb](notebooks/MATH_complexity_of_hypothesis.ipynb) 
+100. (2023/5/19) ランクについて: [notebooks/LA_matrix_rank.ipynb](notebooks/LA_matrix_rank.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
