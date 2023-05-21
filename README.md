@@ -124,6 +124,7 @@ poetry install
 99. (2023/5/19) VC次元の続き: [notebooks/MATH_complexity_of_hypothesis.ipynb](notebooks/MATH_complexity_of_hypothesis.ipynb) 
 100. (2023/5/19) ランクについて: [notebooks/LA_matrix_rank.ipynb](notebooks/LA_matrix_rank.ipynb) 
 101. (2023/5/21) ラデマッハ複雑度とタラグランドの補題: [notebooks/MATH_complexity_of_hypothesis.ipynb](notebooks/MATH_complexity_of_hypothesis.ipynb) 
+102. (2023/5/21) 正定値対称行列: [notebooks/LA_matrix_definite.ipynb](notebooks/LA_matrix_definite.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -135,6 +136,7 @@ poetry install
 
 * (2023/4/07) 行列と行列式: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 * (2023/4/28) ゲルシュゴリンの定理: [notebooks/LA_Gershgorin_circle_theorem.ipynb](notebooks/LA_Gershgorin_circle_theorem.ipynb)
+* (2023/5/21) 正定値対称行列: [notebooks/LA_matrix_definite.ipynb](notebooks/LA_matrix_definite.ipynb) 
 
 
 ### 確率論入門
