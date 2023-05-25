@@ -128,6 +128,7 @@ poetry install
 103. (2023/5/22) Linear MDPとMDVI: [Regularization and Variance-Weighted Regression Achieves Minimax Optimality in Linear MDPs: Theory and Practice](https://github.com/matsuolab/Variance-Weighted-MDVI)
 104. (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
 105. (2023/5/24) Schur標準形、Rayleigh商: [notebooks/LA_matrix_definite.ipynb](notebooks/LA_matrix_definite.ipynb) 
+106. (2023/5/25) 有限ホライゾンでの線型計画法: [notebooks/RL_as_LP_finite_horizon.ipynb](notebooks/RL_as_LP_finite_horizon.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -210,6 +211,7 @@ poetry install
     * (2023/5/09) CVIのスライド: [slides/RL_CVI.pdf](slides/RL_CVI.pdf) 
     * (2023/5/11) 制約付きMDP: [notebooks/RL_CMDP.ipynb](notebooks/RL_CMDP.ipynb) 
     * (2023/5/14) エピソディック有限ホライゾンRL（途中）: [notebooks/RL_episodic_finite_horizon.ipynb](notebooks/RL_episodic_finite_horizon.ipynb) 
+    * (2023/5/25) 有限ホライゾンでの線型計画法: [notebooks/RL_as_LP_finite_horizon.ipynb](notebooks/RL_as_LP_finite_horizon.ipynb) 
 * 教育用：
     * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
     * (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
