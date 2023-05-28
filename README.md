@@ -130,6 +130,8 @@ poetry install
 105. (2023/5/24) Schur標準形、Rayleigh商: [notebooks/LA_matrix_definite.ipynb](notebooks/LA_matrix_definite.ipynb) 
 106. (2023/5/25) 有限ホライゾンでの線型計画法: [notebooks/RL_as_LP_finite_horizon.ipynb](notebooks/RL_as_LP_finite_horizon.ipynb) 
 107. (2023/5/25) OptCMDPの実装: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
+108. (2023/5/27) ベクトル空間: [notebooks/LA_vector_space.ipynb](notebooks/LA_vector_space.ipynb) 
+109. (2023/5/28) 計量、内積: [notebooks/LA_vector_space.ipynb](notebooks/LA_vector_space.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -143,6 +145,7 @@ poetry install
 * (2023/4/28) ゲルシュゴリンの定理: [notebooks/LA_Gershgorin_circle_theorem.ipynb](notebooks/LA_Gershgorin_circle_theorem.ipynb)
 * (2023/5/21) 正定値対称行列: [notebooks/LA_matrix_definite.ipynb](notebooks/LA_matrix_definite.ipynb) 
 * (2023/5/24) Schur標準形、Rayleigh商: [notebooks/LA_matrix_definite.ipynb](notebooks/LA_matrix_definite.ipynb) 
+* (2023/5/27) ベクトル空間: [notebooks/LA_vector_space.ipynb](notebooks/LA_vector_space.ipynb) 
 
 
 ### 確率論入門
