@@ -236,6 +236,7 @@ poetry install
 * (2023/5/17) 統計的学習理論: [notebooks/MATH_statistical_learning_theory.ipynb](notebooks/MATH_statistical_learning_theory.ipynb) 
 * (2023/5/18) 仮説集合の複雑度: [notebooks/MATH_complexity_of_hypothesis.ipynb](notebooks/MATH_complexity_of_hypothesis.ipynb) 
 * (2023/5/29) PAC-Bayes: [notebooks/MATH_PAC_Bayes.ipynb](notebooks/MATH_PAC_Bayes.ipynb) 
+* (2023/5/29) Stabilityと汎化誤差バウンド: [notebooks/MATH_PAC_stability.ipynb](notebooks/MATH_PAC_stability.ipynb) 
 
 ---
 
