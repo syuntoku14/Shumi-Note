@@ -134,6 +134,7 @@ poetry install
 109. (2023/5/28) 計量、内積: [notebooks/LA_vector_space.ipynb](notebooks/LA_vector_space.ipynb) 
 110. (2023/5/28) 標準形: [notebooks/LA_normal_form.ipynb](notebooks/LA_normal_form.ipynb) 
 111. (2023/5/29) PAC-Bayes: [notebooks/MATH_PAC_Bayes.ipynb](notebooks/MATH_PAC_Bayes.ipynb) 
+112. (2023/5/29) Stabilityと汎化誤差バウンド: [notebooks/MATH_PAC_stability.ipynb](notebooks/MATH_PAC_stability.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -259,7 +260,6 @@ poetry install
 
 
 ## TODO
-* [ ] 過去のノートブックをきれいに直す
 * [ ] モデルベースの証明やモデルフリーの証明をまとめたい
 * [ ] 初学者が最初に読むべき本をまとめたい
 * [ ] 確率収束の話
@@ -287,3 +287,4 @@ poetry install
     * 線形代数の話を踏まえて最小楕円問題の解釈を書く
 * [ ] $\varepsilon$-greedyのバンディットの導出
     * https://sites.cs.ucsb.edu/~yuxiangw/classes/RLCourse-2021Spring/Lectures/scribe_MAB.pdf
+* [ ] PACベイズにでてくるSafe probabilityの話、MDVIに使えないか？
