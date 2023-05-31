@@ -136,6 +136,7 @@ poetry install
 111. (2023/5/29) PAC-Bayes: [notebooks/MATH_PAC_Bayes.ipynb](notebooks/MATH_PAC_Bayes.ipynb) 
 112. (2023/5/29) Stabilityと汎化誤差バウンド: [notebooks/MATH_PAC_stability.ipynb](notebooks/MATH_PAC_stability.ipynb) 
 113. (2023/5/30) 階数標準形の実装: [notebooks/LA_normal_form.ipynb](notebooks/LA_normal_form.ipynb) 
+114. (2023/5/31) 制約違反なしのCMDP: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
