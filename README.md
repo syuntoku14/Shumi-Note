@@ -137,6 +137,7 @@ poetry install
 112. (2023/5/29) Stabilityと汎化誤差バウンド: [notebooks/MATH_PAC_stability.ipynb](notebooks/MATH_PAC_stability.ipynb) 
 113. (2023/5/30) 階数標準形の実装: [notebooks/LA_normal_form.ipynb](notebooks/LA_normal_form.ipynb) 
 114. (2023/5/31) 制約違反なしのCMDP: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
+115. (2023/6/01) 整数行列: [notebooks/LA_integer_matrix.ipynb](notebooks/LA_integer_matrix.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -152,6 +153,7 @@ poetry install
 * (2023/5/24) Schur標準形、Rayleigh商: [notebooks/LA_matrix_definite.ipynb](notebooks/LA_matrix_definite.ipynb) 
 * (2023/5/27) ベクトル空間: [notebooks/LA_vector_space.ipynb](notebooks/LA_vector_space.ipynb) 
 * (2023/5/28) 標準形: [notebooks/LA_normal_form.ipynb](notebooks/LA_normal_form.ipynb) 
+* (2023/6/01) 整数行列: [notebooks/LA_integer_matrix.ipynb](notebooks/LA_integer_matrix.ipynb) 
 
 
 ### 確率論入門
