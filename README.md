@@ -139,6 +139,7 @@ poetry install
 114. (2023/5/31) 制約違反なしのCMDP: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
 115. (2023/6/01) 整数行列: [notebooks/LA_integer_matrix.ipynb](notebooks/LA_integer_matrix.ipynb) 
 116. (2023/6/01) 行列形式の有限ホライゾンでのLP: [notebooks/RL_as_LP_finite_horizon.ipynb](notebooks/RL_as_LP_finite_horizon.ipynb) 
+117. (2023/6/02) 双対法によるCMDPの解法: [notebooks/RL_CMDP_dual.ipynb](notebooks/RL_CMDP_dual.ipynb) 
 <!-- 76. (2023/4/15) 強化学習とFenchel-Rockafellar Duality：[notebooks/rl_and_duality.ipynb](notebooks/rl_and_duality.ipynb) -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -203,6 +204,7 @@ poetry install
     * (2023/4/27) ロバストQ学習: [RL_robust_Q_learning](notebooks/RL_robust_Q_learning.ipynb)
 * 制約付きMDP：
     * (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
+    * (2023/6/02) 双対法によるCMDPの解法: [notebooks/RL_CMDP_dual.ipynb](notebooks/RL_CMDP_dual.ipynb) 
 * マルチステップ強化学習：
     * (2023/2/5) マルチステップ強化学習: [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
     * (2023/2/14~17) マルチステップRLのスライド: [slides/RL_multi_step.pdf](slides/RL_multi_step.pdf)
