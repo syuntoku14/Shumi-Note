@@ -147,6 +147,7 @@ poetry install
 122. (2023/6/09) 占有率の集合の凸性: [notebooks/RL_occupancy_measure.ipynb](notebooks/RL_occupancy_measure.ipynb) 
 123. (2023/6/11) ロバストMDPの理論（正則化との関係）: [notebooks/RL_robust_MDP_and_regularization.ipynb](notebooks/RL_robust_MDP_and_regularization.ipynb) 
 124. (2023/6/12) 線形計画法のContraction Lemmaによる変形の注記: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb)
+125. (2023/6/13) 最適化と双対問題：[notebooks/CVX_duality.ipynb](notebooks/CVX_duality.ipynb)
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
@@ -184,6 +185,7 @@ poetry install
 * (2023/3/28) 凸関数：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 * (2023/4/01) 最小楕円問題：[notebooks/CVX_minimum_volume_ellipsoids.ipynb](notebooks/CVX_minimum_volume_ellipsoids.ipynb)
 * (2023/4/03) 最小楕円問題のアルゴリズム：[notebooks/CVX_MVEE_algorithm.ipynb](notebooks/CVX_MVEE_algorithm.ipynb)
+* (2023/6/13) 最適化と双対問題：[notebooks/CVX_duality.ipynb](notebooks/CVX_duality.ipynb)
 
 
 ### 逐次意思決定問題
