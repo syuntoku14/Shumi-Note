@@ -150,6 +150,7 @@ poetry install
 125. (2023/6/13) 最適化と双対問題：[notebooks/CVX_duality.ipynb](notebooks/CVX_duality.ipynb)
 126. (2023/6/14) ロバストMDPでの完全双対性について文献の補足　：[notebooks/RL_as_LP_finite_horizon](notebooks/RL_as_LP_finite_horizon.ipynb) と [notebooks/RL_robust_MDP](notebooks/RL_robust_MDP.ipynb)
 127. (2023/6/15) 劣勾配法: [notebooks/OPT_subgradient.ipynb](notebooks/OPT_subgradient.ipynb) 
+128. (2023/6/16) 勾配法: [notebooks/OPT_gradient.ipynb](notebooks/OPT_gradient.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
@@ -194,6 +195,7 @@ poetry install
 
 * (2023/6/06) ロバスト最適化: [notebooks/OPT_robust_optimization.ipynb](notebooks/OPT_robust_optimization.ipynb) 
 * (2023/6/15) 劣勾配法: [notebooks/OPT_subgradient.ipynb](notebooks/OPT_subgradient.ipynb) 
+* (2023/6/16) 勾配法: [notebooks/OPT_gradient.ipynb](notebooks/OPT_gradient.ipynb) 
 
 
 ### 逐次意思決定問題
