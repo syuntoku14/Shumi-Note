@@ -151,7 +151,8 @@ poetry install
 126. (2023/6/14) ロバストMDPでの完全双対性について文献の補足　：[notebooks/RL_as_LP_finite_horizon](notebooks/RL_as_LP_finite_horizon.ipynb) と [notebooks/RL_robust_MDP](notebooks/RL_robust_MDP.ipynb)
 127. (2023/6/15) 劣勾配法: [notebooks/OPT_subgradient.ipynb](notebooks/OPT_subgradient.ipynb) 
 128. (2023/6/16) 勾配法: [notebooks/OPT_gradient.ipynb](notebooks/OPT_gradient.ipynb) 
-129. (2023/6/21) ロバストMDPと確率的制約 [notebooks/OPT_robust_chance_constraint.ipynb](notebooks/OPT_robust_chance_constraint.ipynb) 
+129. (2023/6/21) ロバストMDPと確率的制約: [notebooks/OPT_robust_chance_constraint.ipynb](notebooks/OPT_robust_chance_constraint.ipynb) 
+130. (2023/7/01) 制約付き最適化（最適性条件）: [notebooks/OPT_constraint.ipynb](notebooks/OPT_constraint.ipynb)
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
