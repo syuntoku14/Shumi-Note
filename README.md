@@ -154,6 +154,7 @@ poetry install
 129. (2023/6/21) ロバストMDPと確率的制約: [notebooks/OPT_robust_chance_constraint.ipynb](notebooks/OPT_robust_chance_constraint.ipynb) 
 130. (2023/7/01) 制約付き最適化（最適性条件）: [notebooks/OPT_constraint.ipynb](notebooks/OPT_constraint.ipynb)
 131. (2023/7/05) 感度解析: [notebooks/CVX_sensitivity_analysis.ipynb](notebooks/CVX_sensitivity_analysis.ipynb)
+132. (2023/7/06) ロバストMDPにおけるRectangularity: [notebooks/RL_robust_rectangularity.ipynb](notebooks/RL_robust_rectangularity.ipynb)
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
