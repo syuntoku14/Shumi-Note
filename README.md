@@ -155,6 +155,7 @@ poetry install
 130. (2023/7/01) 制約付き最適化（最適性条件）: [notebooks/OPT_constraint.ipynb](notebooks/OPT_constraint.ipynb)
 131. (2023/7/05) 感度解析: [notebooks/CVX_sensitivity_analysis.ipynb](notebooks/CVX_sensitivity_analysis.ipynb)
 132. (2023/7/06) ロバストMDPにおけるRectangularity: [notebooks/RL_robust_rectangularity.ipynb](notebooks/RL_robust_rectangularity.ipynb)
+133. (2023/7/12) Danskinの定理: [notebooks/CVX_Danskin_theorem.ipynb](notebooks/CVX_Danskin_theorem.ipynb)
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
@@ -194,6 +195,7 @@ poetry install
 * (2023/4/03) 最小楕円問題のアルゴリズム：[notebooks/CVX_MVEE_algorithm.ipynb](notebooks/CVX_MVEE_algorithm.ipynb)
 * (2023/6/13) 最適化と双対問題：[notebooks/CVX_duality.ipynb](notebooks/CVX_duality.ipynb)
 * (2023/7/05) 感度解析: [notebooks/CVX_sensitivity_analysis.ipynb](notebooks/CVX_sensitivity_analysis.ipynb)
+* (2023/7/12) Danskinの定理: [notebooks/CVX_Danskin_theorem.ipynb](notebooks/CVX_Danskin_theorem.ipynb)
 
 
 ### 最適化
