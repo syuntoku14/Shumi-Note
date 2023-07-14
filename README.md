@@ -156,6 +156,7 @@ poetry install
 131. (2023/7/05) 感度解析: [notebooks/CVX_sensitivity_analysis.ipynb](notebooks/CVX_sensitivity_analysis.ipynb)
 132. (2023/7/06) ロバストMDPにおけるRectangularity: [notebooks/RL_robust_rectangularity.ipynb](notebooks/RL_robust_rectangularity.ipynb)
 133. (2023/7/12) Danskinの定理: [notebooks/CVX_Danskin_theorem.ipynb](notebooks/CVX_Danskin_theorem.ipynb)
+134. (2023/7/13) 凸関数は連続: [notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
