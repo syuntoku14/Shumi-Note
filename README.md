@@ -158,6 +158,7 @@ poetry install
 133. (2023/7/12) Danskinの定理: [notebooks/CVX_Danskin_theorem.ipynb](notebooks/CVX_Danskin_theorem.ipynb)
 134. (2023/7/13) 凸関数は連続: [notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 135. (2023/7/24) 制約付きMDPとラグランジュ関数（途中）: [notebooks/RL_CMDP_Lagrange.ipynb](notebooks/RL_CMDP_Lagrange.ipynb) 
+136. (2023/7/25) 制約付きMDPとラグランジュ関数: [notebooks/RL_CMDP_Lagrange.ipynb](notebooks/RL_CMDP_Lagrange.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
