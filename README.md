@@ -159,6 +159,7 @@ poetry install
 134. (2023/7/13) 凸関数は連続: [notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 135. (2023/7/24) 制約付きMDPとラグランジュ関数（途中）: [notebooks/RL_CMDP_Lagrange.ipynb](notebooks/RL_CMDP_Lagrange.ipynb) 
 136. (2023/7/25) 制約付きMDPとラグランジュ関数: [notebooks/RL_CMDP_Lagrange.ipynb](notebooks/RL_CMDP_Lagrange.ipynb) 
+137. (2023/7/29) 連合Q学習: [notebooks/RL_federated_Q.ipynb](notebooks/RL_federated_Q.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
@@ -235,6 +236,8 @@ poetry install
 * 制約付きMDP：
     * (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
     * (2023/6/02) 双対法によるCMDPの解法: [notebooks/RL_CMDP_dual.ipynb](notebooks/RL_CMDP_dual.ipynb) 
+    * (2023/6/08) 制約付きMDPと強双対性: [notebooks/RL_CMDP_zero_duality_gap.ipynb](notebooks/RL_CMDP_zero_duality_gap.ipynb) 
+* 連合強化学習：
     * (2023/6/08) 制約付きMDPと強双対性: [notebooks/RL_CMDP_zero_duality_gap.ipynb](notebooks/RL_CMDP_zero_duality_gap.ipynb) 
 * マルチステップ強化学習：
     * (2023/2/5) マルチステップ強化学習: [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
