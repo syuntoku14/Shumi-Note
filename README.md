@@ -160,6 +160,7 @@ poetry install
 135. (2023/7/24) 制約付きMDPとラグランジュ関数（途中）: [notebooks/RL_CMDP_Lagrange.ipynb](notebooks/RL_CMDP_Lagrange.ipynb) 
 136. (2023/7/25) 制約付きMDPとラグランジュ関数: [notebooks/RL_CMDP_Lagrange.ipynb](notebooks/RL_CMDP_Lagrange.ipynb) 
 137. (2023/7/29) 連合Q学習: [notebooks/RL_federated_Q.ipynb](notebooks/RL_federated_Q.ipynb) 
+138. (2023/7/30) PACベイズ制御: [notebooks/CONTROL_PAC_Bayes.ipynb](notebooks/CONTROL_PAC_Bayes.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
