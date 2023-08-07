@@ -162,6 +162,7 @@ poetry install
 137. (2023/7/29) 連合Q学習: [notebooks/RL_federated_Q.ipynb](notebooks/RL_federated_Q.ipynb) 
 138. (2023/7/30) PACベイズ制御: [notebooks/CONTROL_PAC_Bayes.ipynb](notebooks/CONTROL_PAC_Bayes.ipynb) 
 139. (2023/8/04) 制約付きMDPと強双対性（修正）: [notebooks/RL_CMDP_zero_duality_gap.ipynb](notebooks/RL_CMDP_zero_duality_gap.ipynb) 
+140. (2023/8/07) ロバストMDPと強双対性: [notebooks/RL_robust_MDP_zero_duality.ipynb](notebooks/RL_robust_MDP_zero_duality.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
@@ -235,6 +236,7 @@ poetry install
     * (2023/3/13) ロバストMDPの理論（正則化との関係）: [notebooks/RL_robust_MDP_and_regularization.ipynb](notebooks/RL_robust_MDP_and_regularization.ipynb) 
     * (2023/4/27) ロバストQ学習: [RL_robust_Q_learning](notebooks/RL_robust_Q_learning.ipynb)
     * (2023/6/08) 凸最適化としてのロバストMDP: [notebooks/RL_robust_MDP_convex..ipynb](notebooks/RL_robust_MDP_convex..ipynb) 
+    * (2023/8/07) ロバストMDPと強双対性: [notebooks/RL_robust_MDP_zero_duality.ipynb](notebooks/RL_robust_MDP_zero_duality.ipynb) 
 * 制約付きMDP：
     * (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
     * (2023/6/02) 双対法によるCMDPの解法: [notebooks/RL_CMDP_dual.ipynb](notebooks/RL_CMDP_dual.ipynb) 
