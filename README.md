@@ -163,6 +163,7 @@ poetry install
 138. (2023/7/30) PACベイズ制御: [notebooks/CONTROL_PAC_Bayes.ipynb](notebooks/CONTROL_PAC_Bayes.ipynb) 
 139. (2023/8/04) 制約付きMDPと強双対性（修正）: [notebooks/RL_CMDP_zero_duality_gap.ipynb](notebooks/RL_CMDP_zero_duality_gap.ipynb) 
 140. (2023/8/07) ロバストMDPと強双対性: [notebooks/RL_robust_MDP_zero_duality.ipynb](notebooks/RL_robust_MDP_zero_duality.ipynb) 
+141. (2023/8/11) 凸ではない価値関数: [notebooks/RL_value_function.ipynb](notebooks/RL_value_function.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
