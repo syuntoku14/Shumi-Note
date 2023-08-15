@@ -164,6 +164,7 @@ poetry install
 139. (2023/8/04) 制約付きMDPと強双対性（修正）: [notebooks/RL_CMDP_zero_duality_gap.ipynb](notebooks/RL_CMDP_zero_duality_gap.ipynb) 
 140. (2023/8/07) ロバストMDPと強双対性: [notebooks/RL_robust_MDP_zero_duality.ipynb](notebooks/RL_robust_MDP_zero_duality.ipynb) 
 141. (2023/8/11) 凸ではない価値関数: [notebooks/RL_value_function.ipynb](notebooks/RL_value_function.ipynb) 
+142. (2023/8/15) PACベイズとメタ学習: [notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb](notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb) 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
@@ -274,20 +275,24 @@ poetry install
 
 
 ### ニューラルネットワーク
+
 * (2023/2/20~21) Transformer: [notebooks/NN_transformer.ipynb](notebooks/NN_transformer.ipynb)
 
 
 ### 数学
+
 * (2023/1/30) テイラーの定理: [notebooks/MATH_taylor_theorem.ipynb](notebooks/MATH_taylor_theorem.ipynb)
 * (2023/5/09) コンパクト集合: [notebooks/MATH_compact_set.ipynb](notebooks/MATH_compact_set.ipynb) 
 * (2023/5/17) 統計的学習理論: [notebooks/MATH_statistical_learning_theory.ipynb](notebooks/MATH_statistical_learning_theory.ipynb) 
 * (2023/5/18) 仮説集合の複雑度: [notebooks/MATH_complexity_of_hypothesis.ipynb](notebooks/MATH_complexity_of_hypothesis.ipynb) 
 * (2023/5/29) PAC-Bayes: [notebooks/MATH_PAC_Bayes.ipynb](notebooks/MATH_PAC_Bayes.ipynb) 
 * (2023/5/29) Stabilityと汎化誤差バウンド: [notebooks/MATH_PAC_stability.ipynb](notebooks/MATH_PAC_stability.ipynb) 
+* (2023/8/15) PACベイズとメタ学習: [notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb](notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb) 
 
 ---
 
 ## わからなかったところ
+
 * [ ] (2023/2/27-28) 探索の理論 (UCB-VI編): [notebooks/BANDIT_UCB_regret_proof.ipynb](notebooks/BANDIT_UCB_regret_proof.ipynb) 
     * [ ] UCBのボーナスが大きすぎるとボーナスが優先されてしまうが、こういう理論はあるのかな？
     * [x] 途中のHolderの不等式をなんで使うのかがわからん
@@ -308,6 +313,7 @@ poetry install
 
 
 ## TODO
+
 * [ ] モデルベースの証明やモデルフリーの証明をまとめたい
 * [ ] 初学者が最初に読むべき本をまとめたい
 * [ ] 確率収束の話
