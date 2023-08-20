@@ -166,6 +166,7 @@ poetry install
 141. (2023/8/11) 凸ではない価値関数: [notebooks/RL_value_function.ipynb](notebooks/RL_value_function.ipynb) 
 142. (2023/8/15) PACベイズとメタ学習: [notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb](notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb) 
 143. (2023/8/16) 色々なMinimax双対定理と証明: [notebooks/MATH_minimax_theorems.ipynb](notebooks/MATH_minimax_theorems.ipynb) 
+144. (2023/8/17) FanのMinimax定理について: [notebooks/MATH_minimax_theorems.ipynb](notebooks/MATH_minimax_theorems.ipynb) 
 <!-- 143. (2023/8/15) Minimax双対性の必要条件と十分条件について（途中）: [notebooks/MATH_minimax_conditions.ipynb](notebooks/MATH_minimax_conditions.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
