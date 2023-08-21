@@ -168,6 +168,8 @@ poetry install
 143. (2023/8/16) 色々なMinimax双対定理と証明: [notebooks/MATH_minimax_theorems.ipynb](notebooks/MATH_minimax_theorems.ipynb) 
 144. (2023/8/17) FanのMinimax定理について: [notebooks/MATH_minimax_theorems.ipynb](notebooks/MATH_minimax_theorems.ipynb) 
 145. (2023/8/20) Minimax双対性の必要条件と十分条件について: [notebooks/MATH_minimax_conditions.ipynb](notebooks/MATH_minimax_conditions.ipynb) 
+146. (2023/8/21) バリア関数法: [notebooks/MATH_barrier_function_method.ipynb](notebooks/MATH_barrier_function_method.ipynb) 
+
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
