@@ -169,6 +169,7 @@ poetry install
 144. (2023/8/17) FanのMinimax定理について: [notebooks/MATH_minimax_theorems.ipynb](notebooks/MATH_minimax_theorems.ipynb) 
 145. (2023/8/20) Minimax双対性の必要条件と十分条件について: [notebooks/MATH_minimax_conditions.ipynb](notebooks/MATH_minimax_conditions.ipynb) 
 146. (2023/8/21) バリア関数法: [notebooks/MATH_barrier_function_method.ipynb](notebooks/MATH_barrier_function_method.ipynb) 
+147. (2023/8/24) ロバストMDPとNP困難: [notebooks/RL_robust_MDP_NP_hard.ipynb](notebooks/RL_robust_MDP_NP_hard.ipynb)
 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -248,7 +249,7 @@ poetry install
     * (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
     * (2023/6/02) 双対法によるCMDPの解法: [notebooks/RL_CMDP_dual.ipynb](notebooks/RL_CMDP_dual.ipynb) 
     * (2023/6/08) 制約付きMDPと強双対性: [notebooks/RL_CMDP_zero_duality_gap.ipynb](notebooks/RL_CMDP_zero_duality_gap.ipynb) 
-* 連合強化学習：
+* 連合強化学習142. (2023/8/15) PACベイズとメタ学習: [notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb](notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb) ：
     * (2023/7/29) 連合Q学習: [notebooks/RL_federated_Q.ipynb](notebooks/RL_federated_Q.ipynb) 
 * マルチステップ強化学習：
     * (2023/2/5) マルチステップ強化学習: [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
@@ -273,6 +274,10 @@ poetry install
     * (2023/5/14) エピソディック有限ホライゾンRL（途中）: [notebooks/RL_episodic_finite_horizon.ipynb](notebooks/RL_episodic_finite_horizon.ipynb) 
     * (2023/5/25) 有限ホライゾンでの線型計画法: [notebooks/RL_as_LP_finite_horizon.ipynb](notebooks/RL_as_LP_finite_horizon.ipynb) 
     * (2023/6/09) 占有率の集合の凸性: [notebooks/RL_occupancy_measure.ipynb](notebooks/RL_occupancy_measure.ipynb) 
+    * (2023/8/11) 凸ではない価値関数: [notebooks/RL_value_function.ipynb](notebooks/RL_value_function.ipynb) 
+    * (2023/8/24) ロバストMDPとNP困難: [notebooks/RL_robust_MDP_NP_hard.ipynb](notebooks/RL_robust_MDP_NP_hard.ipynb)
+* 一般の制御：
+    * (2023/7/30) PACベイズ制御: [notebooks/CONTROL_PAC_Bayes.ipynb](notebooks/CONTROL_PAC_Bayes.ipynb) 
 * 教育用：
     * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
     * (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
@@ -294,6 +299,10 @@ poetry install
 * (2023/5/29) Stabilityと汎化誤差バウンド: [notebooks/MATH_PAC_stability.ipynb](notebooks/MATH_PAC_stability.ipynb) 
 * (2023/8/15) PACベイズとメタ学習: [notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb](notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb) 
 * (2023/8/16) 色々なMinimax双対定理と証明: [notebooks/MATH_minimax_theorems.ipynb](notebooks/MATH_minimax_theorems.ipynb) 
+* (2023/8/17) FanのMinimax定理について: [notebooks/MATH_minimax_theorems.ipynb](notebooks/MATH_minimax_theorems.ipynb) 
+* (2023/8/20) Minimax双対性の必要条件と十分条件について: [notebooks/MATH_minimax_conditions.ipynb](notebooks/MATH_minimax_conditions.ipynb) 
+* (2023/8/21) バリア関数法: [notebooks/MATH_barrier_function_method.ipynb](notebooks/MATH_barrier_function_method.ipynb) 
+
 
 ---
 
