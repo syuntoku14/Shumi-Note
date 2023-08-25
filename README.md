@@ -170,6 +170,7 @@ poetry install
 145. (2023/8/20) Minimax双対性の必要条件と十分条件について: [notebooks/MATH_minimax_conditions.ipynb](notebooks/MATH_minimax_conditions.ipynb) 
 146. (2023/8/21) バリア関数法: [notebooks/MATH_barrier_function_method.ipynb](notebooks/MATH_barrier_function_method.ipynb) 
 147. (2023/8/24) ロバストMDPとNP困難: [notebooks/RL_robust_MDP_NP_hard.ipynb](notebooks/RL_robust_MDP_NP_hard.ipynb)
+148. (2023/8/25) Policy searchとNP困難: [notebooks/RL_policy_search_NP_hard.ipynb](notebooks/RL_policy_search_NP_hard.ipynb)
 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
@@ -245,6 +246,7 @@ poetry install
     * (2023/4/27) ロバストQ学習: [RL_robust_Q_learning](notebooks/RL_robust_Q_learning.ipynb)
     * (2023/6/08) 凸最適化としてのロバストMDP: [notebooks/RL_robust_MDP_convex..ipynb](notebooks/RL_robust_MDP_convex..ipynb) 
     * (2023/8/07) ロバストMDPと強双対性: [notebooks/RL_robust_MDP_zero_duality.ipynb](notebooks/RL_robust_MDP_zero_duality.ipynb) 
+    * (2023/8/24) ロバストMDPとNP困難: [notebooks/RL_robust_MDP_NP_hard.ipynb](notebooks/RL_robust_MDP_NP_hard.ipynb)
 * 制約付きMDP：
     * (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
     * (2023/6/02) 双対法によるCMDPの解法: [notebooks/RL_CMDP_dual.ipynb](notebooks/RL_CMDP_dual.ipynb) 
@@ -275,7 +277,7 @@ poetry install
     * (2023/5/25) 有限ホライゾンでの線型計画法: [notebooks/RL_as_LP_finite_horizon.ipynb](notebooks/RL_as_LP_finite_horizon.ipynb) 
     * (2023/6/09) 占有率の集合の凸性: [notebooks/RL_occupancy_measure.ipynb](notebooks/RL_occupancy_measure.ipynb) 
     * (2023/8/11) 凸ではない価値関数: [notebooks/RL_value_function.ipynb](notebooks/RL_value_function.ipynb) 
-    * (2023/8/24) ロバストMDPとNP困難: [notebooks/RL_robust_MDP_NP_hard.ipynb](notebooks/RL_robust_MDP_NP_hard.ipynb)
+    * (2023/8/25) Policy searchとNP困難: [notebooks/RL_policy_search_NP_hard.ipynb](notebooks/RL_policy_search_NP_hard.ipynb)
 * 一般の制御：
     * (2023/7/30) PACベイズ制御: [notebooks/CONTROL_PAC_Bayes.ipynb](notebooks/CONTROL_PAC_Bayes.ipynb) 
 * 教育用：
