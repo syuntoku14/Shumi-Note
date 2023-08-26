@@ -171,6 +171,7 @@ poetry install
 146. (2023/8/21) バリア関数法: [notebooks/MATH_barrier_function_method.ipynb](notebooks/MATH_barrier_function_method.ipynb) 
 147. (2023/8/24) ロバストMDPとNP困難: [notebooks/RL_robust_MDP_NP_hard.ipynb](notebooks/RL_robust_MDP_NP_hard.ipynb)
 148. (2023/8/25) Policy searchとNP困難: [notebooks/RL_policy_search_NP_hard.ipynb](notebooks/RL_policy_search_NP_hard.ipynb)
+149. (2023/8/26) 凸ではない価値関数について追記: [notebooks/RL_value_function.ipynb](notebooks/RL_value_function.ipynb) 
 
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
