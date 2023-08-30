@@ -173,7 +173,9 @@ poetry install
 148. (2023/8/25) Policy searchとNP困難: [notebooks/RL_policy_search_NP_hard.ipynb](notebooks/RL_policy_search_NP_hard.ipynb)
 149. (2023/8/26) 凸ではない価値関数について追記: [notebooks/RL_value_function.ipynb](notebooks/RL_value_function.ipynb) 
 150. (2023/8/28) マルチタスク模倣学習と表現学習: [notebooks/RL_multi_task_imitation_learning.ipynb](notebooks/RL_multi_task_imitation_learning.ipynb) 
+151. (2023/8/30) MDPにおける安全な探索: [notebooks/RL_safe_exploration.ipynb](notebooks/RL_safe_exploration.ipynb) 
 
+<!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
 
 ---
@@ -261,6 +263,7 @@ poetry install
     * (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/RL_policy_gradient.ipynb](notebooks/RL_policy_gradient.ipynb)
 * 模倣学習：
     * (2023/3/14) 模倣学習: [notebooks/RL_imitation_learning.ipynb](notebooks/RL_imitation_learning.ipynb) 
+    * (2023/8/28) マルチタスク模倣学習と表現学習: [notebooks/RL_multi_task_imitation_learning.ipynb](notebooks/RL_multi_task_imitation_learning.ipynb) 
 * 一般のRL：
     * (2023/2/7) MDPについて (Garnet MDP): [notebooks/RL_Markov_Decision_Process.ipynb](notebooks/RL_Markov_Decision_Process.ipynb)
     * (2023/2/27-28) UCB-VIの理論 (モデルベース): [notebooks/RL_UCB_VI_regret_proof.ipynb](notebooks/RL_UCB_VI_regret_proof.ipynb) 
