@@ -256,6 +256,8 @@ poetry install
     * (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
     * (2023/6/02) 双対法によるCMDPの解法: [notebooks/RL_CMDP_dual.ipynb](notebooks/RL_CMDP_dual.ipynb) 
     * (2023/6/08) 制約付きMDPと強双対性: [notebooks/RL_CMDP_zero_duality_gap.ipynb](notebooks/RL_CMDP_zero_duality_gap.ipynb) 
+    * (2023/8/30) MDPにおける安全な探索: [notebooks/RL_CMDP_safe_exploration.ipynb](notebooks/RL_CMDP_safe_exploration.ipynb) 
+    * (2023/9/01) CMDPにおける動的計画法: [notebooks/RL_CMDP_by_DP.ipynb](notebooks/RL_CMDP_by_DP.ipynb) 
 * 連合強化学習142. (2023/8/15) PACベイズとメタ学習: [notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb](notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb) ：
     * (2023/7/29) 連合Q学習: [notebooks/RL_federated_Q.ipynb](notebooks/RL_federated_Q.ipynb) 
 * マルチステップ強化学習：
