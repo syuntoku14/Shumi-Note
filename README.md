@@ -174,7 +174,7 @@ poetry install
 149. (2023/8/26) 凸ではない価値関数について追記: [notebooks/RL_value_function.ipynb](notebooks/RL_value_function.ipynb) 
 150. (2023/8/28) マルチタスク模倣学習と表現学習: [notebooks/RL_multi_task_imitation_learning.ipynb](notebooks/RL_multi_task_imitation_learning.ipynb) 
 151. (2023/8/30) MDPにおける安全な探索: [notebooks/RL_CMDP_safe_exploration.ipynb](notebooks/RL_CMDP_safe_exploration.ipynb) 
-152. (2023/9/01) CMDPにおける動的計画法: [notebooks/RL_DP_for_CMDP.ipynb](notebooks/RL_DP_for_CMDP.ipynb) 
+152. (2023/9/01) CMDPにおける動的計画法: [notebooks/RL_CMDP_by_DP.ipynb](notebooks/RL_CMDP_by_DP.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
