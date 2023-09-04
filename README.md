@@ -176,6 +176,7 @@ poetry install
 151. (2023/8/30) MDPにおける安全な探索: [notebooks/RL_CMDP_safe_exploration.ipynb](notebooks/RL_CMDP_safe_exploration.ipynb) 
 152. (2023/9/01) CMDPにおける動的計画法: [notebooks/RL_CMDP_by_DP.ipynb](notebooks/RL_CMDP_by_DP.ipynb) 
 153. (2023/9/03) CMDPにおける動的計画法（non-stationary）: [notebooks/RL_CMDP_by_DP_non_stationary.ipynb](notebooks/RL_CMDP_by_DP_non_stationary.ipynb) 
+154. (2023/9/04) CMDPにおける動的計画法（non-stationary）の修正: [notebooks/RL_CMDP_by_DP_non_stationary.ipynb](notebooks/RL_CMDP_by_DP_non_stationary.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
