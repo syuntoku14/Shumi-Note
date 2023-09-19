@@ -179,8 +179,8 @@ poetry install
 154. (2023/9/04) CMDPにおける動的計画法（non-stationary）の修正: [notebooks/RL_CMDP_by_DP_non_stationary.ipynb](notebooks/RL_CMDP_by_DP_non_stationary.ipynb) 
 155. (2023/9/08) 制約付きMDPと強双対性（エントロピー）: [notebooks/RL_CMDP_zero_duality_gap_entropy.ipynb](notebooks/RL_CMDP_zero_duality_gap_entropy.ipynb) 
 156. (2023/9/15) 整数計画問題とNP困難: [notebooks/MATH_integer_programming_is_NP_hard.ipynb](notebooks/MATH_integer_programming_is_NP_hard.ipynb) 
-157. (2023/9/16) CMDPの実行可能解を見つけるのはNP困難: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibitlity_NP_hard.ipynb) 
-158. (2023/9/17) CMDPの実行可能解を見つけるのはNP困難（更新）: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibitlity_NP_hard.ipynb) 
+157. (2023/9/16) CMDPの実行可能解を見つけるのはNP困難: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibility_NP_hard.ipynb) 
+158. (2023/9/17) CMDPの実行可能解を見つけるのはNP困難（更新）: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibility_NP_hard.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
