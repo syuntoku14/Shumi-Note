@@ -183,7 +183,7 @@ poetry install
 158. (2023/9/17) CMDPの実行可能解を見つけるのはNP困難（更新）: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibility_NP_hard.ipynb) 
 159. (2023/9/24) LQR: [notebooks/RL_LQR.ipynb](notebooks/RL_LQR.ipynb) 
 160. (2023/9/25) LQRと半正定値計画問題: [notebooks/RL_LQR_as_SDP.ipynb](notebooks/RL_LQR_as_SDP.ipynb) 
-161. (2023/9/25) 制約付きLQR(TODO: 内容が正しくない): [notebooks/RL_LQR_safe.ipynb](notebooks/RL_LQR_safe.ipynb) 
+161. (2023/9/25) 制約付きLQR: [notebooks/RL_LQR_safe.ipynb](notebooks/RL_LQR_safe.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
@@ -301,6 +301,7 @@ poetry install
 * LQR：
     * (2023/9/24) LQR（有限ホライゾン）: [notebooks/RL_LQR.ipynb](notebooks/RL_LQR.ipynb) 
     * (2023/9/25) LQRと半正定値計画問題: [notebooks/RL_LQR_as_SDP.ipynb](notebooks/RL_LQR_as_SDP.ipynb) 
+    * (2023/9/25) 制約付きLQR: [notebooks/RL_LQR_safe.ipynb](notebooks/RL_LQR_safe.ipynb) 
 * 一般の制御：
     * (2023/7/30) PACベイズ制御: [notebooks/CONTROL_PAC_Bayes.ipynb](notebooks/CONTROL_PAC_Bayes.ipynb) 
 * 教育用：
