@@ -188,6 +188,7 @@ poetry install
 163. (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_domain_randomization.ipynb](notebooks/RL_domain_randomization.ipynb) 
 164. (2023/9/29) Convex MDPについて: [notebooks/RL_convex_MDP.ipynb](notebooks/RL_convex_MDP.ipynb) 
 165. (2023/10/1) LQRの方策勾配法: [notebooks/RL_LQR_policy_gradient.ipynb](notebooks/RL_LQR_policy_gradient.ipynb) 
+166. (2023/10/1) 線形システムにおけるSystem Level Synthesis: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -312,6 +313,7 @@ poetry install
     * (2023/9/25) LQRと半正定値計画問題: [notebooks/RL_LQR_as_SDP.ipynb](notebooks/RL_LQR_as_SDP.ipynb) 
     * (2023/9/25) 制約付きLQR: [notebooks/RL_LQR_safe.ipynb](notebooks/RL_LQR_safe.ipynb) 
     * (2023/10/1) LQRの方策勾配法: [notebooks/RL_LQR_policy_gradient.ipynb](notebooks/RL_LQR_policy_gradient.ipynb) 
+    * (2023/10/1) 線形システムにおけるSystem Level Synthesis: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
 * 一般の制御：
     * (2023/7/30) PACベイズ制御: [notebooks/CONTROL_PAC_Bayes.ipynb](notebooks/CONTROL_PAC_Bayes.ipynb) 
 * 教育用：
