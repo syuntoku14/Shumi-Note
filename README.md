@@ -190,6 +190,7 @@ poetry install
 165. (2023/10/1) LQRの方策勾配法: [notebooks/RL_LQR_policy_gradient.ipynb](notebooks/RL_LQR_policy_gradient.ipynb) 
 166. (2023/10/1) 線形システムにおけるSystem Level Synthesis: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
 167. (2023/10/1) LQRによる経路追従（途中で諦め）: [notebooks/RL_LQR_path_tracking.ipynb](notebooks/RL_LQR_path_tracking.ipynb) 
+168. (2023/10/2) LQRにおけるダイナミクスの推定とロバストな制御: [notebooks/RL_LQR_estimation_and_robustness.ipynb](notebooks/RL_LQR_estimation_and_robustness.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -316,6 +317,7 @@ poetry install
     * (2023/10/1) LQRの方策勾配法: [notebooks/RL_LQR_policy_gradient.ipynb](notebooks/RL_LQR_policy_gradient.ipynb) 
     * (2023/10/1) 線形システムにおけるSystem Level Synthesis: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
     * (2023/10/1) LQRによる経路追従（途中で諦め）: [notebooks/RL_LQR_path_tracking.ipynb](notebooks/RL_LQR_path_tracking.ipynb) 
+    * (2023/10/2) LQRにおけるダイナミクスの推定とロバストな制御: [notebooks/RL_LQR_estimation_and_robustness.ipynb](notebooks/RL_LQR_estimation_and_robustness.ipynb) 
 * 一般の制御：
     * (2023/7/30) PACベイズ制御: [notebooks/CONTROL_PAC_Bayes.ipynb](notebooks/CONTROL_PAC_Bayes.ipynb) 
 * 教育用：
