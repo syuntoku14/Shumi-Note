@@ -191,6 +191,7 @@ poetry install
 166. (2023/10/1) 線形システムにおけるSystem Level Synthesis: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
 167. (2023/10/1) LQRによる経路追従（途中で諦め）: [notebooks/RL_LQR_path_tracking.ipynb](notebooks/RL_LQR_path_tracking.ipynb) 
 168. (2023/10/2) LQRにおけるダイナミクスの推定とロバストな制御: [notebooks/RL_LQR_estimation_and_robustness.ipynb](notebooks/RL_LQR_estimation_and_robustness.ipynb) 
+169. (2023/10/3) 文脈付きMDP: [notebooks/RL_contextual_MDP.ipynb](notebooks/RL_contextual_MDP.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -277,6 +278,7 @@ poetry install
     * (2023/9/01) CMDPにおける動的計画法: [notebooks/RL_CMDP_by_DP.ipynb](notebooks/RL_CMDP_by_DP.ipynb) 
     * (2023/9/03) CMDPにおける動的計画法（non-stationary）: [notebooks/RL_CMDP_by_DP_non_stationary.ipynb](notebooks/RL_CMDP_by_DP_non_stationary.ipynb) 
     * (2023/9/08) 制約付きMDPと強双対性（エントロピー）: [notebooks/RL_CMDP_zero_duality_gap_entropy.ipynb](notebooks/RL_CMDP_zero_duality_gap_entropy.ipynb) 
+    * (2023/9/16) CMDPの実行可能解を見つけるのはNP困難: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibitlity_NP_hard.ipynb) 
 * 連合強化学習142. (2023/8/15) PACベイズとメタ学習: [notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb](notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb) ：
     * (2023/7/29) 連合Q学習: [notebooks/RL_federated_Q.ipynb](notebooks/RL_federated_Q.ipynb) 
 * マルチステップ強化学習：
@@ -307,9 +309,10 @@ poetry install
     * (2023/6/09) 占有率の集合の凸性: [notebooks/RL_occupancy_measure.ipynb](notebooks/RL_occupancy_measure.ipynb) 
     * (2023/8/11) 凸ではない価値関数: [notebooks/RL_value_function.ipynb](notebooks/RL_value_function.ipynb) 
     * (2023/8/25) Policy searchとNP困難: [notebooks/RL_policy_search_NP_hard.ipynb](notebooks/RL_policy_search_NP_hard.ipynb)
-    * (2023/9/16) CMDPの実行可能解を見つけるのはNP困難: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibitlity_NP_hard.ipynb) 
-    * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_domain_randomization.ipynb](notebooks/RL_domain_randomization.ipynb) 
     * (2023/9/29) Convex MDPについて: [notebooks/RL_convex_MDP.ipynb](notebooks/RL_convex_MDP.ipynb) 
+* マルチタスク系：
+    * (2023/10/3) 文脈付きMDP: [notebooks/RL_contextual_MDP.ipynb](notebooks/RL_contextual_MDP.ipynb) 
+    * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_domain_randomization.ipynb](notebooks/RL_domain_randomization.ipynb) 
 * LQR：
     * (2023/9/24) LQR（有限ホライゾン）: [notebooks/RL_LQR.ipynb](notebooks/RL_LQR.ipynb) 
     * (2023/9/25) LQRと半正定値計画問題: [notebooks/RL_LQR_as_SDP.ipynb](notebooks/RL_LQR_as_SDP.ipynb) 
