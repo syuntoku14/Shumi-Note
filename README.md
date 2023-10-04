@@ -193,6 +193,7 @@ poetry install
 168. (2023/10/2) LQRにおけるダイナミクスの推定とロバストな制御: [notebooks/RL_LQR_estimation_and_robustness.ipynb](notebooks/RL_LQR_estimation_and_robustness.ipynb) 
 169. (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
 170. (2023/10/4) マルチタスク強化学習: [notebooks/RL_multi_task.ipynb](notebooks/RL_multi_task.ipynb) 
+171. (2023/10/4) Latent MDP: [notebooks/RL_multi_task_latent_MDP.ipynb](notebooks/RL_multi_task_latent_MDP.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -316,6 +317,7 @@ poetry install
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
     * (2023/8/28) マルチタスク模倣学習と表現学習: [notebooks/RL_multi_task_imitation_learning.ipynb](notebooks/RL_multi_task_imitation_learning.ipynb) 
     * (2023/10/4) マルチタスク強化学習: [notebooks/RL_multi_task.ipynb](notebooks/RL_multi_task.ipynb) 
+    * (2023/10/4) Latent MDP: [notebooks/RL_multi_task_latent_MDP.ipynb](notebooks/RL_multi_task_latent_MDP.ipynb) 
 * LQR：
     * (2023/9/24) LQR（有限ホライゾン）: [notebooks/RL_LQR.ipynb](notebooks/RL_LQR.ipynb) 
     * (2023/9/25) LQRと半正定値計画問題: [notebooks/RL_LQR_as_SDP.ipynb](notebooks/RL_LQR_as_SDP.ipynb) 
