@@ -63,7 +63,7 @@ poetry install
 38. (2023/3/4) Q学習の理論 (UCB-H編): [notebooks/RL_UCB_H_regret_proof.ipynb](notebooks/RL_UCB_H_regret_proof.ipynb) 
 39. (2023/3/5) 遷移確率の推定について: [notebooks/RL_transition_estimation_proofs.ipynb](notebooks/RL_transition_estimation_proofs.ipynb) 
 40. (2023/3/6) **** : ****.ipynb
-41. (2023/3/7) Task-agnostic探索の理論: [notebooks/RL_task_agnostic_exploration.ipynb](notebooks/RL_task_agnostic_exploration.ipynb) 
+41. (2023/3/7) Task-agnostic探索の理論: [notebooks/RL_reward_free_task_agnostic.ipynb](notebooks/RL_reward_free_task_agnostic.ipynb) 
 42. (2023/3/8) ロバストMDP: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
 43. (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
 44. (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
@@ -89,10 +89,10 @@ poetry install
 64. (2023/4/05) **** : ****.ipynb
 65. (2023/4/06) **** : ****.ipynb
 66. (2023/4/07) 行列と行列式（途中）: [LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
-67. (2023/4/07) エントロピー最大化と探索（途中）: [RL_max_ent_exploration.ipynb](notebooks/RL_max_ent_exploration.ipynb)
+67. (2023/4/07) エントロピー最大化と探索（途中）: [RL_reward_free_max_ent.ipynb](notebooks/RL_reward_free_max_ent.ipynb)
 68. (2023/4/08) 強化学習の便利な関数（有限ホライゾン）: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
 69. (2023/4/09) 強化学習の便利な関数（探索用）: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
-70. (2023/4/09) エントロピー最大化と探索（EntGameアルゴリズム）: [RL_max_ent_exploration.ipynb](notebooks/RL_max_ent_exploration.ipynb)
+70. (2023/4/09) エントロピー最大化と探索（EntGameアルゴリズム）: [RL_reward_free_max_ent.ipynb](notebooks/RL_reward_free_max_ent.ipynb)
 71. (2023/4/10) 凸関数（Bregman Divergenceとか）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 72. (2023/4/11) 凸関数（Projectionについて）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 73. (2023/4/12) バンディットの便利な関数: [notebooks/BANDIT_utils.ipynb](notebooks/BANDIT_utils.ipynb) 
@@ -185,13 +185,13 @@ poetry install
 160. (2023/9/25) LQRと半正定値計画問題: [notebooks/RL_LQR_as_SDP.ipynb](notebooks/RL_LQR_as_SDP.ipynb) 
 161. (2023/9/25) 制約付きLQR: [notebooks/RL_LQR_safe.ipynb](notebooks/RL_LQR_safe.ipynb) 
 162. (2023/9/28) Mean-Variance MDPとNP困難: [notebooks/RL_mean_variance_MDP_NP_hard.ipynb](notebooks/RL_mean_variance_MDP_NP_hard.ipynb) 
-163. (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_domain_randomization.ipynb](notebooks/RL_domain_randomization.ipynb) 
+163. (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
 164. (2023/9/29) Convex MDPについて: [notebooks/RL_convex_MDP.ipynb](notebooks/RL_convex_MDP.ipynb) 
 165. (2023/10/1) LQRの方策勾配法: [notebooks/RL_LQR_policy_gradient.ipynb](notebooks/RL_LQR_policy_gradient.ipynb) 
 166. (2023/10/1) 線形システムにおけるSystem Level Synthesis: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
 167. (2023/10/1) LQRによる経路追従（途中で諦め）: [notebooks/RL_LQR_path_tracking.ipynb](notebooks/RL_LQR_path_tracking.ipynb) 
 168. (2023/10/2) LQRにおけるダイナミクスの推定とロバストな制御: [notebooks/RL_LQR_estimation_and_robustness.ipynb](notebooks/RL_LQR_estimation_and_robustness.ipynb) 
-169. (2023/10/3) 文脈付きMDP: [notebooks/RL_contextual_MDP.ipynb](notebooks/RL_contextual_MDP.ipynb) 
+169. (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -261,7 +261,8 @@ poetry install
     * (2023/4/22) Linear MDPでのサンプル効率の下界: [RL_linearMDP_lower_bound.ipynb](notebooks/RL_linearMDP_lower_bound.ipynb)
 * Reward Free RL：
     * (2023/2/22) Reward Free RL: [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
-    * (2023/4/09) エントロピー最大化と探索（EntGameアルゴリズム）: [RL_max_ent_exploration.ipynb](notebooks/RL_max_ent_exploration.ipynb)
+    * (2023/3/7) Task-agnostic探索の理論: [notebooks/RL_reward_free_task_agnostic.ipynb](notebooks/RL_reward_free_task_agnostic.ipynb) 
+    * (2023/4/09) エントロピー最大化と探索（EntGameアルゴリズム）: [RL_reward_free_max_ent.ipynb](notebooks/RL_reward_free_max_ent.ipynb)
 * ロバストMDP：
     * (2023/3/8) ロバストMDP: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
     * (2023/3/10) ロバストMDPの理論（モデルベース＆Generative model）: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
@@ -295,7 +296,6 @@ poetry install
     * (2023/2/27-28) UCB-VIの理論 (モデルベース): [notebooks/RL_UCB_VI_regret_proof.ipynb](notebooks/RL_UCB_VI_regret_proof.ipynb) 
     * (2023/3/4) UCB-Hoeffdingの理論 (モデルフリー): [notebooks/RL_UCB_H_regret_proof.ipynb](notebooks/RL_UCB_H_regret_proof.ipynb) 
     * (2023/3/5) 遷移確率の推定について: [notebooks/RL_transition_estimation_proofs.ipynb](notebooks/RL_transition_estimation_proofs.ipynb) 
-    * (2023/3/7) Task-agnostic探索の理論: [notebooks/RL_task_agnostic_exploration.ipynb](notebooks/RL_task_agnostic_exploration.ipynb) 
     * (2023/2/10) 適合価値反復法: [notebooks/RL_fitted_Q_iteration.ipynb](notebooks/RL_fitted_Q_iteration.ipynb)
     * (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
     * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
@@ -311,8 +311,9 @@ poetry install
     * (2023/8/25) Policy searchとNP困難: [notebooks/RL_policy_search_NP_hard.ipynb](notebooks/RL_policy_search_NP_hard.ipynb)
     * (2023/9/29) Convex MDPについて: [notebooks/RL_convex_MDP.ipynb](notebooks/RL_convex_MDP.ipynb) 
 * マルチタスク系：
-    * (2023/10/3) 文脈付きMDP: [notebooks/RL_contextual_MDP.ipynb](notebooks/RL_contextual_MDP.ipynb) 
-    * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_domain_randomization.ipynb](notebooks/RL_domain_randomization.ipynb) 
+    * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
+    * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
+    * (2023/8/28) マルチタスク模倣学習と表現学習: [notebooks/RL_multi_task_imitation_learning.ipynb](notebooks/RL_multi_task_imitation_learning.ipynb) 
 * LQR：
     * (2023/9/24) LQR（有限ホライゾン）: [notebooks/RL_LQR.ipynb](notebooks/RL_LQR.ipynb) 
     * (2023/9/25) LQRと半正定値計画問題: [notebooks/RL_LQR_as_SDP.ipynb](notebooks/RL_LQR_as_SDP.ipynb) 
