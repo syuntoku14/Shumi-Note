@@ -196,6 +196,7 @@ poetry install
 171. (2023/10/4) Latent MDP: [notebooks/RL_multi_task_latent_MDP.ipynb](notebooks/RL_multi_task_latent_MDP.ipynb) 
 172. (2023/10/4) マルチタスクMDPにおける文脈の推定: [notebooks/RL_multi_task_context_identification.ipynb](notebooks/RL_multi_task_context_identification.ipynb) 
 173. (2023/10/8) LQRの便利な関数: [notebooks/RL_LQR_utils.ipynb](notebooks/RL_LQR_utils.ipynb) 
+174. (2023/10/9) System Level Synthesisの導出について: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
