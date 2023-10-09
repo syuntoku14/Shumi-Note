@@ -197,6 +197,7 @@ poetry install
 172. (2023/10/4) マルチタスクMDPにおける文脈の推定: [notebooks/RL_multi_task_context_identification.ipynb](notebooks/RL_multi_task_context_identification.ipynb) 
 173. (2023/10/8) LQRの便利な関数: [notebooks/RL_LQR_utils.ipynb](notebooks/RL_LQR_utils.ipynb) 
 174. (2023/10/9) System Level Synthesisの導出について: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
+175. (2023/10/10) Robust System Level Synthesis: [notebooks/RL_LQR_robust_synthesis.ipynb](notebooks/RL_LQR_robust_synthesis.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -331,6 +332,7 @@ poetry install
     * (2023/10/1) LQRによる経路追従（途中で諦め）: [notebooks/RL_LQR_path_tracking.ipynb](notebooks/RL_LQR_path_tracking.ipynb) 
     * (2023/10/2) LQRにおけるダイナミクスの推定とロバストな制御: [notebooks/RL_LQR_estimation_and_robustness.ipynb](notebooks/RL_LQR_estimation_and_robustness.ipynb) 
     * (2023/10/8) LQRの便利な関数: [notebooks/RL_LQR_utils.ipynb](notebooks/RL_LQR_utils.ipynb) 
+    * (2023/10/10) Robust System Level Synthesis: [notebooks/RL_LQR_robust_synthesis.ipynb](notebooks/RL_LQR_robust_synthesis.ipynb) 
 * 一般の制御：
     * (2023/7/30) PACベイズ制御: [notebooks/CONTROL_PAC_Bayes.ipynb](notebooks/CONTROL_PAC_Bayes.ipynb) 
 * 教育用：
