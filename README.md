@@ -198,6 +198,7 @@ poetry install
 173. (2023/10/8) LQRの便利な関数: [notebooks/RL_LQR_utils.ipynb](notebooks/RL_LQR_utils.ipynb) 
 174. (2023/10/9) System Level Synthesisの導出について: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
 175. (2023/10/10) Robust System Level Synthesis: [notebooks/RL_LQR_robust_synthesis.ipynb](notebooks/RL_LQR_robust_synthesis.ipynb) 
+176. (2023/10/13) System Level Synthesisの説明: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
