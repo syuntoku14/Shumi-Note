@@ -188,7 +188,7 @@ poetry install
 163. (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
 164. (2023/9/29) Convex MDPについて: [notebooks/RL_convex_MDP.ipynb](notebooks/RL_convex_MDP.ipynb) 
 165. (2023/10/1) LQRの方策勾配法: [notebooks/RL_LQR_policy_gradient.ipynb](notebooks/RL_LQR_policy_gradient.ipynb) 
-166. (2023/10/1) 線形システムにおけるSystem Level Synthesis: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
+166. (2023/10/1) 線形システムにおけるSystem Level Synthesis: [notebooks/RL_LQR_SLS_finite_horizon.ipynb](notebooks/RL_LQR_SLS_finite_horizon.ipynb) 
 167. (2023/10/1) LQRによる経路追従（途中で諦め）: [notebooks/RL_LQR_path_tracking.ipynb](notebooks/RL_LQR_path_tracking.ipynb) 
 168. (2023/10/2) LQRにおけるダイナミクスの推定とロバストな制御: [notebooks/RL_LQR_estimation_and_robustness.ipynb](notebooks/RL_LQR_estimation_and_robustness.ipynb) 
 169. (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
@@ -196,9 +196,10 @@ poetry install
 171. (2023/10/4) Latent MDP: [notebooks/RL_multi_task_latent_MDP.ipynb](notebooks/RL_multi_task_latent_MDP.ipynb) 
 172. (2023/10/4) マルチタスクMDPにおける文脈の推定: [notebooks/RL_multi_task_context_identification.ipynb](notebooks/RL_multi_task_context_identification.ipynb) 
 173. (2023/10/8) LQRの便利な関数: [notebooks/RL_LQR_utils.ipynb](notebooks/RL_LQR_utils.ipynb) 
-174. (2023/10/9) System Level Synthesisの導出について: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
+174. (2023/10/9) System Level Synthesisの導出について: [notebooks/RL_LQR_SLS_finite_horizon.ipynb](notebooks/RL_LQR_SLS_finite_horizon.ipynb) 
 175. (2023/10/10) Robust System Level Synthesis: [notebooks/RL_LQR_robust_synthesis.ipynb](notebooks/RL_LQR_robust_synthesis.ipynb) 
-176. (2023/10/13) System Level Synthesisの説明: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
+176. (2023/10/13) System Level Synthesisの説明: [notebooks/RL_LQR_SLS_finite_horizon.ipynb](notebooks/RL_LQR_SLS_finite_horizon.ipynb) 
+177. (2023/10/16) SLSによるH∞制御: [notebooks/RL_LQR_SLS_finite_horizon.ipynb](notebooks/RL_LQR_SLS_finite_horizon.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -329,7 +330,7 @@ poetry install
     * (2023/9/25) LQRと半正定値計画問題: [notebooks/RL_LQR_as_SDP.ipynb](notebooks/RL_LQR_as_SDP.ipynb) 
     * (2023/9/25) 制約付きLQR: [notebooks/RL_LQR_safe.ipynb](notebooks/RL_LQR_safe.ipynb) 
     * (2023/10/1) LQRの方策勾配法: [notebooks/RL_LQR_policy_gradient.ipynb](notebooks/RL_LQR_policy_gradient.ipynb) 
-    * (2023/10/1) 線形システムにおけるSystem Level Synthesis: [notebooks/RL_LQR_system_level_synthesis.ipynb](notebooks/RL_LQR_system_level_synthesis.ipynb) 
+    * (2023/10/1) 線形システムにおけるSystem Level Synthesis: [notebooks/RL_LQR_SLS_finite_horizon.ipynb](notebooks/RL_LQR_SLS_finite_horizon.ipynb) 
     * (2023/10/1) LQRによる経路追従（途中で諦め）: [notebooks/RL_LQR_path_tracking.ipynb](notebooks/RL_LQR_path_tracking.ipynb) 
     * (2023/10/2) LQRにおけるダイナミクスの推定とロバストな制御: [notebooks/RL_LQR_estimation_and_robustness.ipynb](notebooks/RL_LQR_estimation_and_robustness.ipynb) 
     * (2023/10/8) LQRの便利な関数: [notebooks/RL_LQR_utils.ipynb](notebooks/RL_LQR_utils.ipynb) 
