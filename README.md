@@ -200,6 +200,7 @@ poetry install
 175. (2023/10/10) Robust System Level Synthesis: [notebooks/RL_LQR_robust_synthesis.ipynb](notebooks/RL_LQR_robust_synthesis.ipynb) 
 176. (2023/10/13) System Level Synthesisの説明: [notebooks/RL_LQR_SLS_finite_horizon.ipynb](notebooks/RL_LQR_SLS_finite_horizon.ipynb) 
 177. (2023/10/16) SLSによるH∞制御: [notebooks/RL_LQR_SLS_finite_horizon.ipynb](notebooks/RL_LQR_SLS_finite_horizon.ipynb) 
+178. (2023/10/16) SLSによるロバスト制御: [notebooks/RL_LQR_SLS_finite_horizon.ipynb](notebooks/RL_LQR_SLS_finite_horizon.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
