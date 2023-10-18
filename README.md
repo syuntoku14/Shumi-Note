@@ -202,6 +202,7 @@ poetry install
 177. (2023/10/16) SLSによるH∞制御: [notebooks/RL_LQR_SLS_finite_horizon.ipynb](notebooks/RL_LQR_SLS_finite_horizon.ipynb) 
 178. (2023/10/16) SLSによるロバスト制御: [notebooks/RL_LQR_SLS_finite_horizon.ipynb](notebooks/RL_LQR_SLS_finite_horizon.ipynb) 
 179. (2023/10/16) SLSによるノイズあり制約付き制御: [notebooks/RL_LQR_SLS_finite_horizon.ipynb](notebooks/RL_LQR_SLS_finite_horizon.ipynb) 
+180. (2023/10/18) RLにおける汎化の難しさ: [notebooks/RL_multi_task_generalization_intractable.ipynb](notebooks/RL_multi_task_generalization_intractable.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -327,6 +328,7 @@ poetry install
     * (2023/10/4) マルチタスク強化学習: [notebooks/RL_multi_task.ipynb](notebooks/RL_multi_task.ipynb) 
     * (2023/10/4) Latent MDP: [notebooks/RL_multi_task_latent_MDP.ipynb](notebooks/RL_multi_task_latent_MDP.ipynb) 
     * (2023/10/4) マルチタスクMDPにおける文脈の推定: [notebooks/RL_multi_task_context_identification.ipynb](notebooks/RL_multi_task_context_identification.ipynb) 
+    * (2023/10/18) RLにおける汎化の難しさ: [notebooks/RL_multi_task_generalization_intractable.ipynb](notebooks/RL_multi_task_generalization_intractable.ipynb) 
 * LQR：
     * (2023/9/24) LQR（有限ホライゾン）: [notebooks/RL_LQR.ipynb](notebooks/RL_LQR.ipynb) 
     * (2023/9/25) LQRと半正定値計画問題: [notebooks/RL_LQR_as_SDP.ipynb](notebooks/RL_LQR_as_SDP.ipynb) 
