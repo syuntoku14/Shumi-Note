@@ -205,6 +205,7 @@ poetry install
 180. (2023/10/18) RLにおける汎化の難しさ: [notebooks/RL_multi_task_generalization_intractable.ipynb](notebooks/RL_multi_task_generalization_intractable.ipynb) 
 181. (2023/10/18) 観測だけからの模倣学習: [notebooks/RL_imitation_from_observation.ipynb](notebooks/RL_imitation_from_observation.ipynb) 
 182. (2023/10/18) 報酬設計によるサンプル効率の向上: [notebooks/RL_reward_shaping.ipynb](notebooks/RL_reward_shaping.ipynb) 
+183. (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
