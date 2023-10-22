@@ -206,6 +206,7 @@ poetry install
 181. (2023/10/18) 観測だけからの模倣学習: [notebooks/RL_imitation_from_observation.ipynb](notebooks/RL_imitation_from_observation.ipynb) 
 182. (2023/10/18) 報酬設計によるサンプル効率の向上: [notebooks/RL_reward_shaping.ipynb](notebooks/RL_reward_shaping.ipynb) 
 183. (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
+184. (2023/10/20) 強化学習とリプシッツ連続: [notebooks/RL_Lipschitz_continuous.ipynb](notebooks/RL_Lipschitz_continuous.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
