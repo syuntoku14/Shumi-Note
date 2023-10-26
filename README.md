@@ -208,6 +208,7 @@ poetry install
 183. (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
 184. (2023/10/20) 強化学習とリプシッツ連続: [notebooks/RL_Lipschitz_continuous.ipynb](notebooks/RL_Lipschitz_continuous.ipynb) 
 185. (2023/10/24) RLHFの理論: [notebooks/RL_RLHF.ipynb](notebooks/RL_RLHF.ipynb) 
+186. (2023/10/25) データソースが複数ある場合のオフライン強化学習: [notebooks/RL_offline_perturbed_data.ipynb](notebooks/RL_offline_perturbed_data.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -308,6 +309,8 @@ poetry install
     * (2023/3/14) 模倣学習: [notebooks/RL_imitation_learning.ipynb](notebooks/RL_imitation_learning.ipynb) 
     * (2023/8/28) マルチタスク模倣学習と表現学習: [notebooks/RL_multi_task_imitation_learning.ipynb](notebooks/RL_multi_task_imitation_learning.ipynb) 
     * (2023/10/18) 観測だけからの模倣学習: [notebooks/RL_imitation_from_observation.ipynb](notebooks/RL_imitation_from_observation.ipynb) 
+* オフライン：
+    * (2023/10/25) データソースが複数ある場合のオフライン強化学習: [notebooks/RL_offline_perturbed_data.ipynb](notebooks/RL_offline_perturbed_data.ipynb) 
 * Mean-Variance MDP：
     * (2023/9/28) Mean-Variance MDPとNP困難: [notebooks/RL_mean_variance_MDP_NP_hard.ipynb](notebooks/RL_mean_variance_MDP_NP_hard.ipynb.ipynb) 
 * 一般のRL：
