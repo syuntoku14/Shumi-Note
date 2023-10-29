@@ -210,6 +210,7 @@ poetry install
 185. (2023/10/24) RLHFの理論: [notebooks/RL_RLHF.ipynb](notebooks/RL_RLHF.ipynb) 
 186. (2023/10/25) データソースが複数ある場合のオフライン強化学習: [notebooks/RL_offline_perturbed_data.ipynb](notebooks/RL_offline_perturbed_data.ipynb) 
 187. (2023/10/26) データを利用したロバスト最適化（微妙）: [notebooks/OPT_robust_learning_uncertainty_set_deprecated.ipynb](notebooks/OPT_robust_learning_uncertainty_set_deprecated.ipynb) 
+188. (2023/10/29) データを利用したロバスト最適化: [notebooks/OPT_robust_learning_based.ipynb](notebooks/OPT_robust_learning_based.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -261,6 +262,7 @@ poetry install
 * (2023/6/15) 劣勾配法: [notebooks/OPT_subgradient.ipynb](notebooks/OPT_subgradient.ipynb) 
 * (2023/6/16) 勾配法: [notebooks/OPT_gradient.ipynb](notebooks/OPT_gradient.ipynb) 
 * (2023/6/21) ロバストMDPと確率的制約 [notebooks/OPT_robust_chance_constraint.ipynb](notebooks/OPT_robust_chance_constraint.ipynb) 
+* (2023/10/29) データを利用したロバスト最適化: [notebooks/OPT_robust_learning_based.ipynb](notebooks/OPT_robust_learning_based.ipynb) 
 
 
 ### 逐次意思決定問題
