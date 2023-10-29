@@ -209,6 +209,7 @@ poetry install
 184. (2023/10/20) 強化学習とリプシッツ連続: [notebooks/RL_Lipschitz_continuous.ipynb](notebooks/RL_Lipschitz_continuous.ipynb) 
 185. (2023/10/24) RLHFの理論: [notebooks/RL_RLHF.ipynb](notebooks/RL_RLHF.ipynb) 
 186. (2023/10/25) データソースが複数ある場合のオフライン強化学習: [notebooks/RL_offline_perturbed_data.ipynb](notebooks/RL_offline_perturbed_data.ipynb) 
+187. (2023/10/26) データを利用したロバスト最適化（微妙）: [notebooks/OPT_robust_learning_uncertainty_set_deprecated.ipynb](notebooks/OPT_robust_learning_uncertainty_set_deprecated.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -299,7 +300,7 @@ poetry install
     * (2023/9/16) CMDPの実行可能解を見つけるのはNP困難: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibitlity_NP_hard.ipynb) 
 * 平均報酬強化学習：
     * (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
-* 連合強化学習142. (2023/8/15) PACベイズとメタ学習: [notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb](notebooks/MATH_PAC_Bayes_Meta_Learning.ipynb) ：
+* 連合強化学習：
     * (2023/7/29) 連合Q学習: [notebooks/RL_federated_Q.ipynb](notebooks/RL_federated_Q.ipynb) 
 * マルチステップ強化学習：
     * (2023/2/5) マルチステップ強化学習: [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
