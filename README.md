@@ -206,11 +206,12 @@ poetry install
 181. (2023/10/18) 観測だけからの模倣学習: [notebooks/RL_imitation_from_observation.ipynb](notebooks/RL_imitation_from_observation.ipynb) 
 182. (2023/10/18) 報酬設計によるサンプル効率の向上: [notebooks/RL_reward_shaping.ipynb](notebooks/RL_reward_shaping.ipynb) 
 183. (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
-184. (2023/10/20) 強化学習とリプシッツ連続: [notebooks/RL_Lipschitz_continuous.ipynb](notebooks/RL_Lipschitz_continuous.ipynb) 
+184. (2023/10/20) 強化学習とリプシッツ連続: [notebooks/RL_Continuous_Lipschitz.ipynb](notebooks/RL_Continuous_Lipschitz.ipynb) 
 185. (2023/10/24) RLHFの理論: [notebooks/RL_RLHF.ipynb](notebooks/RL_RLHF.ipynb) 
 186. (2023/10/25) データソースが複数ある場合のオフライン強化学習: [notebooks/RL_offline_perturbed_data.ipynb](notebooks/RL_offline_perturbed_data.ipynb) 
 187. (2023/10/26) データを利用したロバスト最適化（微妙）: [notebooks/OPT_robust_learning_uncertainty_set_deprecated.ipynb](notebooks/OPT_robust_learning_uncertainty_set_deprecated.ipynb) 
 188. (2023/10/29) データを利用したロバスト最適化: [notebooks/OPT_robust_learning_based.ipynb](notebooks/OPT_robust_learning_based.ipynb) 
+189. (2023/11/1) カーネル強化学習: [notebooks/RL_Continuous_Kernel.ipynb](notebooks/RL_Continuous_Kernel.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -316,6 +317,9 @@ poetry install
     * (2023/10/25) データソースが複数ある場合のオフライン強化学習: [notebooks/RL_offline_perturbed_data.ipynb](notebooks/RL_offline_perturbed_data.ipynb) 
 * Mean-Variance MDP：
     * (2023/9/28) Mean-Variance MDPとNP困難: [notebooks/RL_mean_variance_MDP_NP_hard.ipynb](notebooks/RL_mean_variance_MDP_NP_hard.ipynb.ipynb) 
+* 連続MDP：
+    * (2023/10/20) 強化学習とリプシッツ連続: [notebooks/RL_Continuous_Lipschitz.ipynb](notebooks/RL_Continuous_Lipschitz.ipynb) 
+    * (2023/11/1) カーネル強化学習: [notebooks/RL_Continuous_Kernel.ipynb](notebooks/RL_Continuous_Kernel.ipynb) 
 * 一般のRL：
     * (2023/2/7) MDPについて (Garnet MDP): [notebooks/RL_Markov_Decision_Process.ipynb](notebooks/RL_Markov_Decision_Process.ipynb)
     * (2023/2/27-28) UCB-VIの理論 (モデルベース): [notebooks/RL_UCB_VI_regret_proof.ipynb](notebooks/RL_UCB_VI_regret_proof.ipynb) 
@@ -336,7 +340,6 @@ poetry install
     * (2023/8/25) Policy searchとNP困難: [notebooks/RL_policy_search_NP_hard.ipynb](notebooks/RL_policy_search_NP_hard.ipynb)
     * (2023/9/29) Convex MDPについて: [notebooks/RL_convex_MDP.ipynb](notebooks/RL_convex_MDP.ipynb) 
     * (2022/10/18) 報酬設計によるサンプル効率の向上: [notebooks/RL_reward_shaping.ipynb](notebooks/RL_reward_shaping.ipynb) 
-    * (2023/10/20) 強化学習とリプシッツ連続: [notebooks/RL_Lipschitz_continuous.ipynb](notebooks/RL_Lipschitz_continuous.ipynb) 
     * (2023/10/24) RLHFの理論: [notebooks/RL_RLHF.ipynb](notebooks/RL_RLHF.ipynb) 
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
