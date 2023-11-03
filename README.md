@@ -214,6 +214,7 @@ poetry install
 189. (2023/11/1) カーネル強化学習: [notebooks/RL_Continuous_Kernel.ipynb](notebooks/RL_Continuous_Kernel.ipynb) 
 190. (2023/11/3) Bellman rank: [notebooks/RL_Bellman_rank.ipynb](notebooks/RL_Bellman_rank.ipynb) 
 191. (2023/11/3) モデルフリー平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
+192. (2023/11/3) Bilinear class: [notebooks/RL_Bilinear_class.ipynb](notebooks/RL_Bilinear_class.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -345,6 +346,7 @@ poetry install
     * (2022/10/18) 報酬設計によるサンプル効率の向上: [notebooks/RL_reward_shaping.ipynb](notebooks/RL_reward_shaping.ipynb) 
     * (2023/10/24) RLHFの理論: [notebooks/RL_RLHF.ipynb](notebooks/RL_RLHF.ipynb) 
     * (2023/11/3) Bellman rank: [notebooks/RL_Bellman_rank.ipynb](notebooks/RL_Bellman_rank.ipynb) 
+    * (2023/11/3) Bilinear class: [notebooks/RL_Bilinear_class.ipynb](notebooks/RL_Bilinear_class.ipynb) 
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
