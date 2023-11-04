@@ -215,6 +215,7 @@ poetry install
 190. (2023/11/3) Bellman rank: [notebooks/RL_Bellman_rank.ipynb](notebooks/RL_Bellman_rank.ipynb) 
 191. (2023/11/3) モデルフリー平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
 192. (2023/11/3) Bilinear class: [notebooks/RL_Bilinear_class.ipynb](notebooks/RL_Bilinear_class.ipynb) 
+193. (2023/11/4) 制約違反なしのCMDP: [notebooks/RL_CMDP_zero_constraint_violation.ipynb](notebooks/RL_CMDP_zero_constraint_violation.ipynb) 
 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
@@ -304,6 +305,7 @@ poetry install
     * (2023/9/03) CMDPにおける動的計画法（non-stationary）: [notebooks/RL_CMDP_by_DP_non_stationary.ipynb](notebooks/RL_CMDP_by_DP_non_stationary.ipynb) 
     * (2023/9/08) 制約付きMDPと強双対性（エントロピー）: [notebooks/RL_CMDP_zero_duality_gap_entropy.ipynb](notebooks/RL_CMDP_zero_duality_gap_entropy.ipynb) 
     * (2023/9/16) CMDPの実行可能解を見つけるのはNP困難: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibitlity_NP_hard.ipynb) 
+    * (2023/11/4) 制約違反なしのCMDP: [notebooks/RL_CMDP_zero_constraint_violation.ipynb](notebooks/RL_CMDP_zero_constraint_violation.ipynb) 
 * 平均報酬強化学習：
     * (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
     * (2023/11/3) モデルフリー平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
