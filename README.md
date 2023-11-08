@@ -219,6 +219,7 @@ poetry install
 194. (2023/11/5) Witness rank: [notebooks/RL_witness_rank.ipynb](notebooks/RL_witness_rank.ipynb) 
 195. (2023/11/6) RLとFenchel Rockafellar双対性とDICE: [notebooks/RL_Convex_Fenchel_Duality_and_DICE.ipynb](notebooks/RL_Convex_Fenchel_Duality_and_DICE.ipynb) 
 196. (2023/11/7) 制約違反なしのCMDPの証明の続き（まだ途中）: [notebooks/RL_CMDP_zero_constraint_violation.ipynb](notebooks/RL_CMDP_zero_constraint_violation.ipynb) 
+197. (2023/11/8) RLの証明で便利な定理: [notebooks/RL_useful_lemma.ipynb](notebooks/RL_useful_lemma.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
