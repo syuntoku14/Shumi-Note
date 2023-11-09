@@ -126,17 +126,17 @@ poetry install
 101. (2023/5/21) ラデマッハ複雑度とタラグランドの補題: [notebooks/MATH_complexity_of_hypothesis.ipynb](notebooks/MATH_complexity_of_hypothesis.ipynb) 
 102. (2023/5/21) 正定値対称行列: [notebooks/LA_matrix_definite.ipynb](notebooks/LA_matrix_definite.ipynb) 
 103. (2023/5/22) Linear MDPとMDVI: [Regularization and Variance-Weighted Regression Achieves Minimax Optimality in Linear MDPs: Theory and Practice](https://github.com/matsuolab/Variance-Weighted-MDVI)
-104. (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
+104. (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit_LP.ipynb](notebooks/RL_CMDP_explore_exploit_LP.ipynb) 
 105. (2023/5/24) Schur標準形、Rayleigh商: [notebooks/LA_matrix_definite.ipynb](notebooks/LA_matrix_definite.ipynb) 
 106. (2023/5/25) 有限ホライゾンでの線型計画法: [notebooks/RL_as_LP_finite_horizon.ipynb](notebooks/RL_as_LP_finite_horizon.ipynb) 
-107. (2023/5/25) OptCMDPの実装: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
+107. (2023/5/25) OptCMDPの実装: [notebooks/RL_CMDP_explore_exploit_LP.ipynb](notebooks/RL_CMDP_explore_exploit_LP.ipynb) 
 108. (2023/5/27) ベクトル空間: [notebooks/LA_vector_space.ipynb](notebooks/LA_vector_space.ipynb) 
 109. (2023/5/28) 計量、内積: [notebooks/LA_vector_space.ipynb](notebooks/LA_vector_space.ipynb) 
 110. (2023/5/28) 標準形: [notebooks/LA_normal_form.ipynb](notebooks/LA_normal_form.ipynb) 
 111. (2023/5/29) PAC-Bayes: [notebooks/MATH_PAC_Bayes.ipynb](notebooks/MATH_PAC_Bayes.ipynb) 
 112. (2023/5/29) Stabilityと汎化誤差バウンド: [notebooks/MATH_PAC_stability.ipynb](notebooks/MATH_PAC_stability.ipynb) 
 113. (2023/5/30) 階数標準形の実装: [notebooks/LA_normal_form.ipynb](notebooks/LA_normal_form.ipynb) 
-114. (2023/5/31) 制約違反なしのCMDP: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
+114. (2023/5/31) 制約違反なしのCMDP: [notebooks/RL_CMDP_explore_exploit_LP.ipynb](notebooks/RL_CMDP_explore_exploit_LP.ipynb) 
 115. (2023/6/01) 整数行列: [notebooks/LA_integer_matrix.ipynb](notebooks/LA_integer_matrix.ipynb) 
 116. (2023/6/01) 行列形式の有限ホライゾンでのLP: [notebooks/RL_as_LP_finite_horizon.ipynb](notebooks/RL_as_LP_finite_horizon.ipynb) 
 117. (2023/6/02) 双対法によるCMDPの解法: [notebooks/RL_CMDP_dual.ipynb](notebooks/RL_CMDP_dual.ipynb) 
@@ -220,7 +220,8 @@ poetry install
 195. (2023/11/6) RLとFenchel Rockafellar双対性とDICE: [notebooks/RL_Convex_Fenchel_Duality_and_DICE.ipynb](notebooks/RL_Convex_Fenchel_Duality_and_DICE.ipynb) 
 196. (2023/11/7) 制約違反なしのCMDPの証明の続き（まだ途中）: [notebooks/RL_CMDP_zero_constraint_violation.ipynb](notebooks/RL_CMDP_zero_constraint_violation.ipynb) 
 197. (2023/11/8) RLの証明で便利な定理: [notebooks/RL_useful_lemma.ipynb](notebooks/RL_useful_lemma.ipynb) 
-198. (2023/11/8) CMDPでの探索の証明の修正: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
+198. (2023/11/8) CMDPでの探索の証明の修正: [notebooks/RL_CMDP_explore_exploit_LP.ipynb](notebooks/RL_CMDP_explore_exploit_LP.ipynb) 
+199. (2023/11/9) CMDPでの双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_dual.ipynb](notebooks/RL_CMDP_explore_exploit_dual.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
@@ -301,7 +302,7 @@ poetry install
     * (2023/8/07) ロバストMDPと強双対性: [notebooks/RL_robust_MDP_zero_duality.ipynb](notebooks/RL_robust_MDP_zero_duality.ipynb) 
     * (2023/8/24) ロバストMDPとNP困難: [notebooks/RL_robust_MDP_NP_hard.ipynb](notebooks/RL_robust_MDP_NP_hard.ipynb)
 * 制約付きMDP：
-    * (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit.ipynb](notebooks/RL_CMDP_explore_exploit.ipynb) 
+    * (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit_LP.ipynb](notebooks/RL_CMDP_explore_exploit_LP.ipynb) 
     * (2023/6/02) 双対法によるCMDPの解法: [notebooks/RL_CMDP_dual.ipynb](notebooks/RL_CMDP_dual.ipynb) 
     * (2023/6/08) 制約付きMDPと強双対性: [notebooks/RL_CMDP_zero_duality_gap.ipynb](notebooks/RL_CMDP_zero_duality_gap.ipynb) 
     * (2023/8/30) MDPにおける安全な探索: [notebooks/RL_CMDP_safe_exploration.ipynb](notebooks/RL_CMDP_safe_exploration.ipynb) 
@@ -310,6 +311,7 @@ poetry install
     * (2023/9/08) 制約付きMDPと強双対性（エントロピー）: [notebooks/RL_CMDP_zero_duality_gap_entropy.ipynb](notebooks/RL_CMDP_zero_duality_gap_entropy.ipynb) 
     * (2023/9/16) CMDPの実行可能解を見つけるのはNP困難: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibitlity_NP_hard.ipynb) 
     * (2023/11/4) 制約違反なしのCMDP: [notebooks/RL_CMDP_zero_constraint_violation.ipynb](notebooks/RL_CMDP_zero_constraint_violation.ipynb) 
+    * (2023/11/9) CMDPでの双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_dual.ipynb](notebooks/RL_CMDP_explore_exploit_dual.ipynb) 
 * 平均報酬強化学習：
     * (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
     * (2023/11/3) モデルフリー平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
