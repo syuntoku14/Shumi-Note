@@ -222,6 +222,7 @@ poetry install
 197. (2023/11/8) RLの証明で便利な定理: [notebooks/RL_useful_lemma.ipynb](notebooks/RL_useful_lemma.ipynb) 
 198. (2023/11/8) CMDPでの探索の証明の修正: [notebooks/RL_CMDP_explore_exploit_LP.ipynb](notebooks/RL_CMDP_explore_exploit_LP.ipynb) 
 199. (2023/11/9) CMDPでの双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_dual.ipynb](notebooks/RL_CMDP_explore_exploit_dual.ipynb) 
+200. (2023/11/10) カーネル強化学習のリグレット解析（途中）: [notebooks/RL_Continuous_Kernel.ipynb](notebooks/RL_Continuous_Kernel.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
