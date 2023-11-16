@@ -223,6 +223,7 @@ poetry install
 198. (2023/11/8) CMDPでの探索の証明の修正: [notebooks/RL_CMDP_explore_exploit_LP.ipynb](notebooks/RL_CMDP_explore_exploit_LP.ipynb) 
 199. (2023/11/9) CMDPでの双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_dual.ipynb](notebooks/RL_CMDP_explore_exploit_dual.ipynb) 
 200. (2023/11/10) カーネル強化学習のリグレット解析（途中）: [notebooks/RL_Continuous_Kernel.ipynb](notebooks/RL_Continuous_Kernel.ipynb) 
+201. (2023/11/16) 一様PAC: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
@@ -359,6 +360,7 @@ poetry install
     * (2023/11/5) Witness rank: [notebooks/RL_witness_rank.ipynb](notebooks/RL_witness_rank.ipynb) 
     * (2023/11/6) RLとFenchel Rockafellar双対性とDICE: [notebooks/RL_Convex_Fenchel_Duality_and_DICE.ipynb](notebooks/RL_Convex_Fenchel_Duality_and_DICE.ipynb) 
     * (2023/11/8) RLの証明で便利な定理: [notebooks/RL_useful_lemma.ipynb](notebooks/RL_useful_lemma.ipynb) 
+    * (2023/11/16) 一様PAC: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
@@ -405,6 +407,15 @@ poetry install
 * (2023/8/21) バリア関数法: [notebooks/MATH_barrier_function_method.ipynb](notebooks/MATH_barrier_function_method.ipynb) 
 * (2023/9/15) 整数計画問題とNP困難: [notebooks/MATH_integer_programming_is_NP_hard.ipynb](notebooks/MATH_integer_programming_is_NP_hard.ipynb) 
 
+---
+
+## 読むべき論文リスト：
+
+* [ ] 確率収束の話
+* [ ] Integral Probability Metricについて読もう：[On the empirical estimation of integral probability metrics](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-6/issue-none/On-the-empirical-estimation-of-integral-probability-metrics/10.1214/12-EJS722.full)
+* (2023/3/27) 強化学習とエントロピー正則化：[notebooks/RL_entropy_regularization.ipynb](notebooks/RL_entropy_regularization.ipynb)
+* (2023/3/30) Approximate Dynamic Programming（正則化あり）：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
+
 
 ---
 
@@ -428,34 +439,3 @@ poetry install
 * [ ] (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
     * [ ] 意外と行列の性質の理解が曖昧。（$\|\phi(s, a)\|_2 \leq 1$なので$\sigma_{\min }\left(\mathbb{E}_{(s, a) \sim \widetilde{\mu}_h}\left[\phi(s, a) \phi(s, a)^{\top}\right]\right)$が成り立つためです）。これとか微妙。
 
-
-## TODO
-
-* [ ] モデルベースの証明やモデルフリーの証明をまとめたい
-* [ ] 初学者が最初に読むべき本をまとめたい
-* [ ] 確率収束の話
-* [ ] Integral Probability Metricについて読もう：[On the empirical estimation of integral probability metrics](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-6/issue-none/On-the-empirical-estimation-of-integral-probability-metrics/10.1214/12-EJS722.full)
-* [ ] 強化学習のサンプル効率の下界
-    * [ ] VC次元を使ったオッカムの剃刀
-    * [x] Linear Realizability
-* [ ] バンディットの理論証明書く
-* [ ] バンディットの便利関数まとめる
-    * [ ] 敵対的系のアルゴリズム
-* [ ] 強化学習の便利定理まとめる
-    * [notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)にでてきた価値差分方程式
-    * $P$の逆行列の話
-* [ ] (2023/3/8) ロバストMDP: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
-    * [Towards Minimax Optimality of Model-based Robust Reinforcement Learning](https://arxiv.org/abs/2302.05372)ではほぼ同じ条件でもっとタイトなバウンドを導出してる。
-* (2023/3/27) 強化学習とエントロピー正則化：[notebooks/RL_entropy_regularization.ipynb](notebooks/RL_entropy_regularization.ipynb)
-    * Value Iterationや貪欲方策が誤差に弱い証明が欲しい。Tsallis Entropyの話のほうがいいかな？
-    * この話は先にApproximate Dynamic Programmingの証明を書いてからの方が書きやすいかも
-* (2023/3/30) Approximate Dynamic Programming（正則化あり）：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
-    * 正則化が入ったときの方策反復法のバウンドのわかりやすい導出を考えよう
-    * KL+エントロピーの方策反復法のバウンドの導出はLeverage the Averageの方針でやると出せないかもしれない。λ-policy iterationを駆使したほうがいいかも？
-* [ ] (2023/4/02) 他変量関数の微分：[notebooks/MATH_multivariate_derivative.ipynb](notebooks/MATH_multivariate_derivative.ipynb)
-    * [ ] 全微分について書く
-* [ ] 最小楕円問題とCore-set：[notebooks/CVX_MVEE_algorithm.ipynb](notebooks/CVX_MVEE_algorithm.ipynb)
-    * 線形代数の話を踏まえて最小楕円問題の解釈を書く
-* [ ] $\varepsilon$-greedyのバンディットの導出
-    * https://sites.cs.ucsb.edu/~yuxiangw/classes/RLCourse-2021Spring/Lectures/scribe_MAB.pdf
-* [ ] PACベイズにでてくるSafe probabilityの話、MDVIに使えないか？
