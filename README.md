@@ -224,6 +224,7 @@ poetry install
 199. (2023/11/9) CMDPでの双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_dual.ipynb](notebooks/RL_CMDP_explore_exploit_dual.ipynb) 
 200. (2023/11/10) カーネル強化学習のリグレット解析（途中）: [notebooks/RL_Continuous_Kernel.ipynb](notebooks/RL_Continuous_Kernel.ipynb) 
 201. (2023/11/16) 一様PAC: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
+202. (2023/11/19) CMDPでの主双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb](notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
@@ -314,6 +315,7 @@ poetry install
     * (2023/9/16) CMDPの実行可能解を見つけるのはNP困難: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibitlity_NP_hard.ipynb) 
     * (2023/11/4) 制約違反なしのCMDP: [notebooks/RL_CMDP_zero_constraint_violation.ipynb](notebooks/RL_CMDP_zero_constraint_violation.ipynb) 
     * (2023/11/9) CMDPでの双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_dual.ipynb](notebooks/RL_CMDP_explore_exploit_dual.ipynb) 
+    * (2023/11/19) CMDPでの主双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb](notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb) 
 * 平均報酬強化学習：
     * (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
     * (2023/11/3) モデルフリー平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
