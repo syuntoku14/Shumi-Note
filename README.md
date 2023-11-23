@@ -226,6 +226,7 @@ poetry install
 201. (2023/11/16) 一様PAC: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
 202. (2023/11/19) CMDPでの主双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb](notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb) 
 203. (2023/11/19) CMDPでのLast-iterate-convergence: [notebooks/RL_CMDP_last_iterate_convergence.ipynb](notebooks/RL_CMDP_last_iterate_convergence.ipynb) 
+204. (2023/11/23) 裾確率とSubgaussian: [notebooks/MATH_sub_gaussian.ipynb](notebooks/MATH_sub_gaussian.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
