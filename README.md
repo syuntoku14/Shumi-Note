@@ -229,6 +229,7 @@ poetry install
 204. (2023/11/20) 一様PACのアルゴリズムの続き: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
 205. (2023/11/23) 裾確率とSubgaussian: [notebooks/MATH_sub_gaussian.ipynb](notebooks/MATH_sub_gaussian.ipynb) 
 206. (2023/11/23) 一様な集中不等式について: [notebooks/MATH_uniform_concentration_inequality.ipynb](notebooks/MATH_uniform_concentration_inequality.ipynb) （むずくて全然読めてない．TODO）
+207. (2023/11/24) 一様PACの証明: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
