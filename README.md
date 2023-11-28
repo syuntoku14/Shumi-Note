@@ -231,6 +231,7 @@ poetry install
 206. (2023/11/23) 一様な集中不等式について: [notebooks/MATH_uniform_concentration_inequality.ipynb](notebooks/MATH_uniform_concentration_inequality.ipynb) （むずくて全然読めてない．TODO）
 207. (2023/11/24) 一様PACの証明: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
 208. (2023/11/25) Last-iterate-convergenceの証明の補足: [notebooks/RL_CMDP_last_iterate_convergence.ipynb](notebooks/RL_CMDP_last_iterate_convergence.ipynb) 
+209. (2023/11/28) CMDPでのアルゴリズム（DOPE）: [notebooks/RL_CMDP_DOPE.ipynb](notebooks/RL_CMDP_DOPE.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
@@ -323,6 +324,7 @@ poetry install
     * (2023/11/9) CMDPでの双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_dual.ipynb](notebooks/RL_CMDP_explore_exploit_dual.ipynb) 
     * (2023/11/19) CMDPでの主双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb](notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb) 
     * (2023/11/19) CMDPでのLast-iterate-convergence: [notebooks/RL_CMDP_last_iterate_convergence.ipynb](notebooks/RL_CMDP_last_iterate_convergence.ipynb) 
+    * (2023/11/28) CMDPでのアルゴリズム（DOPE）: [notebooks/RL_CMDP_DOPE.ipynb](notebooks/RL_CMDP_DOPE.ipynb) 
 * 平均報酬強化学習：
     * (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
     * (2023/11/3) モデルフリー平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
