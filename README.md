@@ -232,6 +232,7 @@ poetry install
 207. (2023/11/24) 一様PACの証明: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
 208. (2023/11/25) Last-iterate-convergenceの証明の補足: [notebooks/RL_CMDP_last_iterate_convergence.ipynb](notebooks/RL_CMDP_last_iterate_convergence.ipynb) 
 209. (2023/11/28) CMDPでのアルゴリズム（DOPE）: [notebooks/RL_CMDP_DOPE.ipynb](notebooks/RL_CMDP_DOPE.ipynb) 
+210. (2023/12/01) Bilinear Classの一般化: [notebooks/RL_Extended_Bilinear_class.ipynb](notebooks/RL_Extended_Bilinear_class.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
@@ -372,6 +373,7 @@ poetry install
     * (2023/11/6) RLとFenchel Rockafellar双対性とDICE: [notebooks/RL_Convex_Fenchel_Duality_and_DICE.ipynb](notebooks/RL_Convex_Fenchel_Duality_and_DICE.ipynb) 
     * (2023/11/8) RLの証明で便利な定理: [notebooks/RL_useful_lemma.ipynb](notebooks/RL_useful_lemma.ipynb) 
     * (2023/11/16) 一様PAC: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
+    * (2023/12/01) Bilinear Classの一般化: [notebooks/RL_Extended_Bilinear_class.ipynb](notebooks/RL_Extended_Bilinear_class.ipynb) 
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
