@@ -233,6 +233,7 @@ poetry install
 208. (2023/11/25) Last-iterate-convergenceの証明の補足: [notebooks/RL_CMDP_last_iterate_convergence.ipynb](notebooks/RL_CMDP_last_iterate_convergence.ipynb) 
 209. (2023/11/28) CMDPでのアルゴリズム（DOPE）: [notebooks/RL_CMDP_DOPE.ipynb](notebooks/RL_CMDP_DOPE.ipynb) 
 210. (2023/12/01) Bilinear Classの一般化: [notebooks/RL_Extended_Bilinear_class.ipynb](notebooks/RL_Extended_Bilinear_class.ipynb) 
+211. (2023/12/05) CMDPでの主双対法の実装: [notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb](notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
