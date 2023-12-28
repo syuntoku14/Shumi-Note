@@ -234,6 +234,7 @@ poetry install
 209. (2023/11/28) CMDPでのアルゴリズム（DOPE）: [notebooks/RL_CMDP_DOPE.ipynb](notebooks/RL_CMDP_DOPE.ipynb) 
 210. (2023/12/01) Bilinear Classの一般化: [notebooks/RL_Extended_Bilinear_class.ipynb](notebooks/RL_Extended_Bilinear_class.ipynb) 
 211. (2023/12/05) CMDPでの主双対法の実装: [notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb](notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb) 
+212. (2023/12/29) 統計的学習理論の修正: [notebooks/MATH_statistical_learning_theory.ipynb](notebooks/MATH_statistical_learning_theory.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_linear_improved.ipynb](notebooks/BANDIT_linear_improved.ipynb)  -->
