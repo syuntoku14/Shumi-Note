@@ -237,6 +237,7 @@ poetry install
 212. (2023/12/29) 統計的学習理論の修正: [notebooks/MATH_statistical_learning_theory.ipynb](notebooks/MATH_statistical_learning_theory.ipynb) 
 213. (2023/12/30) 実現可能と仮説集合が無限の統計的学習理論: [notebooks/MATH_statistical_learning_theory.ipynb](notebooks/MATH_statistical_learning_theory.ipynb) 
 214. (2024/01/11) バンディットとEluder dimension: [notebooks/BANDIT_General_Eluder_dimension.ipynb](notebooks/BANDIT_General_Eluder_dimension.ipynb) 
+214. (2024/01/12) RLとEluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -379,6 +380,7 @@ poetry install
     * (2023/11/8) RLの証明で便利な定理: [notebooks/RL_useful_lemma.ipynb](notebooks/RL_useful_lemma.ipynb) 
     * (2023/11/16) 一様PAC: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
     * (2023/12/01) Bilinear Classの一般化: [notebooks/RL_Extended_Bilinear_class.ipynb](notebooks/RL_Extended_Bilinear_class.ipynb) 
+    * (2024/01/12) RLとEluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb) 
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
