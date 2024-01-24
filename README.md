@@ -238,6 +238,7 @@ poetry install
 213. (2023/12/30) 実現可能と仮説集合が無限の統計的学習理論: [notebooks/MATH_statistical_learning_theory.ipynb](notebooks/MATH_statistical_learning_theory.ipynb) 
 214. (2024/01/11) バンディットとEluder dimension: [notebooks/BANDIT_General_Eluder_dimension.ipynb](notebooks/BANDIT_General_Eluder_dimension.ipynb) 
 214. (2024/01/12) RLとEluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb) 
+215. (2024/01/25) Lagrange法と正則化: [notebooks/RL_CMDP_Lagrange_regularization.ipynb](notebooks/RL_CMDP_Lagrange_regularized.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -332,6 +333,7 @@ poetry install
     * (2023/11/19) CMDPでの主双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb](notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb) 
     * (2023/11/19) CMDPでのLast-iterate-convergence: [notebooks/RL_CMDP_last_iterate_convergence.ipynb](notebooks/RL_CMDP_last_iterate_convergence.ipynb) 
     * (2023/11/28) CMDPでのアルゴリズム（DOPE）: [notebooks/RL_CMDP_DOPE.ipynb](notebooks/RL_CMDP_DOPE.ipynb) 
+    * (2024/01/25) Lagrange法と正則化: [notebooks/RL_CMDP_Lagrange_regularization.ipynb](notebooks/RL_CMDP_Lagrange_regularized.ipynb)
 * 平均報酬強化学習：
     * (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
     * (2023/11/3) モデルフリー平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
