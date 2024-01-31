@@ -237,8 +237,9 @@ poetry install
 212. (2023/12/29) 統計的学習理論の修正: [notebooks/MATH_statistical_learning_theory.ipynb](notebooks/MATH_statistical_learning_theory.ipynb) 
 213. (2023/12/30) 実現可能と仮説集合が無限の統計的学習理論: [notebooks/MATH_statistical_learning_theory.ipynb](notebooks/MATH_statistical_learning_theory.ipynb) 
 214. (2024/01/11) バンディットとEluder dimension: [notebooks/BANDIT_General_Eluder_dimension.ipynb](notebooks/BANDIT_General_Eluder_dimension.ipynb) 
-214. (2024/01/12) RLとEluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb) 
-215. (2024/01/25) Lagrange法と正則化: [notebooks/RL_CMDP_Lagrange_regularization.ipynb](notebooks/RL_CMDP_Lagrange_regularized.ipynb)
+215. (2024/01/12) RLとEluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb) 
+216. (2024/01/25) Lagrange法と正則化: [notebooks/RL_CMDP_Lagrange_regularization.ipynb](notebooks/RL_CMDP_Lagrange_regularized.ipynb)
+217. (2024/01/29) モデルベースのEluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
