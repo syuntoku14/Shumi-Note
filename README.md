@@ -240,6 +240,8 @@ poetry install
 215. (2024/01/12) RLとEluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb) 
 216. (2024/01/25) Lagrange法と正則化: [notebooks/RL_CMDP_Lagrange_regularization.ipynb](notebooks/RL_CMDP_Lagrange_regularized.ipynb)
 217. (2024/01/29) モデルベースのEluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb)
+218. (2024/01/31) Bellman Eluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb)
+219. (2024/02/01) Strong dualityの証明：[notebooks/CVX_duality.ipynb](notebooks/CVX_duality.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
