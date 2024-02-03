@@ -243,6 +243,7 @@ poetry install
 218. (2024/01/31) Bellman Eluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb)
 219. (2024/02/01) Strong dualityの証明：[notebooks/CVX_duality.ipynb](notebooks/CVX_duality.ipynb)
 220. (2024/02/02) Slater条件とSionのMinimax定理について補足：[notebooks/CVX_duality.ipynb](notebooks/CVX_duality.ipynb)
+221. (2024/02/03) Decision Estimation Coefficient：[notebooks/RL_General_DEC.ipynb](notebooks/RL_General_DEC.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -387,6 +388,7 @@ poetry install
     * (2023/11/16) 一様PAC: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
     * (2023/12/01) Bilinear Classの一般化: [notebooks/RL_Extended_Bilinear_class.ipynb](notebooks/RL_Extended_Bilinear_class.ipynb) 
     * (2024/01/12) RLとEluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb) 
+    * (2024/02/03) Decision Estimation Coefficient：[notebooks/RL_General_DEC.ipynb](notebooks/RL_General_DEC.ipynb)
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
