@@ -244,6 +244,7 @@ poetry install
 219. (2024/02/01) Strong dualityの証明：[notebooks/CVX_duality.ipynb](notebooks/CVX_duality.ipynb)
 220. (2024/02/02) Slater条件とSionのMinimax定理について補足：[notebooks/CVX_duality.ipynb](notebooks/CVX_duality.ipynb)
 221. (2024/02/03) Decision Estimation Coefficient：[notebooks/RL_General_DEC.ipynb](notebooks/RL_General_DEC.ipynb)
+222. (2024/02/04) E2Dアルゴリズム：[notebooks/RL_General_DEC.ipynb](notebooks/RL_General_DEC.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
