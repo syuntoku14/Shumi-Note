@@ -246,6 +246,8 @@ poetry install
 221. (2024/02/03) Decision Estimation Coefficient：[notebooks/RL_General_DEC.ipynb](notebooks/RL_General_DEC.ipynb)
 222. (2024/02/04) E2Dアルゴリズム：[notebooks/RL_General_DEC.ipynb](notebooks/RL_General_DEC.ipynb)
 223. (2024/02/07) バンディットとEluder dimensionの修正：[notebooks/BANDIT_General_Eluder_dimension.ipynb](notebooks/BANDIT_General_Eluder_dimension.ipynb.ipynb)
+224. (2024/02/10) 動的計画法の入門スライド：[slides/RL_DP_introduction.ipynb](slides/RL_DP_introduction.pdf)
+225. (2024/02/10) 動的計画法の入門ノートブック：[notebook/RL_DP_exercise.ipynb](notebooks/RL_DP_exercise.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -415,6 +417,8 @@ poetry install
     * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
     * (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
     * (2023/4/12) バンディットの便利な関数: [notebooks/BANDIT_utils.ipynb](notebooks/BANDIT_utils.ipynb) 
+    * (2024/02/10) 動的計画法の入門スライド：[slides/RL_DP_introduction.ipynb](slides/RL_DP_introduction.pdf)
+    * (2024/02/10) 動的計画法の入門ノートブック：[notebook/RL_DP_exercise.ipynb](notebooks/RL_DP_exercise.ipynb)
 
 
 ### ニューラルネットワーク
