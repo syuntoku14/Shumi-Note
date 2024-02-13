@@ -248,6 +248,7 @@ poetry install
 223. (2024/02/07) バンディットとEluder dimensionの修正：[notebooks/BANDIT_General_Eluder_dimension.ipynb](notebooks/BANDIT_General_Eluder_dimension.ipynb.ipynb)
 224. (2024/02/10) 動的計画法の入門スライド：[slides/RL_DP_introduction.ipynb](slides/RL_DP_introduction.pdf)
 225. (2024/02/10) 動的計画法の入門ノートブック：[notebook/RL_DP_exercise.ipynb](notebooks/RL_DP_exercise.ipynb)
+226. (2024/02/13) 強化学習とABCクラス：[notebook/RL_General_ABC_class.ipynb](notebooks/RL_General_ABC_class.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -393,6 +394,7 @@ poetry install
     * (2023/12/01) Bilinear Classの一般化: [notebooks/RL_Extended_Bilinear_class.ipynb](notebooks/RL_Extended_Bilinear_class.ipynb) 
     * (2024/01/12) RLとEluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb) 
     * (2024/02/03) Decision Estimation Coefficient：[notebooks/RL_General_DEC.ipynb](notebooks/RL_General_DEC.ipynb)
+    * (2024/02/13) 強化学習とABCクラス：[notebook/RL_General_ABC_class.ipynb](notebooks/RL_General_ABC_class.ipynb)
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
