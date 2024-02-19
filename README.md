@@ -51,7 +51,7 @@ poetry install
 26. (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/RL_policy_gradient.ipynb](notebooks/RL_policy_gradient.ipynb)
 27. (2023/2/20~21) Transformer: [notebooks/NN_transformer.ipynb](notebooks/NN_transformer.ipynb)
 28. (2023/2/22) Reward Free RL: [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
-29. (2023/2/23) 教育用強化学習修行Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
+29. (2023/2/23) 教育用強化学習修行Notebook (行列形式の動的計画法編): [notebooks/RL_Exercise.ipynb](notebooks/RL_Exercise.ipynb)
 30. (2023/2/23) Reward Free RL (RF-EXPRESS): [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
 31. (2023/2/24) **** : ****.ipynb
 32. (2023/2/24) Self-Normalized Bound for Vector Valued Martingales (途中): [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb) 
@@ -247,7 +247,7 @@ poetry install
 222. (2024/02/04) E2Dアルゴリズム：[notebooks/RL_General_DEC.ipynb](notebooks/RL_General_DEC.ipynb)
 223. (2024/02/07) バンディットとEluder dimensionの修正：[notebooks/BANDIT_General_Eluder_dimension.ipynb](notebooks/BANDIT_General_Eluder_dimension.ipynb.ipynb)
 224. (2024/02/10) 動的計画法の入門スライド：[slides/RL_DP_introduction.ipynb](slides/RL_DP_introduction.pdf)
-225. (2024/02/10) 動的計画法の入門ノートブック：[notebook/RL_DP_exercise.ipynb](notebooks/RL_DP_exercise.ipynb)
+225. (2024/02/10) 動的計画法の入門ノートブック：[notebook/RL_Exercise_DP.ipynb](notebooks/RL_Exercise_DP.ipynb)
 226. (2024/02/13) 強化学習とABCクラス：[notebook/RL_General_ABC_class.ipynb](notebooks/RL_General_ABC_class.ipynb)
 227. (2024/02/14) ABCクラスの証明の修正：[notebook/RL_General_ABC_class.ipynb](notebooks/RL_General_ABC_class.ipynb)
 228. (2024/02/15) GOLFアルゴリズムとその証明：[notebook/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb)
@@ -418,11 +418,11 @@ poetry install
 * 一般の制御：
     * (2023/7/30) PACベイズ制御: [notebooks/CONTROL_PAC_Bayes.ipynb](notebooks/CONTROL_PAC_Bayes.ipynb) 
 * 教育用：
-    * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/RL_exercise.ipynb](notebooks/RL_exercise.ipynb)
+    * (2023/2/23) 教育用強化学習Notebook (行列形式の動的計画法編): [notebooks/RL_Exercise.ipynb](notebooks/RL_Exercise.ipynb)
     * (2023/3/12) 強化学習の便利な関数: [notebooks/RL_utils.ipynb](notebooks/RL_utils.ipynb) 
     * (2023/4/12) バンディットの便利な関数: [notebooks/BANDIT_utils.ipynb](notebooks/BANDIT_utils.ipynb) 
     * (2024/02/10) 動的計画法の入門スライド：[slides/RL_DP_introduction.ipynb](slides/RL_DP_introduction.pdf)
-    * (2024/02/10) 動的計画法の入門ノートブック：[notebook/RL_DP_exercise.ipynb](notebooks/RL_DP_exercise.ipynb)
+    * (2024/02/10) 動的計画法の入門ノートブック：[notebook/RL_Exercise_DP.ipynb](notebooks/RL_Exercise_DP.ipynb)
 
 
 ### ニューラルネットワーク
