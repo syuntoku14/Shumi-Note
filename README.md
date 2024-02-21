@@ -251,6 +251,7 @@ poetry install
 226. (2024/02/13) 強化学習とABCクラス：[notebook/RL_General_ABC_class.ipynb](notebooks/RL_General_ABC_class.ipynb)
 227. (2024/02/14) ABCクラスの証明の修正：[notebook/RL_General_ABC_class.ipynb](notebooks/RL_General_ABC_class.ipynb)
 228. (2024/02/15) GOLFアルゴリズムとその証明：[notebook/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb)
+229. (2024/02/21) 平均報酬とTUCRLアルゴリズム（途中）：[notebook/RL_AverageReward_TUCRL.ipynb](notebooks/RL_AverageReward_TUCRL.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -349,6 +350,7 @@ poetry install
 * 平均報酬強化学習：
     * (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
     * (2023/11/3) モデルフリー平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
+    * (2024/02/21) 平均報酬とTUCRLアルゴリズム：[notebook/RL_AverageReward_TUCRL.ipynb](notebooks/RL_AverageReward_TUCRL.ipynb)
 * 連合強化学習：
     * (2023/7/29) 連合Q学習: [notebooks/RL_federated_Q.ipynb](notebooks/RL_federated_Q.ipynb) 
 * マルチステップ強化学習：
