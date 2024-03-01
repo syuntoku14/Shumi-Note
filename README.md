@@ -253,6 +253,7 @@ poetry install
 228. (2024/02/15) GOLFアルゴリズムとその証明：[notebook/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb)
 229. (2024/02/21) 平均報酬とTUCRLアルゴリズム（途中）：[notebook/RL_AverageReward_TUCRL.ipynb](notebooks/RL_AverageReward_TUCRL.ipynb)
 230. (2024/02/21) 平均報酬とUCRL2アルゴリズム（途中）：[notebook/RL_AverageReward_UCRL2.ipynb](notebooks/RL_AverageReward_UCRL2.ipynb)
+231. (2024/03/1) Bellman Eluder dimensionの証明の続き: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
