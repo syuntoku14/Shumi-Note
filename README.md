@@ -74,10 +74,10 @@ poetry install
 49. (2023/3/17) 最尤推定：[notebooks/PROB_maximum_likelihood.ipynb](notebooks/PROB_maximum_likelihood.ipynb)
 50. (2023/3/20) 凸集合：[notebooks/CVX_convex_sets.ipynb](notebooks/CVX_convex_sets.ipynb)
 51. (2023/3/21) 凸集合：[notebooks/CVX_convex_sets.ipynb](notebooks/CVX_convex_sets.ipynb)
-52. (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
+52. (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_LowerBound_statistical_limits.ipynb](notebooks/RL_LowerBound_statistical_limits.ipynb)
 53. (2023/3/20~2023/3/23) : 読書：[ソフトウェア見積り　人月の暗黙知を解き明かす](books/README.md)
 54. (2023/3/24) **** : ****.ipynb
-55. (2023/3/25) 強化学習のサンプル効率の下界（Linear Realizable編）：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
+55. (2023/3/25) 強化学習のサンプル効率の下界（Linear Realizable編）：[notebooks/RL_LowerBound_statistical_limits.ipynb](notebooks/RL_LowerBound_statistical_limits.ipynb)
 56. (2023/3/27) TODO: 強化学習とエントロピー正則化（途中）：[notebooks/RL_entropy_regularization.ipynb](notebooks/RL_entropy_regularization.ipynb)
 57. (2023/3/28) 凸関数（共役関数とか）：[notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 58. (2023/3/29) Approximate Dynamic Programming：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
@@ -103,7 +103,7 @@ poetry install
 78. (2023/4/19) 置換と基本行列: [notebooks/LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 79. (2023/4/20) クロネッカー積: [notebooks/LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 80. (2023/4/21) 行列式: [notebooks/LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
-81. (2023/4/22) Linear MDPでのサンプル効率の下界: [notebooks/RL_linearMDP_lower_bound.ipynb](notebooks/RL_linearMDP_lower_bound.ipynb)
+81. (2023/4/22) Linear MDPでのサンプル効率の下界: [notebooks/RL_LowerBound_linearMDP.ipynb](notebooks/RL_LowerBound_linearMDP.ipynb)
 82. (2023/4/26) 余因子行列: [notebooks/LA_matrix_determinant.ipynb](notebooks/LA_matrix_determinant.ipynb)
 83. (2023/4/27) ロバストQ学習: [notebooks/RL_robust_Q_learning.ipynb](notebooks/RL_robust_Q_learning.ipynb)
 84. (2023/4/28) ゲルシュゴリンの定理: [notebooks/LA_Gershgorin_circle_theorem.ipynb](notebooks/LA_Gershgorin_circle_theorem.ipynb)
@@ -254,6 +254,7 @@ poetry install
 229. (2024/02/21) 平均報酬とTUCRLアルゴリズム（途中）：[notebook/RL_AverageReward_TUCRL.ipynb](notebooks/RL_AverageReward_TUCRL.ipynb)
 230. (2024/02/21) 平均報酬とUCRL2アルゴリズム（途中）：[notebook/RL_AverageReward_UCRL2.ipynb](notebooks/RL_AverageReward_UCRL2.ipynb)
 231. (2024/03/1) Bellman Eluder dimensionの証明の続き: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb)
+232. (2024/03/2) 強化学習のサンプル効率の下界（修正）：[notebooks/RL_LowerBound_statistical_limits.ipynb](notebooks/RL_LowerBound_statistical_limits.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -321,7 +322,7 @@ poetry install
     * (2024/01/11) バンディットとEluder dimension: [notebooks/BANDIT_General_Eluder_dimension.ipynb](notebooks/BANDIT_General_Eluder_dimension.ipynb) 
 * Linear MDP：
     * (2023/1/18) Linear MDP: [notebooks/RL_linearMDP.ipynb](notebooks/RL_linearMDP.ipynb)
-    * (2023/4/22) Linear MDPでのサンプル効率の下界: [RL_linearMDP_lower_bound.ipynb](notebooks/RL_linearMDP_lower_bound.ipynb)
+    * (2023/4/22) Linear MDPでのサンプル効率の下界: [RL_LowerBound_linearMDP.ipynb](notebooks/RL_LowerBound_linearMDP.ipynb)
 * Reward Free RL：
     * (2023/2/22) Reward Free RL: [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
     * (2023/3/7) Task-agnostic探索の理論: [notebooks/RL_reward_free_task_agnostic.ipynb](notebooks/RL_reward_free_task_agnostic.ipynb) 
@@ -378,7 +379,7 @@ poetry install
     * (2023/2/10) 適合価値反復法: [notebooks/RL_fitted_Q_iteration.ipynb](notebooks/RL_fitted_Q_iteration.ipynb)
     * (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
     * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
-    * (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
+    * (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_LowerBound_statistical_limits.ipynb](notebooks/RL_LowerBound_statistical_limits.ipynb)
     * (2023/3/29) Approximate Dynamic Programming：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
     * (2023/5/09) CPIのスライド: [slides/RL_CPI.pdf](slides/RL_CPI.pdf) 
     * (2023/5/09) CVIのスライド: [slides/RL_CVI.pdf](slides/RL_CVI.pdf) 
@@ -478,6 +479,6 @@ poetry install
     * [ ] エントロピー最大化逆強化学習ではエントロピーを入れることに必然性があったきがする。探しておこう。
     - [ ] AggreVateのリグレットの証明
     - [ ] AggreVateはもっと良い実装方法ないかな？計算コストが高すぎるかも。
-* [ ] (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_lower_bounds.ipynb](notebooks/RL_lower_bounds.ipynb)
+* [ ] (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_LowerBound_statistical_limits.ipynb](notebooks/RL_LowerBound_statistical_limits.ipynb)
     * [ ] 意外と行列の性質の理解が曖昧。（$\|\phi(s, a)\|_2 \leq 1$なので$\sigma_{\min }\left(\mathbb{E}_{(s, a) \sim \widetilde{\mu}_h}\left[\phi(s, a) \phi(s, a)^{\top}\right]\right)$が成り立つためです）。これとか微妙。
 
