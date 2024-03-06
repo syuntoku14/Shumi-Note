@@ -255,6 +255,7 @@ poetry install
 230. (2024/02/21) 平均報酬とUCRL2アルゴリズム（途中）：[notebook/RL_AverageReward_UCRL2.ipynb](notebooks/RL_AverageReward_UCRL2.ipynb)
 231. (2024/03/1) Bellman Eluder dimensionの証明の続き: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb)
 232. (2024/03/2) 強化学習のサンプル効率の下界（修正）：[notebooks/RL_LowerBound_statistical_limits.ipynb](notebooks/RL_LowerBound_statistical_limits.ipynb)
+233. (2024/03/6) Foundation of RLの翻訳：[notebooks/RL_General_Foundation_of_RL.ipynb](notebooks/RL_General_Foundation_of_RL.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -402,6 +403,7 @@ poetry install
     * (2024/01/12) RLとEluder dimension: [notebooks/RL_General_Eluder_dimension.ipynb](notebooks/RL_General_Eluder_dimension.ipynb) 
     * (2024/02/03) Decision Estimation Coefficient：[notebooks/RL_General_DEC.ipynb](notebooks/RL_General_DEC.ipynb)
     * (2024/02/13) 強化学習とABCクラス：[notebook/RL_General_ABC_class.ipynb](notebooks/RL_General_ABC_class.ipynb)
+    * (2024/03/6) Foundation of RLの翻訳：[notebooks/RL_General_Foundation_of_RL.ipynb](notebooks/RL_General_Foundation_of_RL.ipynb)
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
