@@ -257,6 +257,7 @@ poetry install
 232. (2024/03/2) 強化学習のサンプル効率の下界（修正）：[notebooks/RL_LowerBound_statistical_limits.ipynb](notebooks/RL_LowerBound_statistical_limits.ipynb)
 233. (2024/03/6) Foundation of RLの翻訳：[notebooks/RL_General_Foundation_of_RL.ipynb](notebooks/RL_General_Foundation_of_RL.ipynb)
 234. (2024/03/7) Foundation of RLの翻訳：[notebooks/RL_General_Foundation_of_RL.ipynb](notebooks/RL_General_Foundation_of_RL.ipynb)
+235. (2024/03/10) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
