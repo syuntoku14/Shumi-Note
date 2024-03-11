@@ -43,7 +43,7 @@ poetry install
 18. (2023/2/7) MDPについて (Garnet MDP): [notebooks/RL_Markov_Decision_Process.ipynb](notebooks/RL_Markov_Decision_Process.ipynb)
 19. (2023/2/8) 文脈付きバンディット (TODO): [notebooks/BANDIT_General_contextual.ipynb](notebooks/BANDIT_General_contextual.ipynb)
 20. (2023/2/9) 線形バンディット: [notebooks/BANDIT_General_contextual.ipynb](notebooks/BANDIT_General_contextual.ipynb)
-21. (2023/2/10) 適合価値反復法: [notebooks/RL_fitted_Q_iteration.ipynb](notebooks/RL_fitted_Q_iteration.ipynb)
+21. (2023/2/10) 適合価値反復法: [notebooks/RL_General_fitted_Q_iteration.ipynb](notebooks/RL_General_fitted_Q_iteration.ipynb)
 22. (2023/2/12) Generalized RL (適合Q学習などの一般化): [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
 23. (2023/2/13) Generalized RL (確率的な作用素で一般化): [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
 24. (2023/2/14~17) マルチステップRLのスライド: [slides/RL_multi_step.pdf](slides/RL_multi_step.pdf)
@@ -324,7 +324,7 @@ poetry install
     * (2023/5/09) Kiefer-Wolfowitzの定理: [notebooks/BANDIT_Kiefer_Wolfowitz.ipynb](notebooks/BANDIT_Kiefer_Wolfowitz.ipynb) 
     * (2024/01/11) バンディットとEluder dimension: [notebooks/BANDIT_General_Eluder_dimension.ipynb](notebooks/BANDIT_General_Eluder_dimension.ipynb) 
 * Linear MDP：
-    * (2023/1/18) Linear MDP: [notebooks/RL_linearMDP.ipynb](notebooks/RL_linearMDP.ipynb)
+    * (2023/1/18) Linear MDP: [notebooks/RL_General_linearMDP.ipynb.ipynb](notebooks/RL_General_linearMDP.ipynb.ipynb)
     * (2023/4/22) Linear MDPでのサンプル効率の下界: [RL_LowerBound_linearMDP.ipynb](notebooks/RL_LowerBound_linearMDP.ipynb)
 * Reward Free RL：
     * (2023/2/22) Reward Free RL: [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
@@ -379,7 +379,7 @@ poetry install
     * (2023/2/27-28) UCB-VIの理論 (モデルベース): [notebooks/RL_UCB_VI_regret_proof.ipynb](notebooks/RL_UCB_VI_regret_proof.ipynb) 
     * (2023/3/4) UCB-Hoeffdingの理論 (モデルフリー): [notebooks/RL_UCB_H_regret_proof.ipynb](notebooks/RL_UCB_H_regret_proof.ipynb) 
     * (2023/3/5) 遷移確率の推定について: [notebooks/RL_transition_estimation_proofs.ipynb](notebooks/RL_transition_estimation_proofs.ipynb) 
-    * (2023/2/10) 適合価値反復法: [notebooks/RL_fitted_Q_iteration.ipynb](notebooks/RL_fitted_Q_iteration.ipynb)
+    * (2023/2/10) 適合価値反復法: [notebooks/RL_General_fitted_Q_iteration.ipynb](notebooks/RL_General_fitted_Q_iteration.ipynb)
     * (2023/3/12) 強化学習と線形計画問題: [notebooks/RL_as_LP.ipynb](notebooks/RL_as_LP.ipynb) 
     * (2023/2/12) Generalized RL: [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
     * (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_LowerBound_statistical_limits.ipynb](notebooks/RL_LowerBound_statistical_limits.ipynb)
