@@ -262,6 +262,7 @@ poetry install
 237. (2024/03/13) Bellman rankとBilinear classの例の補足
 238. (2024/03/14) マルコフ連鎖の用語について: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
 239. (2024/03/15) Bellman completenessと$\pi$-realizableの関係の証明: [notebooks/RL_General_linear_Bellman_completeness.ipynb](notebooks/RL_General_linear_Bellman_completeness.ipynb.ipynb) 
+240. (2024/03/17) Safe RLの安全性いろいろ: [notebooks/RL_CMDP_general_safe_problem.ipynb](notebooks/RL_CMDP_general_safe_problem.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -357,6 +358,7 @@ poetry install
     * (2023/11/19) CMDPでのLast-iterate-convergence: [notebooks/RL_CMDP_last_iterate_convergence.ipynb](notebooks/RL_CMDP_last_iterate_convergence.ipynb) 
     * (2023/11/28) CMDPでのアルゴリズム（DOPE）: [notebooks/RL_CMDP_DOPE.ipynb](notebooks/RL_CMDP_DOPE.ipynb) 
     * (2024/01/25) Lagrange法と正則化: [notebooks/RL_CMDP_Lagrange_regularization.ipynb](notebooks/RL_CMDP_Lagrange_regularized.ipynb)
+    * (2024/03/17) Safe RLの安全性いろいろ: [notebooks/RL_CMDP_general_safe_problem.ipynb](notebooks/RL_CMDP_general_safe_problem.ipynb) 
 * 平均報酬強化学習：
     * (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
     * (2023/11/3) モデルフリー平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
