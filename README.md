@@ -265,6 +265,7 @@ poetry install
 240. (2024/03/17) Safe RLの安全性いろいろ: [notebooks/RL_CMDP_general_safe_problem.ipynb](notebooks/RL_CMDP_general_safe_problem.ipynb) 
 241. (2024/03/19) モデルフリーの下界について追記: [notebooks/RL_General_witness_rank.ipynb](notebooks/RL_General_witness_rank.ipynb) 
 242. (2024/03/20) モデルフリーの下界の証明: [notebooks/RL_General_witness_rank.ipynb](notebooks/RL_General_witness_rank.ipynb) 
+243. (2024/03/20) モデルベース・方策ベース・価値ベースのrealizabilityについて（途中）: [notebooks/RL_Model_based_vs_Model_free.ipynb](notebooks/RL_Model_based_vs_Model_free.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
