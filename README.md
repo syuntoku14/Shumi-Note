@@ -268,6 +268,7 @@ poetry install
 243. (2024/03/20) モデルベース・方策ベース・価値ベースのrealizabilityについて（途中）: [notebooks/RL_Model_based_vs_Model_free.ipynb](notebooks/RL_Model_based_vs_Model_free.ipynb) 
 244. (2024/04/01) Safe RLの安全性いろいろの追記: [notebooks/RL_CMDP_general_safe_problem.ipynb](notebooks/RL_CMDP_general_safe_problem.ipynb) 
 245. (2024/04/05) RLにおける正則化と最適化について: [notebooks/RL_Convex_regularized_optimization.ipynb](notebooks/RL_Convex_regularized_optimization.ipynb) 
+246. (2024/04/11) ノルム線形空間: [notebooks/LA_normed_linear_space.ipynb](notebooks/LA_normed_linear_space.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -285,6 +286,7 @@ poetry install
 * (2023/5/27) ベクトル空間: [notebooks/LA_vector_space.ipynb](notebooks/LA_vector_space.ipynb) 
 * (2023/5/28) 標準形: [notebooks/LA_normal_form.ipynb](notebooks/LA_normal_form.ipynb) 
 * (2023/6/01) 整数行列: [notebooks/LA_integer_matrix.ipynb](notebooks/LA_integer_matrix.ipynb) 
+* (2024/04/11) ノルム線形空間: [notebooks/LA_normed_linear_space.ipynb](notebooks/LA_normed_linear_space.ipynb) 
 
 
 ### 確率論入門
