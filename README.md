@@ -269,6 +269,7 @@ poetry install
 244. (2024/04/01) Safe RLの安全性いろいろの追記: [notebooks/RL_CMDP_general_safe_problem.ipynb](notebooks/RL_CMDP_general_safe_problem.ipynb) 
 245. (2024/04/05) RLにおける正則化と最適化について: [notebooks/RL_Convex_regularized_optimization.ipynb](notebooks/RL_Convex_regularized_optimization.ipynb) 
 246. (2024/04/11) ノルム線形空間: [notebooks/LA_normed_linear_space.ipynb](notebooks/LA_normed_linear_space.ipynb) 
+247. (2024/04/12) ガウス＝ザイデル価値反復法: [notebooks/RL_Gauss_Seidel_VI.ipynb](notebooks/RL_Gauss_Seidel_VI.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -420,6 +421,7 @@ poetry install
     * (2024/02/13) 強化学習とABCクラス：[notebook/RL_General_ABC_class.ipynb](notebooks/RL_General_ABC_class.ipynb)
     * (2024/03/6) Foundation of RLの翻訳：[notebooks/RL_General_Foundation_of_RL.ipynb](notebooks/RL_General_Foundation_of_RL.ipynb)
     * (2024/03/11) Low Inherent Bellman Error: [notebooks/RL_General_linear_Bellman_completeness.ipynb](notebooks/RL_General_linear_Bellman_completeness.ipynb.ipynb) 
+    * (2024/04/12) ガウス＝ザイデル価値反復法: [notebooks/RL_Gauss_Seidel_VI.ipynb](notebooks/RL_Gauss_Seidel_VI.ipynb) 
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
