@@ -270,6 +270,7 @@ poetry install
 245. (2024/04/05) RLにおける正則化と最適化について: [notebooks/RL_Convex_regularized_optimization.ipynb](notebooks/RL_Convex_regularized_optimization.ipynb) 
 246. (2024/04/11) ノルム線形空間: [notebooks/LA_normed_linear_space.ipynb](notebooks/LA_normed_linear_space.ipynb) 
 247. (2024/04/12) ガウス＝ザイデル価値反復法: [notebooks/RL_Gauss_Seidel_VI.ipynb](notebooks/RL_Gauss_Seidel_VI.ipynb) 
+248. (2024/04/12) occupancy measureとnon-markovianな方策: [notebooks/RL_occupancy_measure.ipynb](notebooks/RL_occupancy_measure.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
