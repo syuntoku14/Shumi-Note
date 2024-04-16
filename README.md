@@ -212,7 +212,7 @@ poetry install
 187. (2023/10/26) データを利用したロバスト最適化（微妙）: [notebooks/OPT_robust_learning_uncertainty_set_deprecated.ipynb](notebooks/OPT_robust_learning_uncertainty_set_deprecated.ipynb) 
 188. (2023/10/29) データを利用したロバスト最適化: [notebooks/OPT_robust_learning_based.ipynb](notebooks/OPT_robust_learning_based.ipynb) 
 189. (2023/11/1) カーネル強化学習: [notebooks/RL_Continuous_Kernel.ipynb](notebooks/RL_Continuous_Kernel.ipynb) 
-190. (2023/11/3) Bellman rank: [notebooks/RL_Bellman_rank.ipynb](notebooks/RL_Bellman_rank.ipynb) 
+190. (2023/11/3) Bellman rank: [notebooks/RL_General_Bellman_rank.ipynb](notebooks/RL_General_Bellman_rank.ipynb) 
 191. (2023/11/3) モデルフリー平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
 192. (2023/11/3) Bilinear class: [notebooks/RL_Bilinear_class.ipynb](notebooks/RL_Bilinear_class.ipynb) 
 193. (2023/11/4) 制約違反なしのCMDP: [notebooks/RL_CMDP_zero_constraint_violation.ipynb](notebooks/RL_CMDP_zero_constraint_violation.ipynb) 
@@ -271,6 +271,7 @@ poetry install
 246. (2024/04/11) ノルム線形空間: [notebooks/LA_normed_linear_space.ipynb](notebooks/LA_normed_linear_space.ipynb) 
 247. (2024/04/12) ガウス＝ザイデル価値反復法: [notebooks/RL_Gauss_Seidel_VI.ipynb](notebooks/RL_Gauss_Seidel_VI.ipynb) 
 248. (2024/04/12) occupancy measureとnon-markovianな方策: [notebooks/RL_occupancy_measure.ipynb](notebooks/RL_occupancy_measure.ipynb) 
+249. (2024/04/16) V-Bellman rankについて追記: [notebooks/RL_General_Bellman_rank.ipynb](notebooks/RL_General_Bellman_rank.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -410,7 +411,7 @@ poetry install
     * (2023/9/29) Convex MDPについて: [notebooks/RL_Convex_MDP.ipynb](notebooks/RL_Convex_MDP.ipynb) 
     * (2022/10/18) 報酬設計によるサンプル効率の向上: [notebooks/RL_reward_shaping.ipynb](notebooks/RL_reward_shaping.ipynb) 
     * (2023/10/24) RLHFの理論: [notebooks/RL_RLHF.ipynb](notebooks/RL_RLHF.ipynb) 
-    * (2023/11/3) Bellman rank: [notebooks/RL_Bellman_rank.ipynb](notebooks/RL_Bellman_rank.ipynb) 
+    * (2023/11/3) Bellman rank: [notebooks/RL_General_Bellman_rank.ipynb](notebooks/RL_General_Bellman_rank.ipynb) 
     * (2023/11/3) Bilinear class: [notebooks/RL_Bilinear_class.ipynb](notebooks/RL_Bilinear_class.ipynb) 
     * (2023/11/5) Witness rank: [notebooks/RL_witness_rank.ipynb](notebooks/RL_witness_rank.ipynb) 
     * (2023/11/6) RLとFenchel Rockafellar双対性とDICE: [notebooks/RL_Convex_Fenchel_Duality_and_DICE.ipynb](notebooks/RL_Convex_Fenchel_Duality_and_DICE.ipynb) 
