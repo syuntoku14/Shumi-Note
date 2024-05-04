@@ -273,6 +273,7 @@ poetry install
 248. (2024/04/12) occupancy measureとnon-markovianな方策: [notebooks/RL_occupancy_measure.ipynb](notebooks/RL_occupancy_measure.ipynb) 
 249. (2024/04/16) V-Bellman rankについて追記: [notebooks/RL_General_Bellman_rank.ipynb](notebooks/RL_General_Bellman_rank.ipynb) 
 250. (2024/05/01) 有界でない報酬や状態でのValue Iteration （途中）: [notebooks/RL_value_unbounded.ipynb](notebooks/RL_value_unbounded.ipynb) 
+251. (2024/05/04) R-contamination モデルは割引率を下げたものと一緒: [notebooks/RL_robust_R_contamination.ipynb](notebooks/RL_robust_R_contamination.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -354,6 +355,7 @@ poetry install
     * (2023/6/08) 凸最適化としてのロバストMDP: [notebooks/RL_robust_MDP_convex..ipynb](notebooks/RL_robust_MDP_convex..ipynb) 
     * (2023/8/07) ロバストMDPと強双対性: [notebooks/RL_robust_MDP_zero_duality.ipynb](notebooks/RL_robust_MDP_zero_duality.ipynb) 
     * (2023/8/24) ロバストMDPとNP困難: [notebooks/RL_robust_MDP_NP_hard.ipynb](notebooks/RL_robust_MDP_NP_hard.ipynb)
+    * (2024/05/04) R-contamination モデルは割引率を下げたものと一緒: [notebooks/RL_robust_R_contamination.ipynb](notebooks/RL_robust_R_contamination.ipynb) 
 * 制約付きMDP：
     * (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit_LP.ipynb](notebooks/RL_CMDP_explore_exploit_LP.ipynb) 
     * (2023/6/02) 双対法によるCMDPの解法: [notebooks/RL_CMDP_dual.ipynb](notebooks/RL_CMDP_dual.ipynb) 
