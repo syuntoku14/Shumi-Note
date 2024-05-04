@@ -274,6 +274,7 @@ poetry install
 249. (2024/04/16) V-Bellman rankについて追記: [notebooks/RL_General_Bellman_rank.ipynb](notebooks/RL_General_Bellman_rank.ipynb) 
 250. (2024/05/01) 有界でない報酬や状態でのValue Iteration （途中）: [notebooks/RL_value_unbounded.ipynb](notebooks/RL_value_unbounded.ipynb) 
 251. (2024/05/04) R-contamination モデルは割引率を下げたものと一緒: [notebooks/RL_robust_R_contamination.ipynb](notebooks/RL_robust_R_contamination.ipynb) 
+252. (2024/05/04) SA-rectangular Robust MDPでの方策勾配（途中）: [notebooks/RL_robust_sa_gradient.ipynb](notebooks/RL_robust_sa_gradient.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
