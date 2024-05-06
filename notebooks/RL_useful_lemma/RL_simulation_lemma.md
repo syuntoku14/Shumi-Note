@@ -176,6 +176,9 @@ $$
 
 ### Natural policy gradientでのsub-optimality gap
 
+参考：
+* [Fast Global Convergence of Natural Policy Gradient Methods with Entropy Regularization](https://arxiv.org/abs/2007.06558)のLemma 5
+
 $\pi_t$から$\pi_{t+1}$への更新を次で実現する場合について考えましょう．
 
 $$
@@ -187,4 +190,66 @@ $$
 \end{aligned}
 $$
 
-これは[mirror descentのバウンド]()
+このとき，$\eta=(1-\gamma) / \tau$であれば，
+
+$$
+V_\tau^{\star}(\rho)-V_\tau^{(t)}(\rho) \leq \frac{1}{\eta} \underset{s \sim d_\rho^{\pi \star}}{\mathbb{E}}\left[\operatorname{KL}\left(\pi^{(t)}(\cdot \mid s) \| \pi^{(t+1)}(\cdot \mid s)\right)\right]
+$$
+
+が成立します．
+
+ちなみにこれは[mirror descentのバウンド](Mirror_descent.md)を使えばバウンドできますが，$\eta \square$なる余計な項がついてきます．
+
+**証明**
+
+まず，
+$$
+\begin{aligned}
+& V_\tau^{\star}(\rho)-V_\tau^{(t)}(\rho)
+= \mathbb{E}_{\pi^\star_\tau}\left[\sum_{i=0}^{\infty} \gamma^i\left(r\left(s_i, a_i\right)-\tau \log \pi_\tau^{\star}\left(a_i \mid s_i\right)\right)\right]-V_\tau^{(t)}(\rho) \\
+& =
+\mathbb{E}_{\pi^\star_\tau}\left[\sum_{i=0}^{\infty} \gamma^i\left(r\left(s_i, a_i\right)-\tau \log \pi_\tau^{\star}\left(a_i \mid s_i\right)+V_\tau^{(t)}\left(s_i\right)-V_\tau^{(t)}\left(s_i\right)\right)\right]-V_\tau^{(t)}(\rho) \\
+& =\mathbb{E}_{\pi^\star_\tau}\left[V_\tau^{(t)}\left(s_0\right)+\sum_{i=0}^{\infty} \gamma^i\left(r\left(s_i, a_i\right)-\tau \log \pi_\tau^{\star}\left(a_i \mid s_i\right)+\gamma V_\tau^{(t)}\left(s_{i+1}\right)-V_\tau^{(t)}\left(s_i\right)\right)\right]-V_\tau^{(t)}(\rho) \\
+& =\mathbb{E}_{\pi^\star_\tau}\left[\sum_{i=0}^{\infty} \gamma^i\left(r\left(s_i, a_i\right)-\tau \log \pi_\tau^{\star}\left(a_i \mid s_i\right)+\gamma V_\tau^{(t)}\left(s_{i+1}\right)-V_\tau^{(t)}\left(s_i\right)\right)\right]\\
+& \stackrel{\text { (i) }}{=} \frac{1}{1-\gamma} \underset{s \sim d_\rho^{\pi *}}{\mathbb{E}}\left[\sum_a \pi_\tau^{\star}(a \mid s)\left(r(s, a)-\tau \log \pi_\tau^{\star}(a \mid s)+\gamma \underset{s^{\prime} \sim P(\cdot \mid s, a)}{\mathbb{E}}\left[V_\tau^{(t)}\left(s^{\prime}\right)\right]-V_\tau^{(t)}(s)\right)\right] \\
+& \stackrel{\text { (ii) }}{=} \frac{1}{1-\gamma} \underset{s \sim d_\rho^{\pi *}}{\mathbb{E}}\left[\sum_a \pi_\tau^{\star}(a \mid s)\left(Q_\tau^{(t)}(s, a)-\tau \log \pi_\tau^{\star}(a \mid s)\right)-V_\tau^{(t)}(s)\right] .
+\end{aligned}
+$$
+が成立します（これはどんな$\pi^{(t)}$にも成立します）．
+続いて，
+$$
+\begin{aligned}
+\sum_a \pi_\tau^{\star}(a \mid s)\left(Q_\tau^{(t)}(s, a)-\tau \log \pi_\tau^{\star}(a \mid s)\right) & =\tau \sum_a \pi_\tau^{\star}(a \mid s) \log \left(\frac{\exp \left(Q_\tau^{(t)}(s, a) / \tau\right)}{\pi_\tau^{\star}(a \mid s)}\right) \\
+& \leq \tau \log \left(\sum_a \pi_\tau^{\star}(a \mid s) \frac{\exp \left(Q_\tau^{(t)}(s, a) / \tau\right)}{\pi_\tau^{\star}(a \mid s)}\right) \\
+& =\tau \log \left(\sum_a \exp \left(Q_\tau^{(t)}(s, a) / \tau\right)\right) .
+\end{aligned}
+$$
+がJensenの不等式から成立します．
+よって，上のギャップの続きとして
+$$
+\leq \frac{1}{1-\gamma} \underset{s \sim d_\rho^{\pi *}}{\mathbb{E}}\left[
+    \tau \log \left(\sum_a \exp \left(Q_\tau^{(t)}(s, a) / \tau\right)\right)
+    -V_\tau^{(t)}(s)\right]
+$$
+が成り立ちます．
+
+ここで，$\pi^{(t+1)}$の定義から，
+$$
+Q_\tau^{(t)}(s, a)=\tau \log \pi_\tau^{(t+1)}(a \mid s)+\tau \log \left(\sum_a \exp \left(Q_\tau^{(t)}(s, a) / \tau\right)\right)
+$$
+が成立してます．
+よって，
+$$
+\begin{aligned}
+V_\tau^{(t)}(s) & =\sum_a \pi_\tau^{(t)}(a \mid s)\left(Q_\tau^{(t)}(s, a)-\tau \log \pi_\tau^{(t)}(a \mid s)\right) \\
+& \stackrel{(\mathrm{i})}{=} \tau \sum_a \pi_\tau^{(t)}(a \mid s)\left\{\log \pi_\tau^{(t+1)}(a \mid s)+\log \left(\sum_a \exp \left(Q_\tau^{(t)}(s, a) / \tau\right)\right)-\log \pi_\tau^{(t)}(a \mid s)\right\} \\
+& =\tau \log \left(\sum_a \exp \left(Q_\tau^{(t)}(s, a) / \tau\right)\right)+\tau \sum_a \pi_\tau^{(t)}(a \mid s)\left(\log \pi_\tau^{(t+1)}(a \mid s)-\log \pi_\tau^{(t)}(a \mid s)\right) \\
+& =\tau \log \left(\sum_a \exp \left(Q_\tau^{(t)}(s, a) / \tau\right)\right)-\tau \operatorname{KL}\left(\pi_\tau^{(t)}(a \mid s) \| \pi_\tau^{(t+1)}(\cdot \mid s)\right)
+\end{aligned}
+$$
+
+が成り立ってますね．以上より，上のギャップの式を書き換えれば
+$$
+V_\tau^{\star}(\rho)-V_\tau^{(t)}(\rho) \leq \frac{1}{\eta} \underset{s \sim d_\rho^{\pi \star}}{\mathbb{E}}\left[\operatorname{KL}\left(\pi^{(t)}(\cdot \mid s) \| \pi^{(t+1)}(\cdot \mid s)\right)\right]
+$$
+が得られます．
