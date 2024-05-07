@@ -276,6 +276,7 @@ poetry install
 251. (2024/05/04) R-contamination モデルは割引率を下げたものと一緒: [notebooks/RL_robust_R_contamination.ipynb](notebooks/RL_robust_R_contamination.ipynb) 
 252. (2024/05/04) SA-rectangular Robust MDPでの方策勾配（途中）: [notebooks/RL_robust_sa_gradient.ipynb](notebooks/RL_robust_sa_gradient.ipynb) 
 253. (2024/05/06) TODO: RL_useful_lemmaの整理
+254. (2024/05/07) Mirror descentとSimulation lemma : [notebooks/RL_useful_lemma/Mirror_descent.md](notebooks/RL_useful_lemma/Mirror_descent.md) と [notebooks/RL_useful_lemma/RL_simulation_lemma.md](notebooks/RL_useful_lemma/RL_simulation_lemma.md)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->

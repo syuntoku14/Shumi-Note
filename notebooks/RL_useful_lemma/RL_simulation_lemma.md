@@ -183,14 +183,26 @@ $\pi_t$から$\pi_{t+1}$への更新を次で実現する場合について考�
 
 $$
 \begin{aligned}
-\pi^{(t+1)}(a \mid s)&=\frac{1}{Z^{(t)}(s)}\left(\pi^{(t)}(a \mid s)\right)^{1-\frac{\eta \tau}{1-\gamma}} \exp \left(\frac{\eta Q_\tau^{\pi^{(t)}}(s, a)}{1-\gamma}\right)\\
-&=\underset{\pi(\cdot \mid s) \in \dot{\Delta}(A)}{\operatorname{argmax}}\left\{\sum_a \pi(a \mid s) Q_{\tau}^{\pi^{(t)}}(s, a)-\frac{1}{\eta} \mathrm{KL}\left(\pi(\cdot \mid s), \pi_t(\cdot \mid s)\right)
-- \tau\log \pi(a \mid s)
+\pi^{(t+1)}(a \mid s)&\propto
+\left(\pi^{(t)}(a \mid s)\right)^{1-\frac{\tau}{\eta}} \exp \left({\frac{1}{\eta} Q_\tau^{\pi^{(t)}}(s, a)}\right)\\
+&\propto
+\pi^{(t)}(a \mid s) \exp \left(\frac{1}{\eta}Q_\tau^{\pi^{(t)}}(s, a) - \frac{\tau}{\eta}\log \pi^{(t)}(a\mid s)\right)\\
+&=\underset{\pi(\cdot \mid s) \in \dot{\Delta}(A)}{\operatorname{argmax}}\left\{\sum_a \pi(a \mid s) \left(Q_{\tau}^{\pi^{(t)}}(s, a) - \tau\log \pi^{(t)}(a \mid s)\right)-\eta \mathrm{KL}\left(\pi(\cdot \mid s), \pi_t(\cdot \mid s)\right)
 \right\}
 \end{aligned}
 $$
+ちなみに，エントロピー正則化を考えた形式が
+$$
+\begin{aligned}
+\pi'(a \mid s)&\propto
+\left(\pi^{(t)}(a \mid s)\right)^{1-\frac{\tau}{\eta + \tau}} \exp \left({\frac{1}{\eta + \tau} Q_\tau^{\pi^{(t)}}(s, a)}\right)\\
+&=\underset{\pi(\cdot \mid s) \in \dot{\Delta}(A)}{\operatorname{argmax}}\left\{\sum_a \pi(a \mid s) \left(Q_{\tau}^{\pi^{(t)}}(s, a) - \tau\log \pi(a \mid s)\right)-\eta \mathrm{KL}\left(\pi(\cdot \mid s), \pi_t(\cdot \mid s)\right)
+\right\}
+\end{aligned}
+$$
+なので（[Leverage the Averageの式５くらい](https://arxiv.org/pdf/2003.14089)），ちょっと違いますね（係数を変えたら同じです）．
 
-このとき，$\eta=(1-\gamma) / \tau$であれば，
+このとき，$\eta=\tau$であれば，
 
 $$
 V_\tau^{\star}(\rho)-V_\tau^{(t)}(\rho) \leq \frac{1}{\eta} \underset{s \sim d_\rho^{\pi \star}}{\mathbb{E}}\left[\operatorname{KL}\left(\pi^{(t)}(\cdot \mid s) \| \pi^{(t+1)}(\cdot \mid s)\right)\right]
@@ -198,7 +210,8 @@ $$
 
 が成立します．
 
-ちなみにこれは[mirror descentのバウンド](Mirror_descent.md)を使えばバウンドできますが，$\eta \square$なる余計な項がついてきます．
+実は$V_\tau^{(t)}$がMonotonic improvementであることも示せるので，
+これはつまり方策が変化しなくなったとき，$V_\tau^{(t)}$が最適価値であることを示しています．
 
 **証明**
 
@@ -253,3 +266,33 @@ $$
 V_\tau^{\star}(\rho)-V_\tau^{(t)}(\rho) \leq \frac{1}{\eta} \underset{s \sim d_\rho^{\pi \star}}{\mathbb{E}}\left[\operatorname{KL}\left(\pi^{(t)}(\cdot \mid s) \| \pi^{(t+1)}(\cdot \mid s)\right)\right]
 $$
 が得られます．
+
+### Natural policy gradientでの$\left\langle Q_s^k, \pi_s^{\star}-\pi_s^{k+1}\right\rangle$のバウンド
+
+参考：
+* [Optimal Convergence Rate for Exact Policy Mirror Descent in Discounted Markov Decision Processes](https://arxiv.org/abs/2302.11381)の式(12)付近
+
+次の方策更新を考えましょう（エントロピーは元論文にはついてないですが，つけても多分大丈夫です）：
+
+$$
+\begin{aligned}
+\pi_s^{k+1}
+&=\operatorname{argmin}_{p \in \Delta(\mathcal{A})}\left\{-\left\langle Q_s, p\right\rangle+\frac{1}{\eta}\operatorname{KL}\left(p, \pi_s^k\right)\right\}
+\propto
+\pi^{k} \exp \left(\eta Q\right)
+\end{aligned}
+$$
+
+このとき，
+
+$$
+\left\langle Q_s^k, \pi_s^{\star}-\pi_s^{k+1}\right\rangle
+\leq 
+\frac{
+\operatorname{KL}(\pi^\star_s, \pi^k_s)
+-\operatorname{KL}(\pi^\star_s, \pi^{k+1}_s)
+-\operatorname{KL}(\pi^{k+1}_s, \pi^k_s)
+}{\eta}
+$$
+
+が成立します．証明は[Mirror descentのThree-point Descent Lemma](Mirror_descent.md)を使えばすぐにわかります．
