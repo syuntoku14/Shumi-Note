@@ -61,41 +61,6 @@ $$
 
 **補題：オンラインMirror descentの基本の不等式**を，$g_k=Q^k_h(s, \cdot)$と$x_k=\pi^k_h(s, \cdot)$として適用すれば成立する．
 
-
-## Mirror descentをKLで抑える
-
-参考：[Uncoupled and Convergent Learning in Two-Player Zero-Sum Markov Games with Bandit Feedback](https://arxiv.org/abs/2303.02738)のLemma 11．
-
-$X \subseteq \Delta(A)$を凸集合として，$g$を$\mathbb{R}^{|A|}$上の非負のベクトルとします．
-$x'=\operatorname{argmin}_{\bar{x} \in X}\langle\bar{x}, g\rangle+\frac{1}{\eta} \mathrm{KL}(\bar{x}, x)$
-であれば，任意の$x^\star \in X$について，
-
-$$
-\left\langle x-x^{\star}, g\right\rangle \leq \frac{\mathrm{KL}\left(x^{\star}, x\right)-\mathrm{KL}\left(x^{\star}, x^{\prime}\right)}{\eta}+\eta \sum_{a \in A} x_a\left(g_a\right)^2 .
-$$
-
-が成立します．
-
-
-## エントロピー正則化付きをKLで抑える
-
-参考：[A Policy Gradient Primal-Dual Algorithm for Constrained MDPs with Uniform PAC Guarantees](https://arxiv.org/abs/2401.17780)のLemma 8．
-
-$\ell \in \mathbb{R}_{+}^A, x \in \Delta(\mathbf{A}), 1 \geq \eta>0$, $1 \geq \tau \geq 0$, について，
-
-$$
-x^{\prime}=\underset{\tilde{x} \in \Delta(\mathbf{A})}{\arg \min }\left\{\sum_{a \in \mathcal{A}} \tilde{x}_a\left(\ell_a+\tau \ln x_a\right)+\frac{1}{\eta} \mathrm{KL}[\tilde{x}, x]\right\}
-$$
-
-とします．このとき，任意の$u \in \Delta(A)$について
-
-$$
-\sum_{a \in \mathbf{A}}\left(x_a-u_a\right)\left(\ell_a+\tau \ln x_a\right) \leq \frac{\mathrm{KL}[u, x]-\mathrm{KL}\left[u, x^{\prime}\right]}{\eta}+\eta \sum_a x_a \ell_a^2+\eta \tau^2 A^{\eta \tau}\left(\frac{2}{1-\eta \tau}-1+\ln A\right)^2
-$$
-
-が成立します．
-
-
 ## Three-Point Descent Lemma
 
 参考：
@@ -123,3 +88,177 @@ $$
 $$
 \phi\left(x^{+}\right) - \phi(u) \leq D_h(u, x)-D_h\left(u, x^{+}\right) - D_h\left(x^{+}, x\right) 
 $$
+
+## Mirror descentをKLで抑える（雑バウンド）
+
+参考：
+* [Bandit Algorithms](https://tor-lattimore.com/downloads/book/book.pdf#page=336.11)のProposition 28.6
+
+$X \subseteq \Delta(A)$を凸集合として，$g$を$\mathbb{R}^{|A|}$上の非負のベクトルとします．
+$x'=\operatorname{argmin}_{\bar{x} \in X}\langle\bar{x}, g\rangle+\frac{1}{\eta} \mathrm{KL}(\bar{x}, x)$
+であれば，任意の$x^\star \in X$について，
+
+$$
+\left\langle x-x^{\star}, g\right\rangle \leq \frac{\mathrm{KL}\left(x^{\star}, x\right)-\mathrm{KL}\left(x^{\star}, x^{\prime}\right)}{\eta}+\frac{\eta}{2} \max_a \left(g_a\right)^2 .
+$$
+
+が成立します．
+
+**証明**
+
+上のThree point descent lemmaから
+
+$$
+\begin{aligned}
+\eta \left\langle x-x^{\star}, g\right\rangle &\leq {\mathrm{KL}\left(x^{\star}, x\right)-\mathrm{KL}\left(x^{\star}, x^{\prime}\right)}+ 
+\eta\left\langle x-x', g\right\rangle -\mathrm{KL}\left(x', x\right)\\
+&\leq
+{\mathrm{KL}\left(x^{\star}, x\right)-\mathrm{KL}\left(x^{\star}, x^{\prime}\right)}
++ 
+\| x-x'\|_1 \|\eta g\|_\infty 
+-\frac{1}{2}\|x - x'\|_1^2
+\end{aligned}
+$$
+２行目はPinskerの不等式を使ってます．ここでYoungの不等式を使うと，２つの非負の実数について
+
+$$
+ab \leq \frac{1}{2} a^2 + \frac{1}{2} b^2
+$$
+
+なので，
+$$
+\| x-x'\|_1 \|\eta g\|_\infty -\frac{1}{2}\|x - x'\|_1^2 \leq \frac{\eta^2}{2}
+\|g\|_\infty^2
+$$
+
+
+## Mirror descentをKLで抑える（マシなバウンド）
+
+上と同じ条件で，
+$$
+\left\langle x-x^{\star}, g\right\rangle \leq \frac{\mathrm{KL}\left(x^{\star}, x\right)-\mathrm{KL}\left(x^{\star}, x^{\prime}\right)}{\eta}+{\eta} \sum_a x(a) \left(g(a)\right)^2 .
+$$
+が成立します．
+
+
+**証明**
+
+$$
+\begin{aligned}
+\left\langle x-x^{\star}, g\right\rangle &\leq \frac{\mathrm{KL}\left(x^{\star}, x\right)-\mathrm{KL}\left(x^{\star}, x^{\prime}\right)}{\eta}+ 
+\left\langle x-x', g\right\rangle -\frac{1}{\eta}\mathrm{KL}\left(x', x\right)\\
+\end{aligned}
+$$
+を上から抑えていきます．
+
+まず，
+$$\phi (x, y) 
+= \sum_a x(a) \left(\ln x(a) - \ln y(a)\right)  - x(a) + y(a)$$
+なる関数を考えましょう．
+これは$x, y \in \Delta(A)$である限り$\mathrm{KL}(x, y) = \phi(x, a)$です．
+
+上からバウンドしたい式の２項目と３項目に注目しましょう．
+$\Delta(A)$ではなく$\mathbb{R}^A$上の最大値を考えると，
+$$
+\begin{aligned}
+&\left\langle x-x', g\right\rangle -\frac{1}{\eta}\mathrm{KL}\left(x', x\right)\\
+=&\left\langle x, g\right\rangle + \left\langle x', -g\right\rangle  -\frac{1}{\eta}\phi\left(x', x\right)\\
+\leq&\left\langle x, g\right\rangle + \max_{y\in \mathbb{R}^A}\left\langle y, -g\right\rangle  -\frac{1}{\eta}\phi\left(y, x\right)\\
+% =&\left\langle x, g\right\rangle + \left\langle y', -g\right\rangle  -\frac{1}{\eta}\phi\left(y', x\right)\\
+\end{aligned}
+$$
+が成り立ちます．
+<!-- 
+
+まず，[Leverage the Average](https://arxiv.org/pdf/2003.14089)より，
+$$x'=\argmax _{y \in \Delta(A)} \langle y, -g\rangle-\frac{1}{\eta} \mathrm{KL}(y \| x)=\frac{x}{Z} \exp (-\eta g)
+$$
+ですが，$\Delta(A)$ではなく$\mathbb{R}^A$上の最大値を考えてみましょう． -->
+ここで，
+$$f(y)=-\sum_{a} y(a) g(a) -\frac{1}{\eta} \sum_{a} y(a) (\ln y(a) - \ln x(a) - 1)$$
+とすると，これは明らかに上に凸な関数であり，最大値が唯一存在します．
+$$\frac{d f(y)}{d y_a}= -g(a) +\frac{1}{\eta} \ln x(a) - \frac{1}{\eta} \ln y(a)$$
+なので，これが$0$になる場合を考えれば，
+$$y'=\argmax _{y \in \mathbb{R}^A} \langle y, -g\rangle-\frac{1}{\eta} \mathrm{KL}(y \| x)=x \exp (-\eta g) $$
+になり，$Z$が外せます．
+
+ここで
+$
+\ln y' =  \ln x - \eta g
+$
+なので，
+$
+-g = \frac{1}{\eta}\ln y' - \frac{1}{\eta}\ln x 
+$
+であるから，
+$$
+\begin{aligned}
+\langle y', -g\rangle &= 
+\sum_a y'(a) \left(\frac{1}{\eta}\ln y'(a) - \frac{1}{\eta}\ln x(a) \right)
+=\frac{1}{\eta}\mathrm{KL}\left(y', x\right)\\
+\langle x, g\rangle &= 
+\sum_a x(a) \left(-\frac{1}{\eta}\ln y'(a) + \frac{1}{\eta}\ln x(a)\right)
+=\frac{1}{\eta}\mathrm{KL}\left(x, y'\right)
+\end{aligned}
+$$
+です．よって，
+$$
+\begin{aligned}
+&\left\langle x-x', g\right\rangle -\frac{1}{\eta}\mathrm{KL}\left(x', x\right)\\
+\leq&\left\langle x, g\right\rangle +\left\langle y', -g\right\rangle  -\frac{1}{\eta}\phi\left(y', x\right)\\
+\leq&
+\frac{1}{\eta} \mathrm{KL}(x, y') + \frac{1}{\eta} \mathrm{KL}(y', x) 
+-\frac{1}{\eta}\mathrm{KL}\left(y', x\right)
+- \sum_a - y'(a) + x(a)
+\\
+\leq &\frac{1}{\eta}\mathrm{KL}\left(x, y'\right)
++ \sum_a - x(a) + y'(a) = 
+\frac{1}{\eta}\phi(x, y')
+\end{aligned}
+$$
+が成り立ちます．さらに，$y'=x \exp (-\eta g)$を思い出すと，
+$$
+\begin{aligned}
+\frac{1}{\eta}\phi(x, y')
+&= 
+\frac{1}{\eta} \sum_a x(a) \left(\ln x(a) - \ln y'(a)\right)  - x(a) + y'(a)\\
+&= \frac{1}{\eta} \sum_a x(a) \left(\eta g(a)  - 1 + \exp(-\eta g(a))\right)\\
+&\leq \frac{1}{\eta} \sum_a x(a) \left(\eta g(a)\right)^2
+= \eta \sum_a x(a) \left(g(a)\right)^2
+\end{aligned}
+$$
+が成り立ちます．最後の部分では$x \geq -1$について，$e^{-x}-1+x \leq x^2$なる不等式を使いました．
+
+
+<!-- 
+ここで，[Leverage the Average](https://arxiv.org/pdf/2003.14089)より，$\max _{\pi \in \Delta_{\mathcal{A}}^S}(\langle\pi, q\rangle-\lambda \mathrm{KL}(\pi \| \mu))=\lambda \ln \left\langle 1, \exp \frac{q+\lambda \ln \mu}{\lambda}\right\rangle$なので，
+$$
+\max_y \left\langle y, -g\right\rangle 
+-\frac{1}{\eta}\mathrm{KL}\left(y, x\right)
+= 
+\frac{1}{\eta} \ln \sum_{a} x(a) \exp\left(-\eta g(a)\right)
+\geq 
+-\sum_{a} x(a) g(a)
+$$
+です．最後のはJensenの不等式です（$\ln$は上に凸な関数なので）． -->
+
+## エントロピー正則化付きをKLで抑える
+
+参考：[A Policy Gradient Primal-Dual Algorithm for Constrained MDPs with Uniform PAC Guarantees](https://arxiv.org/abs/2401.17780)のLemma 8．
+
+上のやつを利用するとバウンドできます．
+
+$\ell \in \mathbb{R}_{+}^A, x \in \Delta(\mathbf{A}), 1 \geq \eta>0$, $1 \geq \tau \geq 0$, について，
+
+$$
+x^{\prime}=\underset{\tilde{x} \in \Delta(\mathbf{A})}{\arg \min }\left\{\sum_{a \in \mathcal{A}} \tilde{x}_a\left(\ell_a+\tau \ln x_a\right)+\frac{1}{\eta} \mathrm{KL}[\tilde{x}, x]\right\}
+$$
+
+とします．このとき，任意の$u \in \Delta(A)$について
+
+$$
+\sum_{a \in \mathbf{A}}\left(x_a-u_a\right)\left(\ell_a+\tau \ln x_a\right) \leq \frac{\mathrm{KL}[u, x]-\mathrm{KL}\left[u, x^{\prime}\right]}{\eta}+\eta \sum_a x_a \ell_a^2+\eta \tau^2 A^{\eta \tau}\left(\frac{2}{1-\eta \tau}-1+\ln A\right)^2
+$$
+
+が成立します．
+
