@@ -276,8 +276,9 @@ poetry install
 251. (2024/05/04) R-contamination モデルは割引率を下げたものと一緒: [notebooks/RL_robust_R_contamination.ipynb](notebooks/RL_robust_R_contamination.ipynb) 
 252. (2024/05/04) SA-rectangular Robust MDPでの方策勾配（途中）: [notebooks/RL_robust_sa_gradient.ipynb](notebooks/RL_robust_sa_gradient.ipynb) 
 253. (2024/05/06) TODO: RL_useful_lemmaの整理
-254. (2024/05/07) Mirror descentとSimulation lemma : [notebooks/RL_useful_lemma/Mirror_descent.md](notebooks/RL_useful_lemma/Mirror_descent.md) と [notebooks/RL_useful_lemma/RL_simulation_lemma.md](notebooks/RL_useful_lemma/RL_simulation_lemma.md)
-255. (2024/05/10) Mirror descentのマシなバウンド: [notebooks/RL_useful_lemma/Mirror_descent.md](notebooks/RL_useful_lemma/Mirror_descent.md)
+254. (2024/05/07) Mirror descentとSimulation lemma : [notebooks/RL_useful_lemma/Mirror_descent.ipynb](notebooks/RL_useful_lemma/Mirror_descent.ipynb) と [notebooks/RL_useful_lemma/RL_simulation_lemma.ipynb](notebooks/RL_useful_lemma/RL_simulation_lemma.ipynb)
+255. (2024/05/10) Mirror descentのマシなバウンド: [notebooks/RL_useful_lemma/Mirror_descent.ipynb](notebooks/RL_useful_lemma/Mirror_descent.ipynb)
+256. (2024/05/13) Soft NPGの収束: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -431,6 +432,7 @@ poetry install
     * (2024/03/6) Foundation of RLの翻訳：[notebooks/RL_General_Foundation_of_RL.ipynb](notebooks/RL_General_Foundation_of_RL.ipynb)
     * (2024/03/11) Low Inherent Bellman Error: [notebooks/RL_General_linear_Bellman_completeness.ipynb](notebooks/RL_General_linear_Bellman_completeness.ipynb.ipynb) 
     * (2024/04/12) ガウス＝ザイデル価値反復法: [notebooks/RL_Gauss_Seidel_VI.ipynb](notebooks/RL_Gauss_Seidel_VI.ipynb) 
+    * (2024/05/13) Soft NPGの収束: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb)
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
