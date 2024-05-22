@@ -280,6 +280,7 @@ poetry install
 255. (2024/05/10) Mirror descentのマシなバウンド: [notebooks/RL_useful_lemma/Mirror_descent.ipynb](notebooks/RL_useful_lemma/Mirror_descent.ipynb)
 256. (2024/05/13) Soft NPGの収束: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb)
 257. (2024/05/14) ロバストMDPでの自然方策勾配: [notebooks/RL_robust_sa_gradient.ipynb](notebooks/RL_robust_sa_gradient.ipynb)
+258. (2024/05/22) R-contamination モデルは割引率を下げたものと一緒 の補足: [notebooks/RL_robust_R_contamination.ipynb](notebooks/RL_robust_R_contamination.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
