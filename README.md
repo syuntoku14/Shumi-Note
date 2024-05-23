@@ -282,6 +282,7 @@ poetry install
 257. (2024/05/14) ロバストMDPでの自然方策勾配: [notebooks/RL_robust_sa_gradient.ipynb](notebooks/RL_robust_sa_gradient.ipynb)
 258. (2024/05/22) R-contamination モデルは割引率を下げたものと一緒 の補足: [notebooks/RL_robust_R_contamination.ipynb](notebooks/RL_robust_R_contamination.ipynb) 
 259. (2024/05/23) 方策勾配法の収束について: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb) と[notebooks/RL_useful_lemma/Optimization_standard.ipynb](notebooks/RL_useful_lemma/Optimization_standard.ipynb)
+260. (2024/05/24) 全微分とフレシェ微分: [notebooks/OPT_gradient.ipynb](notebooks/OPT_gradient.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -334,6 +335,7 @@ poetry install
 * (2023/6/16) 勾配法: [notebooks/OPT_gradient.ipynb](notebooks/OPT_gradient.ipynb) 
 * (2023/6/21) ロバストMDPと確率的制約 [notebooks/OPT_robust_chance_constraint.ipynb](notebooks/OPT_robust_chance_constraint.ipynb) 
 * (2023/10/29) データを利用したロバスト最適化: [notebooks/OPT_robust_learning_based.ipynb](notebooks/OPT_robust_learning_based.ipynb) 
+* (2024/05/23) 勾配降下法に関する定理など：[notebooks/RL_useful_lemma/Optimization_standard.ipynb](notebooks/RL_useful_lemma/Optimization_standard.ipynb)
 
 
 ### 逐次意思決定問題
@@ -437,6 +439,7 @@ poetry install
     * (2024/03/11) Low Inherent Bellman Error: [notebooks/RL_General_linear_Bellman_completeness.ipynb](notebooks/RL_General_linear_Bellman_completeness.ipynb.ipynb) 
     * (2024/04/12) ガウス＝ザイデル価値反復法: [notebooks/RL_Gauss_Seidel_VI.ipynb](notebooks/RL_Gauss_Seidel_VI.ipynb) 
     * (2024/05/13) Soft NPGの収束: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb)
+    * (2024/05/23) 方策勾配法の収束について: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb)
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
