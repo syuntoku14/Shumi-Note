@@ -283,6 +283,7 @@ poetry install
 258. (2024/05/22) R-contamination モデルは割引率を下げたものと一緒 の補足: [notebooks/RL_robust_R_contamination.ipynb](notebooks/RL_robust_R_contamination.ipynb) 
 259. (2024/05/23) 方策勾配法の収束について: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb) と[notebooks/RL_useful_lemma/Optimization_standard.ipynb](notebooks/RL_useful_lemma/Optimization_standard.ipynb)
 260. (2024/05/24) 全微分とフレシェ微分: [notebooks/OPT_gradient.ipynb](notebooks/OPT_gradient.ipynb)
+261. (2024/05/26) ペナルティ関数法: [notebooks/OPT_constraint.ipynb](notebooks/OPT_constraint.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
