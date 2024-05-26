@@ -284,6 +284,7 @@ poetry install
 259. (2024/05/23) 方策勾配法の収束について: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb) と[notebooks/RL_useful_lemma/Optimization_standard.ipynb](notebooks/RL_useful_lemma/Optimization_standard.ipynb)
 260. (2024/05/24) 全微分とフレシェ微分: [notebooks/OPT_gradient.ipynb](notebooks/OPT_gradient.ipynb)
 261. (2024/05/26) ペナルティ関数法: [notebooks/OPT_constraint.ipynb](notebooks/OPT_constraint.ipynb)
+262. (2024/05/26) ロバスト方策勾配法の収束: [notebooks/RL_robust_policy_gradient.ipynb](notebooks/RL_robust_policy_gradient.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -368,6 +369,7 @@ poetry install
     * (2023/8/24) ロバストMDPとNP困難: [notebooks/RL_robust_MDP_NP_hard.ipynb](notebooks/RL_robust_MDP_NP_hard.ipynb)
     * (2024/05/04) R-contamination モデルは割引率を下げたものと一緒: [notebooks/RL_robust_R_contamination.ipynb](notebooks/RL_robust_R_contamination.ipynb) 
     * (2024/05/14) ロバストMDPでの自然方策勾配: [notebooks/RL_robust_sa_gradient.ipynb](notebooks/RL_robust_sa_gradient.ipynb)
+    * (2024/05/26) ロバスト方策勾配法の収束: [notebooks/RL_robust_policy_gradient.ipynb](notebooks/RL_robust_policy_gradient.ipynb) 
 * 制約付きMDP：
     * (2023/5/24) 制約付きMDP（OptCMDP）: [notebooks/RL_CMDP_explore_exploit_LP.ipynb](notebooks/RL_CMDP_explore_exploit_LP.ipynb) 
     * (2023/6/02) 双対法によるCMDPの解法: [notebooks/RL_CMDP_dual.ipynb](notebooks/RL_CMDP_dual.ipynb) 
