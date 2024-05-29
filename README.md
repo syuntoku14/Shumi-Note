@@ -285,6 +285,8 @@ poetry install
 260. (2024/05/24) 全微分とフレシェ微分: [notebooks/OPT_gradient.ipynb](notebooks/OPT_gradient.ipynb)
 261. (2024/05/26) ペナルティ関数法: [notebooks/OPT_constraint.ipynb](notebooks/OPT_constraint.ipynb)
 262. (2024/05/26) ロバスト方策勾配法の収束: [notebooks/RL_robust_policy_gradient.ipynb](notebooks/RL_robust_policy_gradient.ipynb) 
+263. (2024/05/28) ラデマッハ複雑度と仮説集合: [notebooks/MATH_infinite_hypothesis_Rademacher.ipynb](notebooks/MATH_infinite_hypothesis_Rademacher.ipynb) 
+264. (2024/05/28) 正則化された仮説集合のラデマッハ複雑度: [notebooks/MATH_L2_L1_regularization.ipynb](notebooks/MATH_L2_L1_regularization.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
