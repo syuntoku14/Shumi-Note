@@ -289,7 +289,8 @@ poetry install
 264. (2024/05/28) 正則化された仮説集合のラデマッハ複雑度: [notebooks/MATH_L2_L1_regularization.ipynb](notebooks/MATH_L2_L1_regularization.ipynb) 
 265. (2024/05/31) ロバスト方策勾配法の収束の改善: [notebooks/RL_robust_policy_gradient.ipynb](notebooks/RL_robust_policy_gradient.ipynb) 
 266. (2024/05/31) 弱凸性とモーロー包: [notebooks/CVX_weakly_convex_and_Moreau_envelope.ipynb](notebooks/CVX_weakly_convex_and_Moreau_envelope.ipynb) 
-267. (2024/06/03) SVMの汎化誤差: [notebooks/MATH_margin_loss_and_SVM.ipynb](notebooks/MATH_margin_loss_and_SVM.ipynb) 
+267. (2024/06/01) ロバスト方策勾配法の収束の改善: [notebooks/RL_robust_policy_gradient.ipynb](notebooks/RL_robust_policy_gradient.ipynb) 
+268. (2024/06/03) SVMの汎化誤差: [notebooks/MATH_margin_loss_and_SVM.ipynb](notebooks/MATH_margin_loss_and_SVM.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
