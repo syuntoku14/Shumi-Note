@@ -47,8 +47,7 @@ poetry install
 22. (2023/2/12) Generalized RL (適合Q学習などの一般化): [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
 23. (2023/2/13) Generalized RL (確率的な作用素で一般化): [notebooks/generalied_RL.ipynb](notebooks/RL_generalized.ipynb)
 24. (2023/2/14~17) マルチステップRLのスライド: [slides/RL_multi_step.pdf](slides/RL_multi_step.pdf)
-25. (2023/2/17) 方策勾配法 (途中): [notebooks/RL_policy_gradient.ipynb](notebooks/RL_policy_gradient.ipynb)
-26. (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/RL_policy_gradient.ipynb](notebooks/RL_policy_gradient.ipynb)
+26. (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/RL_policy_gradient_multi-step_experiment.ipynb](notebooks/RL_policy_gradient_multi-step_experiment.ipynb)
 27. (2023/2/20~21) Transformer: [notebooks/NN_transformer.ipynb](notebooks/NN_transformer.ipynb)
 28. (2023/2/22) Reward Free RL: [notebooks/RL_reward_free.ipynb](notebooks/RL_reward_free.ipynb)
 29. (2023/2/23) 教育用強化学習修行Notebook (行列形式の動的計画法編): [notebooks/RL_Exercise.ipynb](notebooks/RL_Exercise.ipynb)
@@ -292,6 +291,7 @@ poetry install
 267. (2024/06/01) ロバスト方策勾配法の収束の改善: [notebooks/RL_robust_policy_gradient.ipynb](notebooks/RL_robust_policy_gradient.ipynb) 
 268. (2024/06/03) SVMの汎化誤差: [notebooks/MATH_Generalization_margin_loss_and_SVM.ipynb](notebooks/MATH_Generalization_margin_loss_and_SVM.ipynb) 
 269. (2024/06/12) 他クラス分類の汎化誤差: [notebooks/MATH_Generalization_multi_class_classification.ipynb](notebooks/MATH_Generalization_multi_class_classification.ipynb) 
+270. (2024/06/16) 方策勾配法の導出: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -403,7 +403,7 @@ poetry install
 * マルチステップ強化学習：
     * (2023/2/5) マルチステップ強化学習: [notebooks/RL_multi_step.ipynb](notebooks/RL_multi_step.ipynb)
     * (2023/2/14~17) マルチステップRLのスライド: [slides/RL_multi_step.pdf](slides/RL_multi_step.pdf)
-    * (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/RL_policy_gradient.ipynb](notebooks/RL_policy_gradient.ipynb)
+    * (2023/2/19) 方策勾配法 (マルチステップRL): [notebooks/RL_policy_gradient_multi-step_experiment.ipynb](notebooks/RL_policy_gradient_multi-step_experiment.ipynb)
 * 模倣学習：
     * (2023/3/14) 模倣学習: [notebooks/RL_imitation_learning.ipynb](notebooks/RL_imitation_learning.ipynb) 
     * (2023/8/28) マルチタスク模倣学習と表現学習: [notebooks/RL_multi_task_imitation_learning.ipynb](notebooks/RL_multi_task_imitation_learning.ipynb) 
@@ -451,6 +451,7 @@ poetry install
     * (2024/04/12) ガウス＝ザイデル価値反復法: [notebooks/RL_Gauss_Seidel_VI.ipynb](notebooks/RL_Gauss_Seidel_VI.ipynb) 
     * (2024/05/13) Soft NPGの収束: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb)
     * (2024/05/23) 方策勾配法の収束について: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb)
+    * (2024/06/16) 方策勾配法の導出: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb) 
 * マルチタスク系：
     * (2023/10/3) 文脈付きMDP: [notebooks/RL_multi_task_contextual_MDP.ipynb](notebooks/RL_multi_task_contextual_MDP.ipynb) 
     * (2023/9/28) Domain-Randomizationの数理（途中）: [notebooks/RL_multi_task_domain_randomization.ipynb](notebooks/RL_multi_task_domain_randomization.ipynb) 
