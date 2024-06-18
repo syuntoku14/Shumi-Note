@@ -292,6 +292,7 @@ poetry install
 268. (2024/06/03) SVMの汎化誤差: [notebooks/MATH_Generalization_margin_loss_and_SVM.ipynb](notebooks/MATH_Generalization_margin_loss_and_SVM.ipynb) 
 269. (2024/06/12) 他クラス分類の汎化誤差: [notebooks/MATH_Generalization_multi_class_classification.ipynb](notebooks/MATH_Generalization_multi_class_classification.ipynb) 
 270. (2024/06/16) 方策勾配法の導出: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb) 
+271. (2024/06/18) 勾配ブースティング: [notebooks/MATH_Generalization_Boosting.ipynb](notebooks/MATH_Generalization_Boosting.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -502,6 +503,7 @@ poetry install
 * (2023/11/23) 裾確率とSubgaussian: [notebooks/MATH_sub_gaussian.ipynb](notebooks/MATH_sub_gaussian.ipynb) 
 * (2023/11/23) 一様な集中不等式について: [notebooks/MATH_uniform_concentration_inequality.ipynb](notebooks/MATH_uniform_concentration_inequality.ipynb) （むずくて全然読めてない．TODO）
 * (2024/06/03) SVMの汎化誤差: [notebooks/MATH_Generalization_margin_loss_and_SVM.ipynb](notebooks/MATH_Generalization_margin_loss_and_SVM.ipynb) 
+* (2024/06/18) 勾配ブースティング: [notebooks/MATH_Generalization_Boosting.ipynb](notebooks/MATH_Generalization_Boosting.ipynb) 
 
 ---
 
