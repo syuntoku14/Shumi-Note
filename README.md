@@ -293,6 +293,7 @@ poetry install
 269. (2024/06/12) 他クラス分類の汎化誤差: [notebooks/MATH_Generalization_multi_class_classification.ipynb](notebooks/MATH_Generalization_multi_class_classification.ipynb) 
 270. (2024/06/16) 方策勾配法の導出: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb) 
 271. (2024/06/18) 勾配ブースティング: [notebooks/MATH_Generalization_Boosting.ipynb](notebooks/MATH_Generalization_Boosting.ipynb) 
+272. (2024/06/25) NNの汎化誤差解析: [notebooks/MATH_Generalization_NN.ipynb](notebooks/MATH_Generalization_NN.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
