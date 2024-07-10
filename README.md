@@ -294,7 +294,8 @@ poetry install
 270. (2024/06/16) 方策勾配法の導出: [notebooks/RL_policy_gradient_convergence_rate.ipynb](notebooks/RL_policy_gradient_convergence_rate.ipynb) 
 271. (2024/06/18) 勾配ブースティング: [notebooks/MATH_Generalization_Boosting.ipynb](notebooks/MATH_Generalization_Boosting.ipynb) 
 272. (2024/06/25) NNの汎化誤差解析: [notebooks/MATH_Generalization_NN.ipynb](notebooks/MATH_Generalization_NN.ipynb) 
-273. (2024/07/02) 位相空間，開集合，etc: [notebooks/MATH_Functional_Analysis_basic.ipynb](notebooks/MATh_Functional_Analysis_basic.ipynb) 
+273. (2024/07/02) 位相空間，開集合，etc: [notebooks/MATH_FA_basic.ipynb](notebooks/MATh_FA_basic.ipynb) 
+274. (2024/07/10) 位相線形空間: [notebooks/MATH_FA_linear_topological_space.ipynb](notebooks/MATH_FA_linear_topological_space.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -316,7 +317,8 @@ poetry install
 
 ### 関数解析
 
-* (2024/07/02) 位相空間，開集合，etc: [notebooks/MATH_Functional_Analysis_basic.ipynb](notebooks/MATh_Functional_Analysis_basic.ipynb) 
+* (2024/07/02) 位相空間，開集合，etc: [notebooks/MATH_FA_basic.ipynb](notebooks/MATh_FA_basic.ipynb) 
+* (2024/07/10) 位相線形空間: [notebooks/MATH_FA_linear_topological_space.ipynb](notebooks/MATH_FA_linear_topological_space.ipynb) 
 
 
 ### 確率論入門
