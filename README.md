@@ -298,6 +298,7 @@ poetry install
 274. (2024/07/10) 位相線形空間: [notebooks/MATH_FA_linear_topological_space.ipynb](notebooks/MATH_FA_linear_topological_space.ipynb) 
 275. (2024/07/20) （途中）近接勾配法: [notebooks/OPT_smooth_proximal_gradient.ipynb](notebooks/OPT_smooth_proximal_gradient.ipynb) 
 276. (2024/07/28) （途中）大数の法則，中心極限定理: [notebooks/PROB_low_of_large_numbers.ipynb](notebooks/PROB_low_of_large_numbers.ipynb) 
+277. (2024/08/04) （途中）一般化微分: [notebooks/OPT_generalized_gradient.ipynb](notebooks/OPT_generalized_gradient.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
