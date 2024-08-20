@@ -301,6 +301,7 @@ poetry install
 277. (2024/08/04) （途中）一般化微分: [notebooks/OPT_generalized_gradient.ipynb](notebooks/OPT_generalized_gradient.ipynb) 
 278. (2024/08/11) CMDPにおける混合方策のアプローチについて: [notebooks/RL_CMDP_mixed_policy.ipynb](notebooks/RL_CMDP_mixed_policy.ipynb) 
 279. (2024/08/15) RMDPの最適解について: [notebooks/RL_robust_MDP_stationary_and_randomized.ipynb](notebooks/RL_robust_MDP_stationary_and_randomized.ipynb) 
+280. (2024/08/19) softmaxの方策勾配について: [notebooks/RL_PolicyGrad_softmax_convergence.ipynb](notebooks/RL_PolicyGrad_softmax_convergence.ipynb.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
