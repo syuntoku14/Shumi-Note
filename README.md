@@ -304,6 +304,7 @@ poetry install
 280. (2024/08/19) softmaxの方策勾配について: [notebooks/RL_PolicyGrad_softmax_convergence.ipynb](notebooks/RL_PolicyGrad_softmax_convergence.ipynb.ipynb) 
 281. (2024/08/20) 確率的方策勾配について: [notebooks/RL_PolicyGrad_baseline.ipynb](notebooks/RL_PolicyGrad_baseline.ipynb) 
 282. (2024/08/22) RLのスイッチングコストについて: [notebooks/RL_switching_cost.ipynb](notebooks/RL_switching_cost.ipynb) 
+283. (2024/08/30) Puterman本のメモ: [notebooks/RL_Puterman_memo.ipynb](notebooks/RL_Puterman_memo.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
