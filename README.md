@@ -308,6 +308,7 @@ poetry install
 284. (2024/09/2) 行列の極限（途中）: [notebooks/RL_Puterman_memo.ipynb](notebooks/RL_Puterman_memo.ipynb) 
 285. (2024/09/5) Ergodicな場合の平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
 286. (2024/09/6) Weakly Communicatingな場合の平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
+287. (2024/09/8) 平均報酬強化学習とバイアス: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
