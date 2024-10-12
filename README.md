@@ -312,6 +312,7 @@ poetry install
 288. (2024/09/9) TUCRLアルゴリズムの補足: [notebooks/RL_AverageReward_TUCRL.ipynb](notebooks/RL_AverageReward_TUCRL.ipynb) 
 289. (2024/09/13) KL uncertainty setの実装: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
 290. (2024/10/10) RLのスイッチングコストのリグレットバウンド: [notebooks/RL_switching_cost.ipynb](notebooks/RL_switching_cost.ipynb) 
+291. (2024/10/12) 価値反復法のイテレーション複雑度: [notebooks/RL_VI_vs_PI.ipynb](notebooks/RL_VI_vs_PI.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
