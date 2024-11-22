@@ -226,7 +226,7 @@ poetry install
 202. (2023/11/19) CMDPでの主双対法のリグレット: [notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb](notebooks/RL_CMDP_explore_exploit_primal_dual.ipynb) 
 203. (2023/11/19) CMDPでのLast-iterate-convergence: [notebooks/RL_CMDP_last_iterate_convergence.ipynb](notebooks/RL_CMDP_last_iterate_convergence.ipynb) 
 204. (2023/11/20) 一様PACのアルゴリズムの続き: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
-205. (2023/11/23) 裾確率とSubgaussian: [notebooks/MATH_sub_gaussian.ipynb](notebooks/MATH_sub_gaussian.ipynb) 
+205. (2023/11/23) 裾確率とSubgaussian: [notebooks/PROB_sub_gaussian.ipynb](notebooks/PROB_sub_gaussian.ipynb) 
 206. (2023/11/23) 一様な集中不等式について: [notebooks/MATH_uniform_concentration_inequality.ipynb](notebooks/MATH_uniform_concentration_inequality.ipynb) （むずくて全然読めてない．TODO）
 207. (2023/11/24) 一様PACの証明: [notebooks/RL_uniform_PAC.ipynb](notebooks/RL_uniform_PAC.ipynb) 
 208. (2023/11/25) Last-iterate-convergenceの証明の補足: [notebooks/RL_CMDP_last_iterate_convergence.ipynb](notebooks/RL_CMDP_last_iterate_convergence.ipynb) 
@@ -316,6 +316,7 @@ poetry install
 292. (2024/10/13) モデルベースlinear MDPのリグレット解析: [notebooks/RL_General_linearMDP-Model-based.ipynb](notebooks/RL_General_linearMDP-Model-based.ipynb) 
 293. (2024/10/14) 行列積とノルムのバウンド: [notebooks/RL_General_linearMDP-Model-based.ipynb](notebooks/RL_General_linearMDP-Model-based.ipynb) 
 294. (2024/11/19) Occupancy basedな方策勾配法: [notebooks/RL_PolicyGrad_occupancy.ipynb](notebooks/RL_PolicyGrad_occupancy.ipynb) 
+295. (2024/11/20) モーメントとモーメント母関数: [notebooks/PROB_moment.ipynb](notebooks/PROB_moment.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -354,6 +355,7 @@ poetry install
 * (2023/2/1) Girsanovの定理: [notebooks/PROB_stochastic_integration.ipynb](notebooks/PROB_stochastic_integration.ipynb)
 * (2023/2/4) ガウス過程回帰: [notebooks/PROB_gp_regression.ipynb](notebooks/PROB_gp_regression.ipynb)
 * (2023/3/17) 最尤推定：[notebooks/PROB_maximum_likelihood.ipynb](notebooks/PROB_maximum_likelihood.ipynb)
+* (2024/11/20) モーメントとモーメント母関数: [notebooks/PROB_moment.ipynb](notebooks/PROB_moment.ipynb) 
 
 ### 凸最適化
 
@@ -528,7 +530,7 @@ poetry install
 * (2023/8/20) Minimax双対性の必要条件と十分条件について: [notebooks/MATH_minimax_conditions.ipynb](notebooks/MATH_minimax_conditions.ipynb) 
 * (2023/8/21) バリア関数法: [notebooks/MATH_barrier_function_method.ipynb](notebooks/MATH_barrier_function_method.ipynb) 
 * (2023/9/15) 整数計画問題とNP困難: [notebooks/MATH_integer_programming_is_NP_hard.ipynb](notebooks/MATH_integer_programming_is_NP_hard.ipynb) 
-* (2023/11/23) 裾確率とSubgaussian: [notebooks/MATH_sub_gaussian.ipynb](notebooks/MATH_sub_gaussian.ipynb) 
+* (2023/11/23) 裾確率とSubgaussian: [notebooks/PROB_sub_gaussian.ipynb](notebooks/PROB_sub_gaussian.ipynb) 
 * (2023/11/23) 一様な集中不等式について: [notebooks/MATH_uniform_concentration_inequality.ipynb](notebooks/MATH_uniform_concentration_inequality.ipynb) （むずくて全然読めてない．TODO）
 * (2024/06/03) SVMの汎化誤差: [notebooks/MATH_Generalization_margin_loss_and_SVM.ipynb](notebooks/MATH_Generalization_margin_loss_and_SVM.ipynb) 
 * (2024/06/18) 勾配ブースティング: [notebooks/MATH_Generalization_Boosting.ipynb](notebooks/MATH_Generalization_Boosting.ipynb) 
