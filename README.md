@@ -317,6 +317,7 @@ poetry install
 293. (2024/10/14) 行列積とノルムのバウンド: [notebooks/RL_General_linearMDP-Model-based.ipynb](notebooks/RL_General_linearMDP-Model-based.ipynb) 
 294. (2024/11/19) Occupancy basedな方策勾配法: [notebooks/RL_PolicyGrad_occupancy.ipynb](notebooks/RL_PolicyGrad_occupancy.ipynb) 
 295. (2024/11/20) モーメントとモーメント母関数: [notebooks/PROB_moment.ipynb](notebooks/PROB_moment.ipynb) 
+296. (2024/11/23) 分布的ロバスト最適化: [notebooks/OPT_robust_distributionally.ipynb](notebooks/OPT_robust_distributionally.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
