@@ -303,7 +303,7 @@ poetry install
 279. (2024/08/15) RMDPの最適解について: [notebooks/RL_robust_MDP_stationary_and_randomized.ipynb](notebooks/RL_robust_MDP_stationary_and_randomized.ipynb) 
 280. (2024/08/19) softmaxの方策勾配について: [notebooks/RL_PolicyGrad_softmax_convergence.ipynb](notebooks/RL_PolicyGrad_softmax_convergence.ipynb.ipynb) 
 281. (2024/08/20) 確率的方策勾配について: [notebooks/RL_PolicyGrad_baseline.ipynb](notebooks/RL_PolicyGrad_baseline.ipynb) 
-282. (2024/08/22) RLのスイッチングコストについて: [notebooks/RL_switching_cost.ipynb](notebooks/RL_switching_cost.ipynb) 
+282. (2024/08/22) RLのスイッチングコストについて: [notebooks/RL_switching_cost_model-free.ipynb](notebooks/RL_switching_cost_model-free.ipynb) 
 283. (2024/08/30) Puterman本のメモ: [notebooks/RL_Puterman_memo.ipynb](notebooks/RL_Puterman_memo.ipynb) 
 284. (2024/09/2) 行列の極限（途中）: [notebooks/RL_Puterman_memo.ipynb](notebooks/RL_Puterman_memo.ipynb) 
 285. (2024/09/5) Ergodicな場合の平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
@@ -311,13 +311,14 @@ poetry install
 287. (2024/09/8) 平均報酬強化学習とバイアス: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
 288. (2024/09/9) TUCRLアルゴリズムの補足: [notebooks/RL_AverageReward_TUCRL.ipynb](notebooks/RL_AverageReward_TUCRL.ipynb) 
 289. (2024/09/13) KL uncertainty setの実装: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
-290. (2024/10/10) RLのスイッチングコストのリグレットバウンド: [notebooks/RL_switching_cost.ipynb](notebooks/RL_switching_cost.ipynb) 
+290. (2024/10/10) RLのスイッチングコストのリグレットバウンド: [notebooks/RL_switching_cost_model-free.ipynb](notebooks/RL_switching_cost_model-free.ipynb) 
 291. (2024/10/12) 価値反復法のイテレーション複雑度: [notebooks/RL_VI_vs_PI.ipynb](notebooks/RL_VI_vs_PI.ipynb) 
 292. (2024/10/13) モデルベースlinear MDPのリグレット解析: [notebooks/RL_General_linearMDP-Model-based.ipynb](notebooks/RL_General_linearMDP-Model-based.ipynb) 
 293. (2024/10/14) 行列積とノルムのバウンド: [notebooks/RL_General_linearMDP-Model-based.ipynb](notebooks/RL_General_linearMDP-Model-based.ipynb) 
 294. (2024/11/19) Occupancy basedな方策勾配法: [notebooks/RL_PolicyGrad_occupancy.ipynb](notebooks/RL_PolicyGrad_occupancy.ipynb) 
 295. (2024/11/20) モーメントとモーメント母関数: [notebooks/PROB_moment.ipynb](notebooks/PROB_moment.ipynb) 
 296. (2024/11/23) 分布的ロバスト最適化: [notebooks/OPT_robust_distributionally.ipynb](notebooks/OPT_robust_distributionally.ipynb) 
+297. (2024/11/26) 線形MDPでの切り替えコスト: [notebooks/RL_switching_cost_linear-MDP.ipynb](notebooks/RL_switching_cost_linear-MDP.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
