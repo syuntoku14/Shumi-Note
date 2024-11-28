@@ -320,6 +320,7 @@ poetry install
 296. (2024/11/23) 分布的ロバスト最適化: [notebooks/OPT_robust_distributionally.ipynb](notebooks/OPT_robust_distributionally.ipynb) 
 297. (2024/11/26) 線形MDPでの切り替えコスト: [notebooks/RL_switching_cost_linear-MDP.ipynb](notebooks/RL_switching_cost_linear-MDP.ipynb) 
 298. (2024/11/27) 切り替え回数のバウンドの証明: [notebooks/RL_switching_cost_linear-MDP.ipynb](notebooks/RL_switching_cost_linear-MDP.ipynb) 
+299. (2024/11/28) 平均報酬の方策勾配（途中）: [notebooks/RLRL_AverageReward_policy-grad.ipynb](notebooks/RL_AverageReward_policy-grad.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
