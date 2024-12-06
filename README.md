@@ -322,6 +322,7 @@ poetry install
 298. (2024/11/27) 切り替え回数のバウンドの証明: [notebooks/RL_switching_cost_linear-MDP.ipynb](notebooks/RL_switching_cost_linear-MDP.ipynb) 
 299. (2024/11/28) 平均報酬の方策勾配（途中）: [notebooks/RL_AverageReward_policy-grad.ipynb](notebooks/RL_AverageReward_policy-grad.ipynb) 
 300. (2024/12/1) 線形MDPのOptimismの簡単な証明（Coveringなし）: [notebooks/RL_General_linearMDP-Model-based.ipynb](notebooks/RL_General_linearMDP-Model-based.ipynb) 
+301. (2024/12/6) 線形バンディットの最適腕発見問題: [notebooks/BANDIT_General_linear_best_arm.ipynb](notebooks/BANDIT_General_linear_best_arm.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
