@@ -2,16 +2,13 @@
 
 ## 制作方針
 
-* 勉強内容を[notebooks](notebooks/)にまとめてます。
-* 全てのnotebookは独立させています。
-* 内容は勉強中なので正しいとは限りません。内容が怪しいやつ（Notationの不備など）はTODOがついてます。
-* 実装ではしばしば高速化のためにjaxを使用してます。
+* [notebooks](notebooks/)：勉強内容のまとめ
+* 内容は勉強中なので正しいとは限りません。
+* 高速化のためにjaxを使用してます。
 
 ---
 
 ## インストール
-
-poetryを使ってください。
 
 ```bash
 git clone git@github.com:syuntoku14/Shumi-Note.git && cd Shumi-Note
@@ -20,8 +17,6 @@ poetry install
 ---
 
 ## 日付順のNotebook一覧
-
-* NDA的にここに出せないやつは****になってます。（出せるようになったらここにも現れるかも）
 
 1. (2023/1/18) Linear MDP: [notebooks/RL_linear_MDP.ipynb](notebooks/RL_linear_MDP.ipynb)
 2. (2023/1/21) 測度論的確率論（TODO）: [notebooks/PROB_measure_theoretic_probability.ipynb](notebooks/PROB_measure_theoretic_probability.ipynb)
@@ -571,5 +566,4 @@ poetry install
     - [ ] AggreVateのリグレットの証明
     - [ ] AggreVateはもっと良い実装方法ないかな？計算コストが高すぎるかも。
 * [ ] (2023/3/22) 強化学習のサンプル効率の下界：[notebooks/RL_LowerBound_statistical_limits.ipynb](notebooks/RL_LowerBound_statistical_limits.ipynb)
-    * [ ] 意外と行列の性質の理解が曖昧。（$\|\phi(s, a)\|_2 \leq 1$なので$\sigma_{\min }\left(\mathbb{E}_{(s, a) \sim \widetilde{\mu}_h}\left[\phi(s, a) \phi(s, a)^{\top}\right]\right)$が成り立つためです）。これとか微妙。
 
