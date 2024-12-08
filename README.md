@@ -324,6 +324,7 @@ poetry install
 300. (2024/12/1) 線形MDPのOptimismの簡単な証明（Coveringなし）: [notebooks/RL_General_linearMDP-Model-based.ipynb](notebooks/RL_General_linearMDP-Model-based.ipynb) 
 301. (2024/12/6) 線形バンディットの最適腕発見問題: [notebooks/BANDIT_General_linear_best_arm.ipynb](notebooks/BANDIT_General_linear_best_arm.ipynb) 
 302. (2024/12/7) 線形MDPの一様PAC探索: [notebooks/RL_General_linearMDP_uniformPAC.ipynb](notebooks/RL_General_linearMDP_uniformPAC.ipynb) 
+303. (2024/12/8) 線形バンディットでの安全な探索: [notebooks/BANDIT_General_linear_safety.ipynb](notebooks/BANDIT_General_linear_safety.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
