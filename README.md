@@ -321,6 +321,7 @@ poetry install
 302. (2024/12/7) 線形MDPの一様PAC探索: [notebooks/RL_General_linearMDP_uniformPAC.ipynb](notebooks/RL_General_linearMDP_uniformPAC.ipynb) 
 303. (2024/12/8) 線形バンディットでの安全な探索: [notebooks/BANDIT_General_linear_safety.ipynb](notebooks/BANDIT_General_linear_safety.ipynb) 
 304. (2024/12/10) 線形MDPの一様PAC探索（補足）: [notebooks/RL_General_linearMDP_uniformPAC.ipynb](notebooks/RL_General_linearMDP_uniformPAC.ipynb) 
+305. (2024/12/18) 線形CMDPのCovering argument（途中）: [notebooks/RL_CMDP_linear_MDP.ipynb](notebooks/RL_CMDP_linear_MDP.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
