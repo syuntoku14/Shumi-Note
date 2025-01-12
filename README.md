@@ -325,6 +325,7 @@ poetry install
 306. (2024/12/24) TV距離のバウンド: [notebooks/RL_useful_lemma/useful_inequalities.ipynb](notebooks/RL_useful_lemma/useful_inequalities.ipynb) 
 307. (2025/1/4) 強凸関数の性質: [notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb) 
 308. (2025/1/9) 確率単体への射影アルゴリズム: [notebooks/MATH_simplex_projection_algorithm.ipynb](notebooks/MATH_simplex_projection_algorithm.ipynb) 
+309. (2025/1/12) 線形MDPでのClippingの補足: [notebooks/RL_General_linearMDP-clip-memo.ipynb](notebooks/RL_General_linearMDP-clip-memo.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
