@@ -12,7 +12,7 @@
 
 ```bash
 git clone git@github.com:syuntoku14/Shumi-Note.git && cd Shumi-Note
-poetry install
+uv sync
 ```
 ---
 
