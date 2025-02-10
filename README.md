@@ -327,6 +327,7 @@ uv sync
 308. (2025/1/9) 確率単体への射影アルゴリズム: [notebooks/MATH_simplex_projection_algorithm.ipynb](notebooks/MATH_simplex_projection_algorithm.ipynb) 
 309. (2025/1/12) 線形MDPでのClippingの補足: [notebooks/RL_General_linearMDP-clip-memo.ipynb](notebooks/RL_General_linearMDP-clip-memo.ipynb) 
 310. (2025/2/08) Proximal Gradient Descentの証明の続き: [notebooks/OPT_smooth_proximal_gradient.ipynb](notebooks/OPT_smooth_proximal_gradient.ipynb) 
+311. (2025/2/10) 平均報酬でSpanが不要なリグレット（途中）: [notebooks/RL_AverageReward_no-span.ipynb](notebooks/RL_AverageReward_no-span.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
