@@ -330,6 +330,7 @@ uv sync
 311. (2025/2/10) 平均報酬でSpanが不要なリグレット（途中）: [notebooks/RL_AverageReward_no-span.ipynb](notebooks/RL_AverageReward_no-span.ipynb) 
 312. (2025/2/11) UCRL2の実装: [notebooks/RL_AverageReward_UCRL2.ipynb](notebooks/RL_AverageReward_UCRL2.ipynb) 
 313. (2025/2/12) バイアスを推定する平均報酬: [notebooks/RL_AverageReward_estimate-bias.ipynb](notebooks/RL_AverageReward_estimate-bias.ipynb) 
+314. (2025/2/14) Median-of-Mean: [notebooks/PROB_median_mean.ipynb](notebooks/PROB_median_mean.ipynb) 
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
