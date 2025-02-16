@@ -332,6 +332,7 @@ uv sync
 313. (2025/2/12) バイアスを推定する平均報酬: [notebooks/RL_AverageReward_estimate-bias.ipynb](notebooks/RL_AverageReward_estimate-bias.ipynb) 
 314. (2025/2/14) Median-of-Mean: [notebooks/PROB_median_mean.ipynb](notebooks/PROB_median_mean.ipynb) 
 315. (2025/2/15) 平均報酬でSpanが不要なリグレット（実装途中）: [notebooks/RL_AverageReward_no-span.ipynb](notebooks/RL_AverageReward_no-span.ipynb) 
+316. (2025/2/16) 講義資料の作成: [lectures/RL](lectures/RL)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
