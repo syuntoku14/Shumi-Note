@@ -335,6 +335,7 @@ uv sync
 316. (2025/2/16) 講義資料の作成: [lectures/RL](lectures/RL)
 317. (2025/2/17) Hamiltonian Cycleの補足: [notebooks/RL_CMDP_feasibility_NP_hard.ipynb](notebooks/RL_CMDP_feasibility_NP_hard.ipynb)
 318. (2025/2/20) 平均報酬でspanがいらないサンプル効率: [notebooks/RL_AverageReward_no-span-sample-complexity.ipynb](notebooks/RL_AverageReward_no-span-sample-complexity.ipynb)
+319. (2025/2/25) マルコフ連鎖と特異摂動とハミルトニアン路: [notebooks/RL_AverageReward_Singular_Perturbation.ipynb](notebooks/RL_AverageReward_Singular_Perturbation.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
