@@ -341,6 +341,7 @@ uv sync
 322. (2025/3/04) 平均報酬でspanがいらないサンプル効率（証明）: [notebooks/RL_AverageReward_no-span-sample-complexity.ipynb](notebooks/RL_AverageReward_no-span-sample-complexity.ipynb)
 323. (2025/3/08) 平滑な関数の最適化について補足: [notebooks/OPT_gradient.ipynb](notebooks/OPT_gradient.ipynb)
 324. (2025/3/09) マルコフ連鎖の基本定理の証明: [notebooks/RL_AverageReward_Basic_fundamental_theorem_proof.ipynb](notebooks/RL_AverageReward_Basic_fundamental_theorem_proof.ipynb)
+325. (2025/3/10) 平均報酬の基本の整理
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
