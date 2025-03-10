@@ -199,7 +199,7 @@ uv sync
 180. (2023/10/18) RLにおける汎化の難しさ: [notebooks/RL_multi_task_generalization_intractable.ipynb](notebooks/RL_multi_task_generalization_intractable.ipynb) 
 181. (2023/10/18) 観測だけからの模倣学習: [notebooks/RL_imitation_from_observation.ipynb](notebooks/RL_imitation_from_observation.ipynb) 
 182. (2023/10/18) 報酬設計によるサンプル効率の向上: [notebooks/RL_reward_shaping.ipynb](notebooks/RL_reward_shaping.ipynb) 
-183. (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
+183. (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward_Basic_MarkovChain.ipynb](notebooks/RL_AverageReward_Basic_MarkovChain.ipynb) 
 184. (2023/10/20) 強化学習とリプシッツ連続: [notebooks/RL_Continuous_Lipschitz.ipynb](notebooks/RL_Continuous_Lipschitz.ipynb) 
 185. (2023/10/24) RLHFの理論: [notebooks/RL_RLHF.ipynb](notebooks/RL_RLHF.ipynb) 
 186. (2023/10/25) データソースが複数ある場合のオフライン強化学習: [notebooks/RL_offline_perturbed_data.ipynb](notebooks/RL_offline_perturbed_data.ipynb) 
@@ -251,10 +251,10 @@ uv sync
 232. (2024/03/2) 強化学習のサンプル効率の下界（修正）：[notebooks/RL_LowerBound_statistical_limits.ipynb](notebooks/RL_LowerBound_statistical_limits.ipynb)
 233. (2024/03/6) Foundation of RLの翻訳：[notebooks/RL_General_Foundation_of_RL.ipynb](notebooks/RL_General_Foundation_of_RL.ipynb)
 234. (2024/03/7) Foundation of RLの翻訳：[notebooks/RL_General_Foundation_of_RL.ipynb](notebooks/RL_General_Foundation_of_RL.ipynb)
-235. (2024/03/10) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
+235. (2024/03/10) 平均報酬強化学習: [notebooks/RL_AverageReward_Basic_MarkovChain.ipynb](notebooks/RL_AverageReward_Basic_MarkovChain.ipynb) 
 236. (2024/03/11) Low Inherent Bellman Error: [notebooks/RL_General_linear_Bellman_completeness.ipynb](notebooks/RL_General_linear_Bellman_completeness.ipynb.ipynb) 
 237. (2024/03/13) Bellman rankとBilinear classの例の補足
-238. (2024/03/14) マルコフ連鎖の用語について: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
+238. (2024/03/14) マルコフ連鎖の用語について: [notebooks/RL_AverageReward_Basic_MarkovChain.ipynb](notebooks/RL_AverageReward_Basic_MarkovChain.ipynb) 
 239. (2024/03/15) Bellman completenessと$\pi$-realizableの関係の証明: [notebooks/RL_General_linear_Bellman_completeness.ipynb](notebooks/RL_General_linear_Bellman_completeness.ipynb.ipynb) 
 240. (2024/03/17) Safe RLの安全性いろいろ: [notebooks/RL_CMDP_general_safe_problem.ipynb](notebooks/RL_CMDP_general_safe_problem.ipynb) 
 241. (2024/03/19) モデルフリーの下界について追記: [notebooks/RL_General_witness_rank.ipynb](notebooks/RL_General_witness_rank.ipynb) 
@@ -299,11 +299,11 @@ uv sync
 280. (2024/08/19) softmaxの方策勾配について: [notebooks/RL_PolicyGrad_softmax_convergence.ipynb](notebooks/RL_PolicyGrad_softmax_convergence.ipynb.ipynb) 
 281. (2024/08/20) 確率的方策勾配について: [notebooks/RL_PolicyGrad_baseline.ipynb](notebooks/RL_PolicyGrad_baseline.ipynb) 
 282. (2024/08/22) RLのスイッチングコストについて: [notebooks/RL_switching_cost_model-free.ipynb](notebooks/RL_switching_cost_model-free.ipynb) 
-283. (2024/08/30) Puterman本のメモ: [notebooks/RL_Puterman_memo.ipynb](notebooks/RL_Puterman_memo.ipynb) 
-284. (2024/09/2) 行列の極限（途中）: [notebooks/RL_Puterman_memo.ipynb](notebooks/RL_Puterman_memo.ipynb) 
+283. (2024/08/30) Puterman本のメモ: [notebooks/RL_AverageReward_Basic_Puterman_memo.ipynb](notebooks/RL_AverageReward_Basic_Puterman_memo.ipynb) 
+284. (2024/09/2) 行列の極限（途中）: [notebooks/RL_AverageReward_Basic_Puterman_memo.ipynb](notebooks/RL_AverageReward_Basic_Puterman_memo.ipynb) 
 285. (2024/09/5) Ergodicな場合の平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
 286. (2024/09/6) Weakly Communicatingな場合の平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
-287. (2024/09/8) 平均報酬強化学習とバイアス: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
+287. (2024/09/8) 平均報酬強化学習とバイアス: [notebooks/RL_AverageReward_Basic_MarkovChain.ipynb](notebooks/RL_AverageReward_Basic_MarkovChain.ipynb) 
 288. (2024/09/9) TUCRLアルゴリズムの補足: [notebooks/RL_AverageReward_TUCRL.ipynb](notebooks/RL_AverageReward_TUCRL.ipynb) 
 289. (2024/09/13) KL uncertainty setの実装: [notebooks/RL_robust_MDP.ipynb](notebooks/RL_robust_MDP.ipynb) 
 290. (2024/10/10) RLのスイッチングコストのリグレットバウンド: [notebooks/RL_switching_cost_model-free.ipynb](notebooks/RL_switching_cost_model-free.ipynb) 
@@ -340,7 +340,7 @@ uv sync
 321. (2025/3/03) 弱凸制約付き最適化問題: [notebooks/OPT_weakly_convex_constrained.ipynb](notebooks/OPT_weakly_convex_constrained.ipynb)
 322. (2025/3/04) 平均報酬でspanがいらないサンプル効率（証明）: [notebooks/RL_AverageReward_no-span-sample-complexity.ipynb](notebooks/RL_AverageReward_no-span-sample-complexity.ipynb)
 323. (2025/3/08) 平滑な関数の最適化について補足: [notebooks/OPT_gradient.ipynb](notebooks/OPT_gradient.ipynb)
-324. (2025/3/09) マルコフ連鎖の基本定理の証明: [notebooks/RL_Average_fundamental_theorem_proof.ipynb](notebooks/RL_Average_fundamental_theorem_proof.ipynb)
+324. (2025/3/09) マルコフ連鎖の基本定理の証明: [notebooks/RL_AverageReward_Basic_fundamental_theorem_proof.ipynb](notebooks/RL_AverageReward_Basic_fundamental_theorem_proof.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
@@ -450,7 +450,7 @@ uv sync
     * (2024/01/25) Lagrange法と正則化: [notebooks/RL_CMDP_Lagrange_regularization.ipynb](notebooks/RL_CMDP_Lagrange_regularized.ipynb)
     * (2024/03/17) Safe RLの安全性いろいろ: [notebooks/RL_CMDP_general_safe_problem.ipynb](notebooks/RL_CMDP_general_safe_problem.ipynb) 
 * 平均報酬強化学習：
-    * (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward.ipynb](notebooks/RL_AverageReward.ipynb) 
+    * (2023/10/19) 平均報酬強化学習: [notebooks/RL_AverageReward_Basic_MarkovChain.ipynb](notebooks/RL_AverageReward_Basic_MarkovChain.ipynb) 
     * (2023/11/3) モデルフリー平均報酬強化学習: [notebooks/RL_AverageReward_model_free.ipynb](notebooks/RL_AverageReward_model_free.ipynb) 
     * (2024/02/21) 平均報酬とTUCRLアルゴリズム：[notebook/RL_AverageReward_TUCRL.ipynb](notebooks/RL_AverageReward_TUCRL.ipynb)
 * 連合強化学習：
