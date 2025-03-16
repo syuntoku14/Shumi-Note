@@ -345,6 +345,7 @@ uv sync
 326. (2025/3/11) 平均報酬でspanがいらないサンプル効率（直感）: [notebooks/RL_AverageReward_NoSpan_sample-complexity.ipynb](notebooks/RL_AverageReward_NoSpan_sample-complexity.ipynb)
 327. (2025/3/13) 凸共役と劣微分の補足: [notebooks/CVX_convex_functions.ipynb](notebooks/CVX_convex_functions.ipynb)
 328. (2025/3/15) 集合値関数と単調性: [notebooks/MATH_Set_Valued_Mapping.ipynb](notebooks/MATH_Set_Valued_Mapping.ipynb)
+329. (2025/3/16) 劣勾配と凸関数の補足: [notebooks/OPT_subgradient.ipynb](notebooks/OPT_subgradient.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
