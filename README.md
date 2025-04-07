@@ -350,6 +350,7 @@ uv sync
 331. (2025/4/02) CMDPのサンプル効率の下界（直感）: [notebooks/RL_CMDP_lower_bound.ipynb](notebooks/RL_CMDP_lower_bound.ipynb)
 332. (2025/4/03) 凸関数での勾配法の下界: [notebooks/OPT_Grad_lower_bound.ipynb](notebooks/OPT_Grad_lower_bound.ipynb)
 333. (2025/4/04) 凸劣微分とFrechet劣微分の補足: [notebooks/OPT_Grad_subgradient.ipynb](notebooks/OPT_Grad_subgradient.ipynb)
+334. (2025/4/07) 複合関数と弱凸性: [notebooks/CVX_weakly_convex_and_Moreau_envelope.ipynb](notebooks/CVX_weakly_convex_and_Moreau_envelope.ipynb) TODO: [Efficiency of minimizing compositions of convex functions and smooth maps](https://arxiv.org/abs/1605.00125)を読もう
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
