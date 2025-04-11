@@ -353,6 +353,7 @@ uv sync
 334. (2025/4/07) 複合関数と弱凸性: [notebooks/CVX_weakly_convex_and_Moreau_envelope.ipynb](notebooks/CVX_weakly_convex_and_Moreau_envelope.ipynb) TODO: [Efficiency of minimizing compositions of convex functions and smooth maps](https://arxiv.org/abs/1605.00125)を読もう
 335. (2025/4/08) 近接勾配，弱凸関数，prox-gradientについて: [notebooks/OPT_Grad_proximal_gradient_method.ipynb](notebooks/OPT_Grad_proximal_gradient_method.ipynb)
 336. (2025/4/09) Kurdyka-Lojasiewicz条件 （途中）: [notebooks/OPT_Grad_KL_condition.ipynb](notebooks/OPT_Grad_KL_condition.ipynb)
+337. (2025/4/11) Abstract Error Bound条件 : [notebooks/OPT_Grad_ErrorBound.ipynb](notebooks/OPT_Grad_ErrorBound.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
