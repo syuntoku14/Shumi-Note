@@ -77,7 +77,7 @@ uv sync
 58. (2023/3/29) Approximate Dynamic Programming：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
 59. (2023/3/30) TODO: Approximate Dynamic Programming（正則化あり）：[notebooks/RL_approximate_dynamic_programming.ipynb](notebooks/RL_approximate_dynamic_programming.ipynb)
 60. (2023/4/01) 最小楕円問題：[notebooks/CVX_minimum_volume_ellipsoids.ipynb](notebooks/CVX_minimum_volume_ellipsoids.ipynb)
-61. (2023/4/02) 他変量関数の微分：[notebooks/MATH_multivariate_derivative.ipynb](notebooks/MATH_multivariate_derivative.ipynb)
+61. (2023/4/02) 他変量関数の微分：[notebooks/MATH_Grad_multivariate_derivative.ipynb](notebooks/MATH_Grad_multivariate_derivative.ipynb)
 62. (2023/4/03) 最小楕円問題のアルゴリズム：[notebooks/CVX_MVEE_algorithm.ipynb](notebooks/CVX_MVEE_algorithm.ipynb)
 63. (2023/4/04) 最小楕円問題とCore-set：[notebooks/CVX_MVEE_algorithm.ipynb](notebooks/CVX_MVEE_algorithm.ipynb)
 64. (2023/4/05) **** : ****.ipynb
