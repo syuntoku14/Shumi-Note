@@ -356,6 +356,7 @@ uv sync
 337. (2025/4/11) Abstract Error Bound条件 : [notebooks/OPT_Grad_ErrorBound.ipynb](notebooks/OPT_Grad_ErrorBound.ipynb)
 338. (2025/4/12) PL条件での近接勾配法の線形収束 : [notebooks/OPT_Grad_PL_convergence.ipynb](notebooks/OPT_Grad_PL_convergence.ipynb)
 339. (2025/4/15) 微分可能な関数での包絡面定理: [notebooks/MATH_Envelope_theorem.ipynb](notebooks/MATH_Envelope_theorem.ipynb)
+340. (2025/4/16) 1/kレートの方策勾配の収束証明: [notebooks/RL_PolicyGrad_projected_better_rate.ipynb](notebooks/RL_PolicyGrad_projected_better_rate.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
