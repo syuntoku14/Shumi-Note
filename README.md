@@ -358,6 +358,7 @@ uv sync
 339. (2025/4/15) 微分可能な関数での包絡面定理: [notebooks/MATH_Envelope_theorem.ipynb](notebooks/MATH_Envelope_theorem.ipynb)
 340. (2025/4/16) 1/kレートの方策勾配の収束証明: [notebooks/RL_PolicyGrad_projected_better_rate.ipynb](notebooks/RL_PolicyGrad_projected_better_rate.ipynb)
 341. (2025/4/21) 弱凸関数での確率的劣勾配法: [notebooks/OPT_stochastic_weakly_convex.ipynb](notebooks/OPT_stochastic_weakly_convex.ipynb)
+342. (2025/5/14) バンディットの$\sqrt{K}$リグレットの下界: [notebooks/RL_LowerBound_bandit.ipynb](notebooks/RL_LowerBound_bandit.ipynb)
 
 <!-- 151. (2023/8/29) Action gapと強化学習: [notebooks/RL_action_gap.ipynb](notebooks/RL_action_gap.ipynb)  -->
 <!-- 35. (2023/2/25) マルチタスクバンディット: [notebooks/BANDIT_General_linear_improved.ipynb](notebooks/BANDIT_General_linear_improved.ipynb)  -->
